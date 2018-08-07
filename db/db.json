@@ -1,0 +1,328 @@
+[
+    {
+        "id": 1,
+        "name": "Xiaomi Mi8",
+        "type": "smart phone",
+        "price": 10800000,
+        "imgCover": "http://via.placeholder.com/420x560",
+        "highlights": 1,
+        "tendency": 0,
+        "option": [
+            {
+                "id": 1,
+                "color": "white",
+                "urlImg": {
+                    "img1": "a",
+                    "img2": "a",
+                    "img3": "a",
+                    "img4": "a",
+                    "img5": "a"
+                }
+            },
+            {
+                "id": 2,
+                "color": "black",
+                "urlImg": {
+                    "img1": "a",
+                    "img2": "a",
+                    "img3": "a",
+                    "img4": "a",
+                    "img5": "a"
+                }
+            }
+        ],
+        "specifications": {
+            "screen": "b",
+            "os": "b",
+            "frontCamera": "b",
+            "endCamera": "b",
+            "cpu": "b",
+            "ram": "b",
+            "internalMemory": "b",
+            "memoryCard": "b",
+            "sim": "b",
+            "pin": "b"
+        },
+        "posts": ""
+    },
+    {
+        "id": 2,
+        "name": "Xiaomi Mi Mix",
+        "type": "smart phone",
+        "price": 13500000,
+        "imgCover": "http://via.placeholder.com/420x560",
+        "highlights": 1,
+        "tendency": 0,
+        "option": [
+            {
+                "id": 1,
+                "color": "white",
+                "urlImg": {
+                    "img1": "a",
+                    "img2": "a",
+                    "img3": "a",
+                    "img4": "a",
+                    "img5": "a"
+                }
+            }
+        ],
+        "specifications": {
+            "screen": "b",
+            "os": "b",
+            "frontCamera": "b",
+            "endCamera": "b",
+            "cpu": "b",
+            "ram": "b",
+            "internalMemory": "b",
+            "memoryCard": "b",
+            "sim": "b",
+            "pin": "b"
+        },
+        "posts": ""
+    },
+    {
+        "id": 3,
+        "name": "Xiaomi Mi Mix",
+        "type": "smart phone",
+        "price": 13500000,
+        "imgCover": "http://via.placeholder.com/420x560",
+        "highlights": 1,
+        "tendency": 0,
+        "option": [
+            {
+                "id": 1,
+                "color": "white",
+                "urlImg": {
+                    "img1": "a",
+                    "img2": "a",
+                    "img3": "a",
+                    "img4": "a",
+                    "img5": "a"
+                }
+            }
+        ],
+        "specifications": {
+            "screen": "b",
+            "os": "b",
+            "frontCamera": "b",
+            "endCamera": "b",
+            "cpu": "b",
+            "ram": "b",
+            "internalMemory": "b",
+            "memoryCard": "b",
+            "sim": "b",
+            "pin": "b"
+        },
+        "posts": ""
+    },
+    {
+        "id": 4,
+        "name": "Xiaomi Mi Mix",
+        "type": "smart phone",
+        "price": 13500000,
+        "imgCover": "http://via.placeholder.com/420x560",
+        "highlights": 1,
+        "tendency": 0,
+        "option": [
+            {
+                "id": 1,
+                "color": "white",
+                "urlImg": {
+                    "img1": "a",
+                    "img2": "a",
+                    "img3": "a",
+                    "img4": "a",
+                    "img5": "a"
+                }
+            }
+        ],
+        "specifications": {
+            "screen": "b",
+            "os": "b",
+            "frontCamera": "b",
+            "endCamera": "b",
+            "cpu": "b",
+            "ram": "b",
+            "internalMemory": "b",
+            "memoryCard": "b",
+            "sim": "b",
+            "pin": "b"
+        },
+        "posts": ""
+    },
+    {
+        "id": 5,
+        "name": "Xiaomi Mi Mix",
+        "type": "smart phone",
+        "price": 13500000,
+        "imgCover": "http://via.placeholder.com/420x560",
+        "highlights": 1,
+        "tendency": 0,
+        "option": [
+            {
+                "id": 1,
+                "color": "white",
+                "urlImg": {
+                    "img1": "a",
+                    "img2": "a",
+                    "img3": "a",
+                    "img4": "a",
+                    "img5": "a"
+                }
+            }
+        ],
+        "specifications": {
+            "screen": "b",
+            "os": "b",
+            "frontCamera": "b",
+            "endCamera": "b",
+            "cpu": "b",
+            "ram": "b",
+            "internalMemory": "b",
+            "memoryCard": "b",
+            "sim": "b",
+            "pin": "b"
+        },
+        "posts": ""
+    },
+    {
+        "id": 6,
+        "name": "Xiaomi Mi Mix",
+        "type": "smart phone",
+        "price": 13500000,
+        "imgCover": "http://via.placeholder.com/420x560",
+        "highlights": 1,
+        "tendency": 0,
+        "option": [
+            {
+                "id": 1,
+                "color": "white",
+                "urlImg": {
+                    "img1": "a",
+                    "img2": "a",
+                    "img3": "a",
+                    "img4": "a",
+                    "img5": "a"
+                }
+            }
+        ],
+        "specifications": {
+            "screen": "b",
+            "os": "b",
+            "frontCamera": "b",
+            "endCamera": "b",
+            "cpu": "b",
+            "ram": "b",
+            "internalMemory": "b",
+            "memoryCard": "b",
+            "sim": "b",
+            "pin": "b"
+        },
+        "posts": ""
+    },
+    {
+        "id": 7,
+        "name": "Xiaomi Mi Mix",
+        "type": "smart phone",
+        "price": 13500000,
+        "imgCover": "http://via.placeholder.com/420x560",
+        "highlights": 1,
+        "tendency": 0,
+        "option": [
+            {
+                "id": 1,
+                "color": "white",
+                "urlImg": {
+                    "img1": "a",
+                    "img2": "a",
+                    "img3": "a",
+                    "img4": "a",
+                    "img5": "a"
+                }
+            }
+        ],
+        "specifications": {
+            "screen": "b",
+            "os": "b",
+            "frontCamera": "b",
+            "endCamera": "b",
+            "cpu": "b",
+            "ram": "b",
+            "internalMemory": "b",
+            "memoryCard": "b",
+            "sim": "b",
+            "pin": "b"
+        },
+        "posts": ""
+    },
+    {
+        "id": 8,
+        "name": "Xiaomi Mi Mix",
+        "type": "smart phone",
+        "price": 13500000,
+        "imgCover": "http://via.placeholder.com/420x560",
+        "highlights": 1,
+        "tendency": 0,
+        "option": [
+            {
+                "id": 1,
+                "color": "white",
+                "urlImg": {
+                    "img1": "a",
+                    "img2": "a",
+                    "img3": "a",
+                    "img4": "a",
+                    "img5": "a"
+                }
+            }
+        ],
+        "specifications": {
+            "screen": "b",
+            "os": "b",
+            "frontCamera": "b",
+            "endCamera": "b",
+            "cpu": "b",
+            "ram": "b",
+            "internalMemory": "b",
+            "memoryCard": "b",
+            "sim": "b",
+            "pin": "b"
+        },
+        "posts": ""
+    },
+    {
+        "id": 9,
+        "name": "Xiaomi Mi Mix",
+        "type": "smart phone",
+        "price": 13500000,
+        "imgCover": "http://via.placeholder.com/420x560",
+        "highlights": 1,
+        "tendency": 0,
+        "option": [
+            {
+                "id": 1,
+                "color": "white",
+                "urlImg": {
+                    "img1": "a",
+                    "img2": "a",
+                    "img3": "a",
+                    "img4": "a",
+                    "img5": "a"
+                }
+            }
+        ],
+        "specifications": {
+            "screen": "b",
+            "os": "b",
+            "frontCamera": "b",
+            "endCamera": "b",
+            "cpu": "b",
+            "ram": "b",
+            "internalMemory": "b",
+            "memoryCard": "b",
+            "sim": "b",
+            "pin": "b"
+        },
+        "posts": ""
+    } 
+]
