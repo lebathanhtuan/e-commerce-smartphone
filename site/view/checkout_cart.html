@@ -70,7 +70,7 @@
                 </ul>
             </div>
             <div class="container-nav-right">
-                <a class="navbar-brand" href="#">Bar</a>
+                <a class="navbar-brand" href="#">Bag</a>
                 <a class="navbar-brand" href="../E-Commerce/site/view/login.html">Login</a>
             </div>            
         </nav>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="container-checkout-main">
                     <div class="table-responsive">
-                        <table class="table table-hover" id="bar-product">
+                        <table class="table table-hover" id="bag-product">
                             <tr>
                                 <th colspan="2">Tên sản phẩm</th>
                                 <th>Màu sắc</th>
@@ -132,7 +132,7 @@
                                 <tr class="text-right">
                                     <td class="pr-5">Tổng tiền giỏ hàng</td>
                                     <td>
-                                        <span class="displayTotalBar"></span><span>&nbsp;VND</span>
+                                        <span class="displayTotalBag"></span><span>&nbsp;VND</span>
                                     </td>
                                 </tr>
                                 <tr class="text-right">
@@ -170,37 +170,37 @@
         <script src="../../public/js/simple.money.format.js"></script>
         <script>
             $(document).ready(function(){
-                $.getJSON('../../db/bar.json', function(data){
-                    $.each($(data), function(i, bar){
-                        $("#bar-product").append(
+                $.getJSON('../../db/bag.json', function(data){
+                    $.each($(data), function(i, bag){
+                        $("#bag-product").append(
                             '<tr>'+
-                                '<td class="table-middle"><div class="img-product-bar" style="background: url('+bar.imgCover+') no-repeat; background-position: 50% 50%; background-size: cover;"></div></td>'+
-                                '<td class="table-middle">'+bar.name+'</td>'+
-                                '<td class="table-middle">'+bar.color+'</td>'+
+                                '<td class="table-middle"><div class="img-product-bag" style="background: url('+bag.imgCover+') no-repeat; background-position: 50% 50%; background-size: cover;"></div></td>'+
+                                '<td class="table-middle">'+bag.name+'</td>'+
+                                '<td class="table-middle">'+bag.color+'</td>'+
                                 '<td class="table-middle">'+
-                                    '<input type="text" style="display: none" name="name['+bar.id+']" value="'+bar.price+'" disabled="disabled">'+
-                                    '<span class="displayPrice">'+bar.price+'</span><span>&nbsp;VND</span>'+
+                                    '<input type="text" style="display: none" name="name['+bag.id+']" value="'+bag.price+'" disabled="disabled">'+
+                                    '<span class="displayPrice">'+bag.price+'</span><span>&nbsp;VND</span>'+
                                 '</td>'+
                                 '<td class="table-middle tb-munber">'+
                                     '<div class="input-group">'+
                                         '<div class="input-group-prepend">'+
-                                            '<button class="btn btn-outline-secondary btn-number" type="button" data-type="minus" data-field="['+bar.id+']"><b>-</b></button>'+  
+                                            '<button class="btn btn-outline-secondary btn-number" type="button" data-type="minus" data-field="['+bag.id+']"><b>-</b></button>'+  
                                         '</div>'+
-                                        '<input type="text" style="width: 40px; text-align: center" name="['+bar.id+']" value="1" min="0" max="99">'+
+                                        '<input type="text" style="width: 40px; text-align: center" name="['+bag.id+']" value="1" min="0" max="99">'+
                                         '<div class="input-group-append">'+
-                                            '<button class="btn btn-outline-secondary btn-number" type="button" data-type="plus" data-field="['+bar.id+']"><b>+</b></button>'+  
+                                            '<button class="btn btn-outline-secondary btn-number" type="button" data-type="plus" data-field="['+bag.id+']"><b>+</b></button>'+  
                                         '</div>'+
                                     '</div>'+
                                 '</td>'+
                                 '<td class="table-middle tb-munber">'+
-                                    '<input id="total" type="text" style="display: none" name="total['+bar.id+']" value="'+bar.price+'" disabled="disabled">'+
-                                    '<span class="displayTotal">'+bar.price+'</span><span>&nbsp;VND</span>'+
+                                    '<input id="total" type="text" style="display: none" name="total['+bag.id+']" value="'+bag.price+'" disabled="disabled">'+
+                                    '<span class="displayTotal">'+bag.price+'</span><span>&nbsp;VND</span>'+
                                 '</td>'+
                             '</tr>'
                         );
                     });
                     var arrayTotal = new Array(); 
-                    var totalBar = 0;
+                    var totalBag = 0;
                     var totalPay = 0;
 
                     function add(a, sum){
@@ -213,13 +213,13 @@
                         for (i = 0; i < $("table").find('input[id="total"]').length; i++){
                             arrayTotal[i] = parseInt($("table").find('input[id="total"]')[i].value);
                         }
-                        totalBar = arrayTotal.reduce(add,0);
-                        $(".displayTotalBar").text(totalBar);
-                        $(".displayTotalBar").simpleMoneyFormat();
-                        if(totalBar == 0){
+                        totalBag = arrayTotal.reduce(add,0);
+                        $(".displayTotalBag").text(totalBag);
+                        $(".displayTotalBag").simpleMoneyFormat();
+                        if(totalBag == 0){
                             moneyShip = 0;
                         }
-                        totalPay = totalBar + moneyShip;
+                        totalPay = totalBag + moneyShip;
                         $(".displayTotalPay").text(totalPay);
                         $(".displayTotalPay").simpleMoneyFormat();
                         $(".displayMoneyShip").text(moneyShip);
@@ -227,12 +227,12 @@
 
                         $("#typeShipper").change(function(){
                             var moneyTypeShip = parseInt($("#typeShipper").val());
-                            if(totalBar == 0){
+                            if(totalBag == 0){
                                 moneyShip = 0;
                             }else{
                                 moneyShip = moneyTypeShip;
                             }
-                            totalPay = totalBar + moneyShip;
+                            totalPay = totalBag + moneyShip;
                             $(".displayTotalPay").text(totalPay);
                             $(".displayTotalPay").simpleMoneyFormat();
                             $(".displayMoneyShip").text(moneyShip);
