@@ -301,7 +301,7 @@
                     
                     $.ajax({
                         type: 'POST',
-                        url: 'bar.json',
+                        url: '../../db/bar.json',
                         data: JSON.stringify ({
                             id : idProduct,
                             name : nameProduct,
@@ -309,7 +309,6 @@
                             color : colorProduct
                         }),
                         success: function(data) { alert('data: ' + data); },
-                        contentType: "application/json",
                         dataType: 'json'
                     });
                 });
