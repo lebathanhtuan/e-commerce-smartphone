@@ -299,7 +299,18 @@
                     var colorProduct = $("#colorProduct").val();
                     console.log(colorProduct);
                     
-
+                    $.ajax({
+                        type: 'POST',
+                        url: '../../composer.json',
+                        data: JSON.stringify ({
+                            id : idProduct,
+                            name : nameProduct,
+                            price : priceProduct,
+                            color : colorProduct
+                        }),
+                        success: function(data) { alert('data: ' + data); },
+                        dataType: 'json'
+                    });
                 });
                 $(".characteristics").click(function(){
                     $(".ratingAndReviews").removeClass("tab-active");
