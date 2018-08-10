@@ -8,6 +8,8 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="../../public/css/style.css">
     </head>
     <body style="background-color: #f0f3f4">
@@ -70,8 +72,8 @@
                 </ul>
             </div>
             <div class="container-nav-right">
-                <a class="navbar-brand" href="#">Bag</a>
-                <a class="navbar-brand" href="../E-Commerce/site/view/login.html">Login</a>
+                <a class="navbar-brand" href="../../site/view/checkout_cart.html" style="border-right: 1px solid white"><i class="fa fa-shopping-bag mr-4" style="font-size:24px;"></i></a>
+                <a class="navbar-brand" href="../../site/view/login.html"><img src="https://png.icons8.com/ios/40/ffffff/user-male-circle-filled.png" height="30x" width="30px"></a>
             </div>            
         </nav>
         <div class="product-head">
@@ -162,16 +164,19 @@
                             '</div>');
                     })
                 })*/
-                $.getJSON('../../db/db.json', function(data){
+                $.getJSON('http://localhost:3000/product', function(data){
                     $.each($(data), function(i, products){
                         $("#all-product").append(
                             '<div class="col-md-4 col-sm-6 col-12">'+
                                 '<div class="container-product card">'+
-                                    '<div class="card-img-top img-product" style="background: url('+products.imgCover+') no-repeat; background-position: 50% 50%; background-size: cover;"></div>'+
-                                    '<div class="card-body">'+
-                                        '<h3 class="card-title">'+products.name+'</h3>'+
-                                        '<p class="card-text price-product">'+products.price+'</p>'+
-                                    '</div>'+
+                                    '<a href="product_detail.html?id='+products.id+'">'+
+                                        '<div class="card-img-top img-product" style="background: url('+products.imgCover+') no-repeat; background-position: 50% 50%; background-size: cover;"></div>'+
+                                        '<div class="card-body">'+
+                                            '<a href="product_detail.html?id='+products.id+'"></a>'+
+                                            '<h3 class="card-title">'+products.name+'</h3>'+
+                                            '<p class="card-text price-product">'+products.price+'</p>'+
+                                        '</div>'+
+                                    '</a>'+
                                 '</div>'+
                             '</div>');
                     });

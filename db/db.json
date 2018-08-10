@@ -1,328 +1,212 @@
-[
+{
+  "product": [
     {
-        "id": 1,
-        "name": "Xiaomi Mi8",
-        "type": "smart phone",
-        "price": 10800000,
-        "imgCover": "http://via.placeholder.com/420x560",
-        "highlights": 1,
-        "tendency": 0,
-        "option": [
-            {
-                "id": 1,
-                "color": "white",
-                "urlImg": {
-                    "img1": "a",
-                    "img2": "a",
-                    "img3": "a",
-                    "img4": "a",
-                    "img5": "a"
-                }
-            },
-            {
-                "id": 2,
-                "color": "black",
-                "urlImg": {
-                    "img1": "a",
-                    "img2": "a",
-                    "img3": "a",
-                    "img4": "a",
-                    "img5": "a"
-                }
-            }
-        ],
-        "specifications": {
-            "screen": "b",
-            "os": "b",
-            "frontCamera": "b",
-            "endCamera": "b",
-            "cpu": "b",
-            "ram": "b",
-            "internalMemory": "b",
-            "memoryCard": "b",
-            "sim": "b",
-            "pin": "b"
+      "id": 1,
+      "name": "Xiaomi Mi8",
+      "type": "smart phone",
+      "price": 10800000,
+      "imgCover": "http://via.placeholder.com/420x560",
+      "highlights": 1,
+      "tendency": 0,
+      "options": [
+        {
+          "color": "Trắng"
         },
-        "posts": ""
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Xanh"
+        },
+        {
+          "color": "Đỏ"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "http://via.placeholder.com/70x50"
+        },
+        {
+          "img": "http://via.placeholder.com/70x50"
+        },
+        {
+          "img": "http://via.placeholder.com/70x50"
+        },
+        {
+          "img": "http://via.placeholder.com/70x50"
+        },
+        {
+          "img": "http://via.placeholder.com/70x50"
+        }
+      ],
+      "specifications": {
+        "screen": "b",
+        "os": "b",
+        "frontCamera": "b",
+        "endCamera": "b",
+        "cpu": "b",
+        "ram": "b",
+        "rom": "b",
+        "memoryCard": "b",
+        "sim": "b",
+        "battery": "b"
+      },
+      "posts": "abcdef"
     },
     {
-        "id": 2,
-        "name": "Xiaomi Mi Mix",
-        "type": "smart phone",
-        "price": 13500000,
-        "imgCover": "http://via.placeholder.com/420x560",
-        "highlights": 1,
-        "tendency": 0,
-        "option": [
-            {
-                "id": 1,
-                "color": "white",
-                "urlImg": {
-                    "img1": "a",
-                    "img2": "a",
-                    "img3": "a",
-                    "img4": "a",
-                    "img5": "a"
-                }
-            }
-        ],
-        "specifications": {
-            "screen": "b",
-            "os": "b",
-            "frontCamera": "b",
-            "endCamera": "b",
-            "cpu": "b",
-            "ram": "b",
-            "internalMemory": "b",
-            "memoryCard": "b",
-            "sim": "b",
-            "pin": "b"
+      "id": 2,
+      "name": "Xiaomi Mi Mix",
+      "type": "smart phone",
+      "price": 13500000,
+      "imgCover": "http://via.placeholder.com/420x560",
+      "highlights": 1,
+      "tendency": 0,
+      "options": [
+        {
+          "color": "Trắng"
         },
-        "posts": ""
+        {
+          "color": "Đen"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "http://via.placeholder.com/70x50"
+        },
+        {
+          "img": "http://via.placeholder.com/70x50"
+        },
+        {
+          "img": "http://via.placeholder.com/70x50"
+        },
+        {
+          "img": "http://via.placeholder.com/70x50"
+        },
+        {
+          "img": "http://via.placeholder.com/70x50"
+        }
+      ],
+      "specifications": {
+        "screen": "b",
+        "os": "b",
+        "frontCamera": "b",
+        "endCamera": "b",
+        "cpu": "b",
+        "ram": "b",
+        "rom": "b",
+        "memoryCard": "b",
+        "sim": "b",
+        "battery": "b"
+      },
+      "posts": ""
     },
     {
-        "id": 3,
-        "name": "Xiaomi Mi Mix",
-        "type": "smart phone",
-        "price": 13500000,
-        "imgCover": "http://via.placeholder.com/420x560",
-        "highlights": 1,
-        "tendency": 0,
-        "option": [
-            {
-                "id": 1,
-                "color": "white",
-                "urlImg": {
-                    "img1": "a",
-                    "img2": "a",
-                    "img3": "a",
-                    "img4": "a",
-                    "img5": "a"
-                }
-            }
-        ],
-        "specifications": {
-            "screen": "b",
-            "os": "b",
-            "frontCamera": "b",
-            "endCamera": "b",
-            "cpu": "b",
-            "ram": "b",
-            "internalMemory": "b",
-            "memoryCard": "b",
-            "sim": "b",
-            "pin": "b"
+      "id": 3,
+      "name": "Xiaomi A2 Lite",
+      "type": "smart phone",
+      "price": 5299000,
+      "imgCover": "../../img/mi_a2_lite_1.jpg",
+      "highlights": 1,
+      "tendency": 0,
+      "options": [
+        {
+          "color": "Đen"
         },
-        "posts": ""
+        {
+          "color": "Xanh"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "http://via.placeholder.com/70x50"
+        },
+        {
+          "img": "http://via.placeholder.com/70x50"
+        },
+        {
+          "img": "http://via.placeholder.com/70x50"
+        },
+        {
+          "img": "http://via.placeholder.com/70x50"
+        },
+        {
+          "img": "http://via.placeholder.com/70x50"
+        }
+      ],
+      "specifications": {
+        "screen": "b",
+        "os": "b",
+        "frontCamera": "b",
+        "endCamera": "b",
+        "cpu": "b",
+        "ram": "b",
+        "rom": "b",
+        "memoryCard": "b",
+        "sim": "b",
+        "battery": "b"
+      },
+      "posts": "abcdef",
+      "comments": [
+        {
+          "name": "Tuấn",
+          "time": "8/9/2018",
+          "cmt": "Máy rất đẹp"
+        },
+        {
+          "name": "Ngân",
+          "time": "8/9/2018",
+          "cmt": "Máy rất đẹp"
+        },
+        {
+          "name": "Tuấn",
+          "time": "8/9/2018",
+          "cmt": "Máy rất đẹp"
+        }
+      ]
+    }
+  ],
+  "bag": [
+    {
+      "id": "10",
+      "name": "Xiaomi Mi8",
+      "price": "10800000",
+      "color": "0"
     },
     {
-        "id": 4,
-        "name": "Xiaomi Mi Mix",
-        "type": "smart phone",
-        "price": 13500000,
-        "imgCover": "http://via.placeholder.com/420x560",
-        "highlights": 1,
-        "tendency": 0,
-        "option": [
-            {
-                "id": 1,
-                "color": "white",
-                "urlImg": {
-                    "img1": "a",
-                    "img2": "a",
-                    "img3": "a",
-                    "img4": "a",
-                    "img5": "a"
-                }
-            }
-        ],
-        "specifications": {
-            "screen": "b",
-            "os": "b",
-            "frontCamera": "b",
-            "endCamera": "b",
-            "cpu": "b",
-            "ram": "b",
-            "internalMemory": "b",
-            "memoryCard": "b",
-            "sim": "b",
-            "pin": "b"
-        },
-        "posts": ""
+      "id": "1Trắng",
+      "name": "Xiaomi Mi8",
+      "price": "10800000",
+      "color": "Trắng"
     },
     {
-        "id": 5,
-        "name": "Xiaomi Mi Mix",
-        "type": "smart phone",
-        "price": 13500000,
-        "imgCover": "http://via.placeholder.com/420x560",
-        "highlights": 1,
-        "tendency": 0,
-        "option": [
-            {
-                "id": 1,
-                "color": "white",
-                "urlImg": {
-                    "img1": "a",
-                    "img2": "a",
-                    "img3": "a",
-                    "img4": "a",
-                    "img5": "a"
-                }
-            }
-        ],
-        "specifications": {
-            "screen": "b",
-            "os": "b",
-            "frontCamera": "b",
-            "endCamera": "b",
-            "cpu": "b",
-            "ram": "b",
-            "internalMemory": "b",
-            "memoryCard": "b",
-            "sim": "b",
-            "pin": "b"
-        },
-        "posts": ""
+      "id": "3Đen",
+      "name": "Xiaomi A2 Lite",
+      "price": "5299000",
+      "color": "Đen",
+      "imgCover": "../../img/mi_a2_lite_1.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "idProduct": "3",
+      "name": "sadsad",
+      "time": "5/7/2018  2:50:23",
+      "cmt": "safsaf",
+      "id": 1
     },
     {
-        "id": 6,
-        "name": "Xiaomi Mi Mix",
-        "type": "smart phone",
-        "price": 13500000,
-        "imgCover": "http://via.placeholder.com/420x560",
-        "highlights": 1,
-        "tendency": 0,
-        "option": [
-            {
-                "id": 1,
-                "color": "white",
-                "urlImg": {
-                    "img1": "a",
-                    "img2": "a",
-                    "img3": "a",
-                    "img4": "a",
-                    "img5": "a"
-                }
-            }
-        ],
-        "specifications": {
-            "screen": "b",
-            "os": "b",
-            "frontCamera": "b",
-            "endCamera": "b",
-            "cpu": "b",
-            "ram": "b",
-            "internalMemory": "b",
-            "memoryCard": "b",
-            "sim": "b",
-            "pin": "b"
-        },
-        "posts": ""
+      "idProduct": "3",
+      "name": "Tuấn",
+      "time": "5/7/2018  2:53:52",
+      "cmt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis fringilla egestas. Morbi quis venenatis odio. Maecenas varius orci nunc, ut venenatis metus hendrerit ac. Fusce sit amet nunc rutrum, viverra eros sit amet, convallis massa. Quisque mattis lorem quis risus placerat, id gravida est faucibus. Morbi semper viverra odio, id laoreet diam rutrum et. Sed accumsan mollis erat, nec ultricies velit bibendum id. Morbi lacus lacus, luctus elementum ligula sit amet, elementum volutpat mauris. Morbi euismod elit est, sit amet mattis est ultricies nec. Donec auctor massa eu mattis semper. Nunc accumsan, velit in vestibulum dictum, diam tortor efficitur dui, et commodo urna leo sed dui. Cras eu bibendum odio, id faucibus eros. Nam quam eros, auctor vitae nulla a, egestas consequat dolor. Nulla luctus ligula at elit viverra auctor. ",
+      "id": 2
     },
     {
-        "id": 7,
-        "name": "Xiaomi Mi Mix",
-        "type": "smart phone",
-        "price": 13500000,
-        "imgCover": "http://via.placeholder.com/420x560",
-        "highlights": 1,
-        "tendency": 0,
-        "option": [
-            {
-                "id": 1,
-                "color": "white",
-                "urlImg": {
-                    "img1": "a",
-                    "img2": "a",
-                    "img3": "a",
-                    "img4": "a",
-                    "img5": "a"
-                }
-            }
-        ],
-        "specifications": {
-            "screen": "b",
-            "os": "b",
-            "frontCamera": "b",
-            "endCamera": "b",
-            "cpu": "b",
-            "ram": "b",
-            "internalMemory": "b",
-            "memoryCard": "b",
-            "sim": "b",
-            "pin": "b"
-        },
-        "posts": ""
-    },
-    {
-        "id": 8,
-        "name": "Xiaomi Mi Mix",
-        "type": "smart phone",
-        "price": 13500000,
-        "imgCover": "http://via.placeholder.com/420x560",
-        "highlights": 1,
-        "tendency": 0,
-        "option": [
-            {
-                "id": 1,
-                "color": "white",
-                "urlImg": {
-                    "img1": "a",
-                    "img2": "a",
-                    "img3": "a",
-                    "img4": "a",
-                    "img5": "a"
-                }
-            }
-        ],
-        "specifications": {
-            "screen": "b",
-            "os": "b",
-            "frontCamera": "b",
-            "endCamera": "b",
-            "cpu": "b",
-            "ram": "b",
-            "internalMemory": "b",
-            "memoryCard": "b",
-            "sim": "b",
-            "pin": "b"
-        },
-        "posts": ""
-    },
-    {
-        "id": 9,
-        "name": "Xiaomi Mi Mix",
-        "type": "smart phone",
-        "price": 13500000,
-        "imgCover": "http://via.placeholder.com/420x560",
-        "highlights": 1,
-        "tendency": 0,
-        "option": [
-            {
-                "id": 1,
-                "color": "white",
-                "urlImg": {
-                    "img1": "a",
-                    "img2": "a",
-                    "img3": "a",
-                    "img4": "a",
-                    "img5": "a"
-                }
-            }
-        ],
-        "specifications": {
-            "screen": "b",
-            "os": "b",
-            "frontCamera": "b",
-            "endCamera": "b",
-            "cpu": "b",
-            "ram": "b",
-            "internalMemory": "b",
-            "memoryCard": "b",
-            "sim": "b",
-            "pin": "b"
-        },
-        "posts": ""
-    } 
-]
+      "idProduct": "3",
+      "name": "Ngân",
+      "time": "5/7/2018  2:54:12",
+      "cmt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis fringilla egestas. Morbi quis venenatis odio. Maecenas varius orci nunc, ut venenatis metus hendrerit ac. Fusce sit amet nunc rutrum, viverra eros sit amet, convallis massa. Quisque mattis lorem quis risus placerat, id gravida est faucibus. Morbi semper viverra odio, id laoreet diam rutrum et. Sed accumsan mollis erat, nec ultricies velit bibendum id. Morbi lacus lacus, luctus elementum ligula sit amet, elementum volutpat mauris. Morbi euismod elit est, sit amet mattis est ultricies nec. Donec auctor massa eu mattis semper. Nunc accumsan, velit in vestibulum dictum, diam tortor efficitur dui, et commodo urna leo sed dui. Cras eu bibendum odio, id faucibus eros. Nam quam eros, auctor vitae nulla a, egestas consequat dolor. Nulla luctus ligula at elit viverra auctor. ",
+      "id": 3
+    }
+  ]
+}

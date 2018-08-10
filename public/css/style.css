@@ -115,7 +115,7 @@
 }
 .container-swap-img>div{
     width: 20%;
-    margin: 5px;
+    margin: 2px;
     border: 1px solid #ccc;
     border-radius: 3px;
     height: 50px;
@@ -186,6 +186,9 @@
 .container-ratingAndReviews{
     background-color: #eee;
     padding: 20px;
+}
+#displayComments{
+    padding-top: 10px;
 }
 .container-ratingAndReviews>h4{
     padding: 10px;

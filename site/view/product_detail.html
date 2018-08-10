@@ -8,10 +8,12 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="../../public/css/style.css">
     </head>
     <body style="background-color: #f1f1f1">
+        <div id="included-navbar"></div>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -20,11 +22,11 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="../E-Commerce/index.html">Trang Chủ</a>
+                        <a class="nav-link" href="../../index.html"><i class="material-icons" style="font-size:13px; padding-right: 5px">home</i>Trang Chủ</a>
                     </li>   
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Điện thoại
+                            <i class="material-icons" style="font-size:13px; padding-right: 5px">smartphone</i>Sản phẩm
                         </a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Link 1</a>
@@ -33,46 +35,20 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Laptop
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Link 1</a>
-                            <a class="dropdown-item" href="#">Link 2</a>
-                            <a class="dropdown-item" href="#">Link 3</a>
-                        </div>
+                        <form class="form-inline" action="/action_page.php">
+                            <div class="input-group">
+                                <input class="form-control" type="text" placeholder="Tìm kiếm">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button"><i class="material-icons" style="font-size:13px">search</i></button>
+                                </div>
+                            </div>
+                        </form>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Máy tính bảng
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Link 1</a>
-                            <a class="dropdown-item" href="#">Link 2</a>
-                            <a class="dropdown-item" href="#">Link 3</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Phụ kiện
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Link 1</a>
-                            <a class="dropdown-item" href="#">Link 2</a>
-                            <a class="dropdown-item" href="#">Link 3</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tin tức</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tìm kiếm</a>
-                    </li>    
                 </ul>
             </div>
             <div class="container-nav-right">
-                <a class="navbar-brand" href="#">Bar</a>
-                <a class="navbar-brand" href="../E-Commerce/site/view/login.html">Login</a>
+                <a class="navbar-brand" href="../../site/view/checkout_cart.html"><i class="fa fa-shopping-bag pr-4" style="font-size:24px; border-right: 1px solid white"></i></a>
+                <a class="navbar-brand" href="../../site/view/login.html"><img src="https://png.icons8.com/ios/40/ffffff/user-male-circle-filled.png" height="30x" width="30px"><small style="padding-left: 10px; color: #ccc;">Đăng nhập</small></a>
             </div>            
         </nav>
         <div class="container">
@@ -87,36 +63,28 @@
             <div class="container-product-detail">
                 <div class="row" style="border-bottom: 1px solid #ccc; padding-bottom: 15px;">
                     <div class="col-md-5">
-                        <div class="img-fluid">
-                            <a href="#"><img id="imgCover" src="http://via.placeholder.com/420x560" width="100%" height="auto"></a>
+                        <div class="img-fluid border" id="imgCover" >
+                            
                         </div>
-                        <div class="container-swap-img">
-                            <div class="swap-img"><a href="#"><img src="http://via.placeholder.com/70x50" width="100%" height="auto"></a></div>
-                            <div class="swap-img"><a href="#"><img src="http://via.placeholder.com/70x50" width="100%" height="auto"></a></div>
-                            <div class="swap-img"><a href="#"><img src="http://via.placeholder.com/70x50" width="100%" height="auto"></a></div>
-                            <div class="swap-img"><a href="#"><img src="http://via.placeholder.com/70x50" width="100%" height="auto"></a></div>
-                            <div class="swap-img"><a href="#"><img src="http://via.placeholder.com/70x50" width="100%" height="auto"></a></div>
+                        <div class="container-swap-img" id="urlImg">
+
                         </div>
                     </div>
                     <div class="col-md-7">
                         <form>
                             <div class="container-product-name">
-                                <input type="text" id="idProduct" style="display: none" name="idProduct" value="X001" disabled="disabled">
-                                <h3 id="nameProduct">Tên sản phẩm</h3>
+                                <input type="text" id="idProduct" style="display: none" name="idProduct" value="" disabled="disabled">
+                                <h3 id="nameProduct"></h3>
                             </div>
                             <div class="container-product-price">
-                                <input type="text" id="priceProduct" style="display: none" name="priceProduct" value="4300000" disabled="disabled">
-                                <h3 class="priceProduct">4.300.000</h3>
+                                <input type="text" id="priceProduct" style="display: none" name="priceProduct" value="" disabled="disabled">
+                                <h3 class="priceProduct"></h3>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <select id="colorProduct" class="custom-select">
-                                            <option selected>Chọn màu</option>
-                                            <option value="Trắng">Trắng</option>
-                                            <option value="Đen">Đen</option>
-                                            <option value="Đỏ">Đỏ</option>
-                                            <option value="Xanh">Xanh</option>
+                                            <option value="0" disabled="disabled" selected>Chọn màu</option>
                                         </select>
                                     </div>
                                 </div>
@@ -135,9 +103,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="container-product-promotion">
-                                        <div class="product-promotion-head">
-                                            Khuyến mãi và Ưu đãi
-                                        </div>
+                                        <div class="product-promotion-head">Khuyến mãi và Ưu đãi</div>
                                         <div class="product-promotion-main">
                                             <p>đấodjaodjoasdo</p>
                                         </div>
@@ -145,9 +111,7 @@
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="container-product-guarantee">
-                                        <div class="product-guarantee-head">
-                                            Chế độ bảo hành
-                                        </div>
+                                        <div class="product-guarantee-head">Chế độ bảo hành</div>
                                         <div class="product-guarantee-main">
                                             
                                         </div>
@@ -167,64 +131,29 @@
                             </ul>
                         </div>
                         <div id="characteristics" class="pt-4 pb-2">
-                            <h4>Đặc điểm nổi bật</h4>
-                            <p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus magna, aliquam vel sapien at, ultrices gravida nulla. Etiam mollis eros sit amet massa semper, sagittis interdum tortor fringilla. Maecenas imperdiet porttitor mauris, quis auctor mi placerat a. Duis mauris urna, bibendum at nunc a, facilisis fringilla magna. Etiam blandit velit velit, nec euismod nulla aliquet at. Aliquam vel dui vitae erat gravida ornare quis sit amet mauris. Cras consequat pharetra tellus eget vulputate. Suspendisse mauris erat, porttitor sed nunc sed, elementum ultricies sapien. Quisque turpis diam, venenatis quis venenatis nec, laoreet in nisi. Proin blandit ex at pellentesque convallis. Nulla quis vulputate nisl, nec dictum mauris. Aenean cursus enim ipsum, eu laoreet velit pulvinar quis. Fusce varius augue in velit convallis, quis ullamcorper nunc pretium. Phasellus nec sodales ante, id vehicula neque. 
-                                Etiam augue dui, ullamcorper quis ante ac, sodales pharetra felis. Donec a commodo massa. Donec eu felis et eros scelerisque sagittis. Nulla hendrerit odio in ipsum egestas elementum. Sed mattis ligula ante, sed ultrices risus eleifend non. Morbi tempus nunc eu massa volutpat, ut ultrices nisi efficitur. Praesent sodales mauris lorem. Duis pellentesque ullamcorper magna sit amet dignissim. Sed vulputate molestie felis, sit amet volutpat odio dignissim eu. Etiam diam urna, consectetur et pulvinar in, tristique in elit. Nullam ante dui, pharetra vel lacus pulvinar, commodo egestas purus. Etiam eget facilisis enim. Cras cursus purus quis massa luctus volutpat. Fusce efficitur consequat nulla imperdiet lobortis. 
-                                Nam porttitor aliquam ex sit amet ultrices. Aliquam posuere elementum lobortis. Donec congue fermentum sagittis. Pellentesque eleifend felis a ante pharetra ornare. Aliquam finibus, nunc dapibus eleifend ultricies, purus justo placerat velit, sed tempor ligula nunc in nunc. Nulla mollis urna justo, eget ultrices augue luctus sit amet. Maecenas tincidunt dignissim velit, id egestas tortor pretium quis. Aenean at efficitur odio. Duis luctus mi quis neque tempor iaculis. Sed a est lacus. Suspendisse erat enim, tincidunt et tincidunt vel, malesuada vitae ante. Sed vel hendrerit nunc. Vestibulum volutpat volutpat odio vitae bibendum. Donec faucibus rhoncus metus eu fermentum. Aliquam semper turpis lacus, in fringilla augue tristique vitae. Curabitur id condimentum odio, sit amet luctus eros. 
-                                Aenean non dapibus erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus consectetur ante ac sollicitudin volutpat. Morbi sed gravida lorem, et ultricies orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare placerat est ac rhoncus. Maecenas iaculis augue elit, non lacinia nisl rhoncus at. Vestibulum a risus ullamcorper tortor sodales fringilla id ac leo. Cras metus mauris, efficitur ac mauris sed, convallis dictum urna. Integer vel mi vitae urna fermentum tristique sed ut enim. Praesent venenatis hendrerit ex, quis ullamcorper ipsum euismod non. Cras eleifend laoreet ligula a efficitur. Cras in ipsum in tellus viverra facilisis. Quisque non imperdiet magna. Nunc eget semper leo. Maecenas lorem leo, laoreet in orci eget, dictum blandit metus. 
-                                Suspendisse efficitur augue massa, sit amet lobortis massa suscipit quis. Nam lobortis sodales nulla in feugiat. Nullam vel auctor felis, in dictum neque. Integer eget tincidunt mi. In ipsum sapien, ultrices eu magna at, condimentum vehicula risus. Mauris pulvinar sit amet nulla vestibulum placerat. Integer ut blandit elit. 
-                                Pellentesque eget odio risus. Etiam quis mi a dui vehicula venenatis. Duis at nisl vitae quam vestibulum sodales vitae vitae risus. Morbi urna diam, viverra luctus porttitor et, cursus nec augue. Sed molestie blandit ultrices. Aliquam sodales pulvinar metus, id commodo nisl interdum sed. Duis tempus purus sed erat eleifend posuere. Nam rutrum mollis magna id condimentum. Aliquam erat volutpat. Donec molestie lectus id porttitor dictum. 
-                                Vestibulum suscipit, dolor id bibendum vulputate, lacus nunc dapibus nibh, pharetra faucibus neque justo sit amet odio. Sed orci enim, ultrices tempor neque quis, euismod aliquet diam. Phasellus efficitur, nisi eu tempor interdum, ligula ipsum laoreet est, non cursus urna felis eget metus. Ut luctus mauris vitae ipsum finibus iaculis. Sed dignissim semper tempor. Fusce vel fringilla orci. Sed volutpat auctor hendrerit. Vivamus imperdiet posuere tellus, non finibus ante luctus vitae. Integer libero libero, hendrerit ut urna nec, dapibus suscipit magna. Vivamus tincidunt ex non nulla hendrerit, at maximus nulla mattis. Nulla et purus a sapien dignissim varius nec vel enim. Proin ac laoreet lacus, a varius ipsum. Praesent accumsan nibh vitae eros faucibus condimentum. Praesent accumsan commodo mattis. 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum turpis lectus, volutpat ut leo in, molestie ultrices metus. Sed consectetur porttitor cursus. Praesent ultricies odio id porttitor feugiat. Pellentesque id quam euismod, tincidunt sem et, bibendum lectus. Morbi porta nulla iaculis suscipit commodo. Proin vestibulum ut dui condimentum condimentum. Aliquam justo nibh, lacinia et metus et, pulvinar tincidunt ligula. Etiam pellentesque ex ultrices augue aliquam, et semper ipsum accumsan. Quisque id lorem eu sapien molestie pellentesque. Etiam vel nisi nec mi malesuada iaculis eget et ante. Duis ultricies felis vitae justo dictum interdum. Donec et pulvinar nunc, vitae mattis turpis. Nulla facilisi. </p>
+                            <div id="displayPosts">
+
+                            </div>
                         </div>
                         <div id="ratingAndReviews" class="pt-4 pb-2" style="display: none">
                             <div class="container-ratingAndReviews border">
                                 <h4>Viết nhận xét</h4>
                                 <form>
                                     <div class="form-group">
-                                        <label for="name">Tên</label>
-                                        <input class="form-control" type="text" name="" id="name">
+                                        <label for="nameCmt" id="nameCmtLabel">Tên</label>&nbsp;<span style="color: red">*</span>
+                                        <input class="form-control" type="text" name="nameCmt" id="nameCmt">
                                     </div>
                                     <div class="form-group">
-                                        <label for="title">Tiêu đề</label>
-                                        <input class="form-control" type="text" name="" id="title">
+                                        <label for="comment" id="commentLabel">Nhận xét</label>&nbsp;<span style="color: red">*</span>
+                                        <textarea class="form-control" rows="3" id="comment"></textarea>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="review">Nhận xét</label>
-                                        <textarea class="form-control" rows="3" id="review"></textarea>
+                                    <div>
                                     </div>
-                                    <input type="button" class="btn btn-secondary" value="Gửi">
+                                    <input type="button" id="submitCmt" class="btn btn-secondary" value="Gửi">
                                 </form>
                             </div>
-                            <div class="border">
-                                <div class="media p-3">
-                                    <i class="material-icons mr-3 mt-3 rounded-circle" style="font-size:60px">person</i>
-                                    <div class="media-body">
-                                        <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        <div class="media p-3">
-                                            <i class="material-icons mr-3 mt-3 rounded-circle" style="font-size:60px">person</i>
-                                            <div class="media-body">
-                                                <h4>Jane Doe <small><i>Posted on February 20 2016</i></small></h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                            </div>
-                                        </div>  
-                                    </div>
-                                </div>
-                                <div class="media p-3">
-                                    <i class="material-icons mr-3 mt-3 rounded-circle" style="font-size:60px">person</i>
-                                    <div class="media-body">
-                                        <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                </div>
-                                <div class="media p-3">
-                                    <i class="material-icons mr-3 mt-3 rounded-circle" style="font-size:60px">person</i>
-                                    <div class="media-body">
-                                        <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                </div>
+                            <div class="border" id="displayComments">
+                                
                             </div>
                         </div>
                     </div>
@@ -235,43 +164,43 @@
                                 <tbody>
                                     <tr>
                                         <td>Màn hình:</td>
-                                        <td></td>
+                                        <td id="displayScreen"></td>
                                     </tr>
                                     <tr>
                                         <td>Hệ điều hành:</td>
-                                        <td></td>
+                                        <td id="displayOS"></td>
                                     </tr>
                                     <tr>
                                         <td>Camera sau:</td>
-                                        <td></td>
+                                        <td id="displayEndCamera"></td>
                                     </tr>
                                     <tr>
                                         <td>Camera trước:</td>
-                                        <td></td>
+                                        <td id="displayFrontCamera"></td>
                                     </tr>
                                     <tr>
                                         <td>CPU:</td>
-                                        <td></td>
+                                        <td id="displayCPU"></td>
                                     </tr>
                                     <tr>
                                         <td>RAM:</td>
-                                        <td></td>
+                                        <td id="displayRAM"></td>
                                     </tr>
                                     <tr>
                                         <td>Bộ nhớ trong:</td>
-                                        <td></td>
+                                        <td id="displayROM"></td>
                                     </tr>
                                     <tr>
                                         <td>Thẻ nhớ:</td>
-                                        <td></td>
+                                        <td id="displayMemoryCard"></td>
                                     </tr>
                                     <tr>
                                         <td>Thẻ SIM:</td>
-                                        <td></td>
+                                        <td id="displaySim"></td>
                                     </tr>
                                     <tr>
                                         <td>Dung lượng pin:</td>
-                                        <td></td>
+                                        <td id="displayBattery"></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -285,33 +214,156 @@
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="../../public/js/simple.money.format.js"></script>
         <script>
             $(document).ready(function(){
-                $("#submitBag").click(function(e){
-                    e.preventDefault();
+                function getQueryVariable(variable)
+                {
+                    var query = window.location.search.substring(1);
+                    var vars = query.split('?');
+                    for (var i=0;i<vars.length;i++) {
+                            var pair = vars[i].split('=');
+                            if(pair[0] == variable){return pair[1];}
+                    }
+                    return(false);
+                }
+                var idValue = getQueryVariable('id');
 
-                    var idProduct = $("#idProduct").val();
-                    console.log(idProduct);
-                    var nameProduct = $("#nameProduct").text();
-                    console.log(nameProduct);
-                    var priceProduct = parseInt($("#priceProduct").val());
-                    console.log(priceProduct);
-                    var colorProduct = $("#colorProduct").val();
-                    console.log(colorProduct);
+                $.getJSON('http://localhost:3000/product/'+idValue, function(data){
+                    var dataId = data.id;
+                    var dataName = data.name;
+                    var dataPrice = data.price;
+                    var dataImgCover = data.imgCover;
+                    var dataUrlImg = data.urlImg;
+
+                    var dataScreen = data.specifications.screen;
+                    var dataOS = data.specifications.os;
+                    var dataEndCamera = data.specifications.endCamera;
+                    var dataFrontCamera = data.specifications.frontCamera;
+                    var dataCPU = data.specifications.cpu;
+                    var dataRAM = data.specifications.ram;
+                    var dataROM = data.specifications.rom;
+                    var dataMemoryCard = data.specifications.memoryCard;
+                    var dataSim = data.specifications.sim;
+                    var dataBattery = data.specifications.battery;
+
+                    var dataPosts = data.posts;
+
+                    var dataOptions = data.options;
                     
-                    $.ajax({
-                        type: 'POST',
-                        url: '../../composer.json',
-                        data: JSON.stringify ({
-                            id : idProduct,
-                            name : nameProduct,
-                            price : priceProduct,
-                            color : colorProduct
-                        }),
-                        success: function(data) { alert('data: ' + data); },
-                        dataType: 'json'
+                    $("#idProduct").val(dataId);
+                    $("#nameProduct").text(dataName);
+                    $("#priceProduct").val(dataPrice);
+                    $(".priceProduct").text(dataPrice).simpleMoneyFormat();
+                    $.each($(dataOptions), function(i, options){
+                        $("#colorProduct").append(
+                            '<option value="'+options.color+'">'+options.color+'</option>'
+                        );
                     });
+                    $("#imgCover").append(
+                        '<div style="background: url('+dataImgCover+') no-repeat; padding-top: 133.33%; width: 100%; background-position: 50% 50%; background-size: cover;"><a href="#"></a></div>'
+                    );
+                    $.each($(dataUrlImg), function(i, urlImg){
+                        $("#urlImg").append(
+                            '<div style="background: url('+urlImg.img+') no-repeat; padding-top: 18%; width: 100%; background-position: 50% 50%; background-size: cover;"><a href="#"></a></div>'
+                        );
+                    });
+                    $("#displayScreen").text(dataScreen);
+                    $("#displayOS").text(dataOS);
+                    $("#displayEndCamera").text(dataEndCamera);
+                    $("#displayFrontCamera").text(dataFrontCamera);
+                    $("#displayCPU").text(dataCPU);
+                    $("#displayRAM").text(dataRAM);
+                    $("#displayROM").text(dataROM);
+                    $("#displayMemoryCard").text(dataMemoryCard);
+                    $("#displaySim").text(dataSim);
+                    $("#displayBattery").text(dataBattery);
+                    $("#displayPosts").text(dataPosts);
+
+                    $.getJSON('http://localhost:3000/comments', function(dataComments){
+                        $.each($(dataComments), function(i, comments){
+                            if(comments.idProduct == idValue){
+                                $("#displayComments").append(
+                                    '<div class="media pt-2 pl-4 pr-4">'+
+                                        '<img src="https://png.icons8.com/ios/40/000000/user-male-circle-filled.png" class="material-icons mr-3 mt-1 rounded-circle" height="48x" width="48px">'+
+                                        '<div class="media-body">'+
+                                            '<h5>'+comments.name+'&nbsp;&nbsp;&nbsp;<small><i>Đăng ngày '+comments.time+'</i></small></h5>'+
+                                            '<p>'+comments.cmt+'</p>'+
+                                        '</div>'+
+                                    '</div>'
+                                );
+                            }
+                        });
+                    });
+                    $("#submitBag").click(function(){
+                        var colorProduct = $("#colorProduct").val();
+                        if(colorProduct == 0){
+                            alert('Bạn chưa chọn màu của sản phẩm!');
+                            $("#colorProduct").css('border','1px solid red');
+                        }else{
+                            $.ajax({
+                                type: 'POST',
+                                url: 'http://localhost:3000/bag',
+                                data: {
+                                    id : dataId+colorProduct,
+                                    name : dataName,
+                                    price : dataPrice,
+                                    color : colorProduct,
+                                    imgCover : dataImgCover
+                                },
+                                success: function(data) { 
+                                    alert('Đã thêm vào giỏ!'); 
+                                },
+                                dataType: 'json'
+                            });
+                        }
+                    });    
                 });
+
+                $("#submitCmt").click(function(){
+                    var nameCmt = $("#nameCmt").val();
+                    var comment = $("#comment").val();
+                    var now = new Date(Date.now());
+                    var formatTime = now.getDay() +'/'+ now.getMonth() + '/' + now.getFullYear() + '  ' + now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds();
+                    console.log(formatTime);
+                    var isValid = true;
+                    var namePattern = /[A-Za-z]{2}/;
+
+                    if(nameCmt == ''){
+                        $("#nameCmtLabel").next().html("&nbsp;&nbsp;<small>Tên không được để trống</small>");
+                        isValid = false;
+                    }else if(!namePattern.test(nameCmt)){
+                        $("#nameCmtLabel").next().text("Tên phải lớn hơn 2 kí tự và là chữ cái!");
+                        isValid = false;
+                    }else{
+                        $("#nameCmtLabel").next().text("*");
+                    }
+
+                    if(comment == ''){
+                        $("#commentLabel").next().html("&nbsp;&nbsp;<small>Nhận xét không được để trống</small>");
+                        isValid = false;
+                    }else{
+                        $("#commentLabel").next().text("*");
+                    }
+
+                    if(isValid == true){
+                        $.ajax({
+                            type: 'POST',
+                            url: 'http://localhost:3000/comments',
+                            data: {
+                                idProduct: idValue,
+                                name: nameCmt,
+                                time: formatTime,
+                                cmt: comment
+                            },
+                            success: function(data) { 
+                                alert('Đã thêm!'); 
+                            },
+                            dataType: 'json'
+                        });
+                    }                        
+                });
+
                 $(".characteristics").click(function(){
                     $(".ratingAndReviews").removeClass("tab-active");
                     $(".characteristics").addClass("tab-active");
