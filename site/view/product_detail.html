@@ -13,55 +13,63 @@
         <link rel="stylesheet" href="../../public/css/style.css">
     </head>
     <body style="background-color: #f1f1f1">
-        <div id="included-navbar"></div>
+        <div class="topnav">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo-web">
+                            <a href="home.html"><img src="../../img/logo/logo_Didongxanh_white.png" width="150px" height="auto"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="search-nav">
+                            <input id="search" class="form-control" type="text" style="position: relative;" placeholder="Tìm kiếm">
+                            <ul class="list-group" id="result" style="margin-top: 15px"></ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-5 col-5">
+                        <div class="bag-nav dropdown-bag">
+                            <a href="checkout_cart.html" class="link-bag">
+                                <i class="fa fa-shopping-bag" style="font-size: 28px;"></i>
+                                <span class="text-bag">Giỏ</span>
+                                <span class="badge badge-dark badge-pill" id="munber-bag"></span>
+                            </a>
+                            <div class="dropdown-bag-content">
+                                <div style="background-color: #ff6700; height: 5px; border-radius: 3px 3px 0 0"></div>
+                                <div class="list-group" id="dropdown-bag-content">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-7 col-7">
+                        <div class="login-nav dropdown-login" id="displayLogin">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a href="../../home.html" class="navbar-toggler" style="color: #ccc">Trang chủ</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">DiDongXanh</a>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../index.html"><i class="material-icons" style="font-size:13px; padding-right: 5px">home</i>Trang Chủ</a>
-                    </li>   
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            <i class="material-icons" style="font-size:13px; padding-right: 5px">smartphone</i>Sản phẩm
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Link 1</a>
-                            <a class="dropdown-item" href="#">Link 2</a>
-                            <a class="dropdown-item" href="#">Link 3</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <form class="form-inline" action="/action_page.php">
-                            <div class="input-group">
-                                <input class="form-control" type="text" placeholder="Tìm kiếm">
-                                <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary" type="button"><i class="material-icons" style="font-size:13px">search</i></button>
-                                </div>
-                            </div>
-                        </form>
-                    </li>
+                <ul class="navbar-nav" id="navCompany">
+                    
                 </ul>
-            </div>
-            <div class="container-nav-right">
-                <a class="navbar-brand" href="../../site/view/checkout_cart.html"><i class="fa fa-shopping-bag pr-4" style="font-size:24px; border-right: 1px solid white"></i></a>
-                <a class="navbar-brand" href="../../site/view/login.html"><img src="https://png.icons8.com/ios/40/ffffff/user-male-circle-filled.png" height="30x" width="30px"><small style="padding-left: 10px; color: #ccc;">Đăng nhập</small></a>
-            </div>            
+            </div>           
         </nav>
         <div class="container">
             <div>
-                <ul class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Điện thoại</a></li>
-                    <li class="breadcrumb-item"><a href="#">Xiaomi</a></li>
-                    <li class="breadcrumb-item active">Mi 8 SE</li>
+                <ul class="breadcrumb" id="displayBreadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                    
                 </ul>
             </div>
             <div class="container-product-detail">
-                <div class="row" style="border-bottom: 1px solid #ccc; padding-bottom: 15px;">
+                <div class="row">
                     <div class="col-md-5">
                         <div class="img-fluid border" id="imgCover" >
                             
@@ -84,7 +92,7 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <select id="colorProduct" class="custom-select">
-                                            <option value="0" disabled="disabled" selected>Chọn màu</option>
+                                            <option value="0" selected>Chọn màu</option>
                                         </select>
                                     </div>
                                 </div>
@@ -103,28 +111,43 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="container-product-promotion">
-                                        <div class="product-promotion-head">Khuyến mãi và Ưu đãi</div>
-                                        <div class="product-promotion-main">
-                                            <p>đấodjaodjoasdo</p>
-                                        </div>
+                                        <div class="product-promotion-head">Khuyến mãi/ Ưu đãi</div>
+                                            <div class="product-promotion-main">
+                                                <div class="scrollbar content-promotion p-1">
+                                                    <ul id="displayPromotions" class="pl-4" style="list-style-type: circle">
+
+                                                    </ul>
+                                                </div>
+                                            </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="container-product-guarantee">
                                         <div class="product-guarantee-head">Chế độ bảo hành</div>
-                                        <div class="product-guarantee-main">
-                                            
-                                        </div>
+                                            <div class="product-guarantee-main">
+                                                <div class="scrollbar content-guarantee p-1">
+                                                    <p>đâs</p>
+                                                </div>
+                                            </div>
                                     </div>
                                 </div>
                             </div>
-                            <input type="button" id="submitBag" class="btn btn-danger" value="Thêm vào giỏ hàng">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <button type="button" id="submitBag" class="btn btn-danger btn-submit-bag"><i class="fa fa-credit-card"></i> MUA NGAY<span class="desc-submit-bag">Giao hàng trong 1 giờ</span></button>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <button type="button" id="setBag" class="btn btn-success btn-submit-bag"><i class="fa fa-cart-plus" style="font-size:20px"></i> THÊM VÀO GIỎ<span class="desc-submit-bag">Tiếp tục mua sắm</span></button>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
-                <div class="row" style="padding-top: 15px">
-                    <div class="col-md-8">
-                        <div class="tabs-product">
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="container-product-detail">
+                        <div class="tabs-product sticky-top">
                             <ul class="nav justify-content-center">
                                 <li class="nav-item characteristics tab-active">Đặc điểm nổi bật</li>
                                 <li class="nav-item ratingAndReviews">Đánh giá & Nhận xét</li>
@@ -135,7 +158,7 @@
 
                             </div>
                         </div>
-                        <div id="ratingAndReviews" class="pt-4 pb-2" style="display: none">
+                        <div id="ratingAndReviews" class="pb-2" style="display: none">
                             <div class="container-ratingAndReviews border">
                                 <h4>Viết nhận xét</h4>
                                 <form>
@@ -152,59 +175,59 @@
                                     <input type="button" id="submitCmt" class="btn btn-secondary" value="Gửi">
                                 </form>
                             </div>
-                            <div class="border" id="displayComments">
+                            <div class="border scrollbar" id="displayComments" style="max-height: 1000px;">
                                 
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="sticky-top">
-                            <p style="padding: 3px; font-size: 20px">Thông số kĩ thuật</p>
-                            <table class="table">
-                                <tbody>
-                                    <tr>
-                                        <td>Màn hình:</td>
-                                        <td id="displayScreen"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Hệ điều hành:</td>
-                                        <td id="displayOS"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Camera sau:</td>
-                                        <td id="displayEndCamera"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Camera trước:</td>
-                                        <td id="displayFrontCamera"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>CPU:</td>
-                                        <td id="displayCPU"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>RAM:</td>
-                                        <td id="displayRAM"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Bộ nhớ trong:</td>
-                                        <td id="displayROM"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Thẻ nhớ:</td>
-                                        <td id="displayMemoryCard"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Thẻ SIM:</td>
-                                        <td id="displaySim"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dung lượng pin:</td>
-                                        <td id="displayBattery"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container-product-detail sticky-top">
+                        <p style="padding: 3px; font-size: 20px">Thông số kĩ thuật</p>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Màn hình:</td>
+                                    <td id="displayScreen"></td>
+                                </tr>
+                                <tr>
+                                    <td>Hệ điều hành:</td>
+                                    <td id="displayOS"></td>
+                                </tr>
+                                <tr>
+                                    <td>Camera sau:</td>
+                                    <td id="displayEndCamera"></td>
+                                </tr>
+                                <tr>
+                                    <td>Camera trước:</td>
+                                    <td id="displayFrontCamera"></td>
+                                </tr>
+                                <tr>
+                                    <td>CPU:</td>
+                                    <td id="displayCPU"></td>
+                                </tr>
+                                <tr>
+                                    <td>RAM:</td>
+                                    <td id="displayRAM"></td>
+                                </tr>
+                                <tr>
+                                    <td>Bộ nhớ trong:</td>
+                                    <td id="displayROM"></td>
+                                </tr>
+                                <tr>
+                                    <td>Thẻ nhớ:</td>
+                                    <td id="displayMemoryCard"></td>
+                                </tr>
+                                <tr>
+                                    <td>Thẻ SIM:</td>
+                                    <td id="displaySim"></td>
+                                </tr>
+                                <tr>
+                                    <td>Dung lượng pin:</td>
+                                    <td id="displayBattery"></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -217,10 +240,125 @@
         <script src="../../public/js/simple.money.format.js"></script>
         <script>
             $(document).ready(function(){
+                $("#search").keyup(function(){
+                    $("#result").empty();
+                    var searchField = $("#search").val();
+                    var expression = new RegExp(searchField, "i");
+                    if(expression != "/(?:)/i" & expression != "/ /i" ){
+                        $.getJSON('http://localhost:3000/product', function(data){
+                            $.each($(data), function(i, value){
+                                if(value.name.search(expression) != -1){
+                                    $("#result").append(
+                                        '<li class="list-group-item list-group-item-action">'+
+                                            '<a href="product_detail.html?id='+value.id+'" style="text-decoration: none;">'+
+                                                '<img src="'+value.imgCover+'" class="img-thumbnail float-left" " height="48" width="48">'+
+                                                '<p class="text-result" style="color: black">'+value.name+'</p>'+
+                                                '<p class="text-result text-muted">'+value.price+'</p>'+
+                                            '</a>'+
+                                        '</li>'                            
+                                    )
+                                }
+                            });
+                            $(".text-muted").simpleMoneyFormat();
+                        });
+                    }
+                });
+
+                $.getJSON('http://localhost:3000/bag', function(data){
+                    var numberBag = data.length;
+                    $("#munber-bag").text(numberBag);
+                });
+
+                getUser = localStorage.getItem('username');
+                if(getUser == null){
+                    $("#displayLogin").empty();
+                    $("#displayLogin").append(
+                        '<a href="../../site/view/login.html" class="link-login">'+
+                            '<i class="fa fa-user" style="font-size: 28px;"></i>'+
+                            '<span class="text-login" id="text-login">Đăng nhập</span>'+
+                        '</a>'
+                    );
+                }else{
+                    $("#displayLogin").empty();
+                    $("#displayLogin").append(
+                        '<div class="link-login">'+
+                            '<i class="fa fa-user" style="font-size: 28px;"></i>'+
+                            '<span class="text-login" id="text-login">'+getUser+'</span>'+
+                        '</div>'+
+                        '<div class="dropdown-login-content">'+
+                            '<a href="my_account.html" class="list-group-item list-group-item-action">Kiểm tra thông tin</a>'+
+                            '<a href="#" id="logout" class="list-group-item list-group-item-action">Đăng xuất</a>'+
+                        '</div>'
+                    );
+                    $("#logout").click(function(){
+                        localStorage.removeItem("username");
+                        $("#displayLogin").empty();
+                        $("#displayLogin").append(
+                        '<a href="../../site/view/login.html" class="link-login">'+
+                            '<i class="fa fa-user" style="font-size: 28px;"></i>'+
+                            '<span class="text-login" id="text-login">Đăng nhập</span>'+
+                        '</a>'
+                        );
+                    });
+                }
+
+                $.getJSON('http://localhost:3000/companies', function(data){
+                    $.each($(data), function(i, companies){
+                        $("#navCompany").append(
+                            '<li class="nav-item" style="width:'+100/data.length+'%">'+
+                                '<a class="nav-link" href="product.html?company='+companies.nameCompany+'">'+companies.nameCompany+'</a>'+
+                            '</li>'
+                        );
+                    });
+                });
+                $.getJSON('http://localhost:3000/bag', function(){
+                    var checkLogin = $("#text-login").text();
+                    if(checkLogin == 'Đăng nhập'){
+                        $("#dropdown-bag-content").append(
+                            '<li class="list-group-item list-group-item-action not-login-bag">'+
+                                '<img src="../../img/icon/not-login.png" width="48" height="48">'+
+                                '<h6>Bạn chưa đăng nhập!</h6>'+
+                                '<p style="font-size: 14px">Bạn có muốn đăng nhập để tiếp tục?</p>'+
+                                '<a href="login.html" class="btn btn-outline-secondary">Đồng ý</a>'+
+                            '</li>'  
+                        );
+                    }else{
+                        $.getJSON('http://localhost:3000/bag?nameBag='+checkLogin, function(data){
+                            $("#munber-bag").text(data.length);
+                            if(data.length == 0){
+                                $("#dropdown-bag-content").append(
+                                    '<li class="list-group-item list-group-item-action not-login-bag">'+
+                                        '<img src="../../img/icon/shopping-cart-empty.png" width="48" height="48">'+
+                                        '<h6>Giỏ hàng trống!</h6>'+
+                                        '<p style="font-size: 14px">Bạn có muốn tìm hiểu thêm các sản phẩm?</p>'+
+                                        '<a href="product.html?company=all" class="btn btn-outline-secondary">Đồng ý</a>'+
+                                    '</li>'  
+                                );
+                            }else{
+                                $.each($(data), function(i, bag){                                
+                                    $("#dropdown-bag-content").append(
+                                        '<li class="list-group-item list-group-item-action">'+
+                                            '<img src="'+bag.imgCover+'" class="img-thumbnail float-left" " height="46" width="46">'+
+                                            '<p class="text-result" style="color: black">'+bag.name+' | '+bag.color+' <span class="badge badge-pill" style="background-color: #ff6700; color: white">'+bag.number+'</span></p>'+                
+                                            '<p class="text-result text-muted">'+bag.price+'</p>'+
+                                        '</li>'  
+                                    );
+                                });
+                                $("#dropdown-bag-content").append(
+                                    '<li class="list-group-item list-group-item-action" style="text-align: center">'+
+                                        '<a href="checkout_cart.html" class="btn btn-outline-secondary">Xem chi tiết</a>'+
+                                    '</li>'  
+                                );
+                                $(".text-muted").simpleMoneyFormat();
+                            }                              
+                        });  
+                    }
+                });
+
                 function getQueryVariable(variable)
                 {
                     var query = window.location.search.substring(1);
-                    var vars = query.split('?');
+                    var vars = query.split('&');
                     for (var i=0;i<vars.length;i++) {
                             var pair = vars[i].split('=');
                             if(pair[0] == variable){return pair[1];}
@@ -232,9 +370,11 @@
                 $.getJSON('http://localhost:3000/product/'+idValue, function(data){
                     var dataId = data.id;
                     var dataName = data.name;
+                    var dataCompany = data.company;
                     var dataPrice = data.price;
                     var dataImgCover = data.imgCover;
                     var dataUrlImg = data.urlImg;
+                    var dataPromotions = data.promotions;
 
                     var dataScreen = data.specifications.screen;
                     var dataOS = data.specifications.os;
@@ -255,19 +395,49 @@
                     $("#nameProduct").text(dataName);
                     $("#priceProduct").val(dataPrice);
                     $(".priceProduct").text(dataPrice).simpleMoneyFormat();
+
                     $.each($(dataOptions), function(i, options){
                         $("#colorProduct").append(
                             '<option value="'+options.color+'">'+options.color+'</option>'
                         );
                     });
+
                     $("#imgCover").append(
-                        '<div style="background: url('+dataImgCover+') no-repeat; padding-top: 133.33%; width: 100%; background-position: 50% 50%; background-size: cover;"><a href="#"></a></div>'
+                        '<div style="background: url('+dataImgCover+') no-repeat; padding-top: 133.33%; width: 100%; background-position: 50% 50%; background-size: cover;"></div>'
                     );
                     $.each($(dataUrlImg), function(i, urlImg){
                         $("#urlImg").append(
-                            '<div style="background: url('+urlImg.img+') no-repeat; padding-top: 18%; width: 100%; background-position: 50% 50%; background-size: cover;"><a href="#"></a></div>'
+                            '<a href="'+urlImg.img+'" class="linkImg" style="background: url('+urlImg.img+') no-repeat; padding-top: 18%; background-position: 50% 50%; background-size: cover;"></a>'  
                         );
                     });
+                    $("#urlImg").append(
+                        '<a style="background: url(../../img/icon/video-icon.png) no-repeat; padding-top: 18%; background-position: 50% 50%; background-size: cover;"></a>'+
+                        '<a style="background: url(../../img/icon/gallery-icon.png) no-repeat; padding-top: 18%; background-position: 50% 50%; background-size: cover;"></a>'
+                    );
+
+                    $(".linkImg").each(function(){
+                        var image = new Image();
+                        image.src = $(this).attr("href");
+                    });
+                    $(".linkImg").click(function(evt){
+                        var imgNode = $(this).attr("href");
+                        $("#imgCover").empty();
+                        $("#imgCover").append(
+                            '<div style="background: url('+imgNode+') no-repeat; padding-top: 133.33%; width: 100%; background-position: 50% 50%; background-size: cover;"></div>'
+                        );
+                        evt.preventDefault();
+                    });
+                    
+                    $.each($(dataPromotions), function(i, promotions){
+                        $("#displayPromotions").append(
+                            '<li><small>'+promotions.li+'<small></li>'
+                        );
+                    });
+                    $("#displayBreadcrumb").append(
+                        '<li class="breadcrumb-item"><a href="product.html?company='+dataCompany+'">'+dataCompany+'</a></li>'+
+                        '<li class="breadcrumb-item active">'+dataName+'</li>'
+                    );
+                    
                     $("#displayScreen").text(dataScreen);
                     $("#displayOS").text(dataOS);
                     $("#displayEndCamera").text(dataEndCamera);
@@ -280,24 +450,13 @@
                     $("#displayBattery").text(dataBattery);
                     $("#displayPosts").text(dataPosts);
 
-                    $.getJSON('http://localhost:3000/comments', function(dataComments){
-                        $.each($(dataComments), function(i, comments){
-                            if(comments.idProduct == idValue){
-                                $("#displayComments").append(
-                                    '<div class="media pt-2 pl-4 pr-4">'+
-                                        '<img src="https://png.icons8.com/ios/40/000000/user-male-circle-filled.png" class="material-icons mr-3 mt-1 rounded-circle" height="48x" width="48px">'+
-                                        '<div class="media-body">'+
-                                            '<h5>'+comments.name+'&nbsp;&nbsp;&nbsp;<small><i>Đăng ngày '+comments.time+'</i></small></h5>'+
-                                            '<p>'+comments.cmt+'</p>'+
-                                        '</div>'+
-                                    '</div>'
-                                );
-                            }
-                        });
-                    });
-                    $("#submitBag").click(function(){
+                    $("#setBag").click(function(){
                         var colorProduct = $("#colorProduct").val();
-                        if(colorProduct == 0){
+                        var checkLogin = $("#text-login").text();
+
+                        if(checkLogin == 'Đăng nhập'){
+                            alert('Bạn chưa đăng nhập!');
+                        }else if(colorProduct == 0){
                             alert('Bạn chưa chọn màu của sản phẩm!');
                             $("#colorProduct").css('border','1px solid red');
                         }else{
@@ -305,27 +464,83 @@
                                 type: 'POST',
                                 url: 'http://localhost:3000/bag',
                                 data: {
-                                    id : dataId+colorProduct,
+                                    id : dataId+colorProduct+checkLogin,
                                     name : dataName,
                                     price : dataPrice,
                                     color : colorProduct,
-                                    imgCover : dataImgCover
+                                    number : 1,
+                                    imgCover : dataImgCover,
+                                    nameBag : checkLogin,
+                                    idProduct : dataId
                                 },
                                 success: function(data) { 
                                     alert('Đã thêm vào giỏ!'); 
                                 },
+                                error: function(){
+                                    alert('Sản phẩm đã tồn tại trong giỏ của bạn!');
+                                },
                                 dataType: 'json'
                             });
                         }
-                    });    
+                    });
+
+                    $("#submitBag").click(function(){
+                        var colorProduct = $("#colorProduct").val();
+                        var checkLogin = $("#text-login").text();
+
+                        if(checkLogin == 'Đăng nhập'){
+                            alert('Bạn chưa đăng nhập!');
+                        }else if(colorProduct == 0){
+                            alert('Bạn chưa chọn màu của sản phẩm!');
+                            $("#colorProduct").css('border','1px solid red');
+                        }else{
+                            $.ajax({
+                                type: 'POST',
+                                url: 'http://localhost:3000/bag',
+                                data: {
+                                    id : dataId+colorProduct+checkLogin,
+                                    name : dataName,
+                                    price : dataPrice,
+                                    color : colorProduct,
+                                    number : 1,
+                                    imgCover : dataImgCover,
+                                    nameBag : checkLogin,
+                                    idProduct : dataId
+                                },
+                                success: function(data) { 
+                                    $(location).attr('href', 'checkout_cart.html');  
+                                },
+                                error: function(){
+                                    alert('Sản phẩm đã tồn tại trong giỏ của bạn!');
+                                },
+                                dataType: 'json'
+                            });
+                        }
+                    });  
                 });
+
+                $.getJSON('http://localhost:3000/comments', function(dataComments){
+                    $.each($(dataComments), function(i, comments){
+                        if(comments.idProduct == idValue){
+                            $("#displayComments").append(
+                                '<div class="media pt-2 pl-4 pr-4">'+
+                                    '<img src="https://png.icons8.com/ios/40/777777/user-male-circle-filled.png" class="material-icons mr-3 mt-1 rounded-circle" height="48x" width="48px">'+
+                                    '<div class="media-body">'+
+                                        '<h5>'+comments.name+'&nbsp;&nbsp;&nbsp;<small><i>Đăng ngày '+comments.time+'</i></small></h5>'+
+                                        '<p>'+comments.cmt+'</p>'+
+                                    '</div>'+
+                                '</div>'
+                            );
+                        }
+                    });
+                });                
 
                 $("#submitCmt").click(function(){
                     var nameCmt = $("#nameCmt").val();
                     var comment = $("#comment").val();
-                    var now = new Date(Date.now());
-                    var formatTime = now.getDay() +'/'+ now.getMonth() + '/' + now.getFullYear() + '  ' + now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds();
-                    console.log(formatTime);
+                    var now = new Date();
+                    var formatTime = now.getDate() +'/'+ parseInt(now.getUTCMonth()+1) + '/' + now.getFullYear() + '  ' + now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds();
+
                     var isValid = true;
                     var namePattern = /[A-Za-z]{2}/;
 

@@ -3,11 +3,11 @@
     {
       "id": 1,
       "name": "Xiaomi Mi8",
-      "type": "smart phone",
+      "company": "Xiaomi",
       "price": 10800000,
-      "imgCover": "http://via.placeholder.com/420x560",
+      "imgCover": "https://i.imgur.com/qbGT6Xt.jpg",
       "highlights": 1,
-      "tendency": 0,
+      "tendency": 1,
       "options": [
         {
           "color": "Trắng"
@@ -31,36 +31,30 @@
         },
         {
           "img": "http://via.placeholder.com/70x50"
-        },
-        {
-          "img": "http://via.placeholder.com/70x50"
-        },
-        {
-          "img": "http://via.placeholder.com/70x50"
         }
       ],
       "specifications": {
-        "screen": "b",
-        "os": "b",
-        "frontCamera": "b",
-        "endCamera": "b",
-        "cpu": "b",
-        "ram": "b",
-        "rom": "b",
-        "memoryCard": "b",
-        "sim": "b",
-        "battery": "b"
+        "screen": "5 inch",
+        "os": "Android 7.0",
+        "frontCamera": "8.0MP",
+        "endCamera": "13.1MP",
+        "cpu": "Snapdragon 845",
+        "ram": "4Gb",
+        "rom": "32Gb",
+        "memoryCard": "128Gb",
+        "sim": "1 Sim",
+        "battery": "3600 mAh"
       },
       "posts": "abcdef"
     },
     {
       "id": 2,
       "name": "Xiaomi Mi Mix",
-      "type": "smart phone",
+      "company": "Samsung",
       "price": 13500000,
-      "imgCover": "http://via.placeholder.com/420x560",
+      "imgCover": "https://i.imgur.com/qbGT6Xt.jpg",
       "highlights": 1,
-      "tendency": 0,
+      "tendency": 1,
       "options": [
         {
           "color": "Trắng"
@@ -70,12 +64,6 @@
         }
       ],
       "urlImg": [
-        {
-          "img": "http://via.placeholder.com/70x50"
-        },
-        {
-          "img": "http://via.placeholder.com/70x50"
-        },
         {
           "img": "http://via.placeholder.com/70x50"
         },
@@ -103,11 +91,11 @@
     {
       "id": 3,
       "name": "Xiaomi A2 Lite",
-      "type": "smart phone",
+      "company": "Xiaomi",
       "price": 5299000,
-      "imgCover": "../../img/mi_a2_lite_1.jpg",
+      "imgCover": "https://i.imgur.com/qbGT6Xt.jpg",
       "highlights": 1,
-      "tendency": 0,
+      "tendency": 1,
       "options": [
         {
           "color": "Đen"
@@ -118,19 +106,30 @@
       ],
       "urlImg": [
         {
-          "img": "http://via.placeholder.com/70x50"
+          "img": "https://i.imgur.com/qbGT6Xt.jpg"
         },
         {
-          "img": "http://via.placeholder.com/70x50"
+          "img": "https://i.imgur.com/EPNZcCI.jpg"
         },
         {
-          "img": "http://via.placeholder.com/70x50"
+          "img": "https://i.imgur.com/6OqeO6o.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Tặng DCL cao cấp khi mua bảo hành 12 tháng 1 đổi 1"
         },
         {
-          "img": "http://via.placeholder.com/70x50"
+          "li": "Ốp lưng Clearview chỉ 60K / ốp lưng cao cấp 99K"
         },
         {
-          "img": "http://via.placeholder.com/70x50"
+          "li": "Kính cường lực chỉ 60K / Cường lực Full chỉ 99K"
+        },
+        {
+          "li": "Sim Viettel 60gb/tháng chỉ 199k"
+        },
+        {
+          "li": "PDP Xiaomi chính hãng 10.000mAh Gen 2 chỉ 329K"
         }
       ],
       "specifications": {
@@ -145,68 +144,132 @@
         "sim": "b",
         "battery": "b"
       },
-      "posts": "abcdef",
-      "comments": [
-        {
-          "name": "Tuấn",
-          "time": "8/9/2018",
-          "cmt": "Máy rất đẹp"
-        },
-        {
-          "name": "Ngân",
-          "time": "8/9/2018",
-          "cmt": "Máy rất đẹp"
-        },
-        {
-          "name": "Tuấn",
-          "time": "8/9/2018",
-          "cmt": "Máy rất đẹp"
-        }
-      ]
+      "posts": "abcdef"
+    }
+  ],
+  "user": [
+    {
+      "fullName": "Lê Bá Thanh Tuấn",
+      "userName": "lebathanhtuan",
+      "password": "123456",
+      "email": "lebathanhtuan@gmail.com",
+      "id": "1"
+    },
+    {
+      "fullName": "Lê Bá Thanh Tuấn",
+      "userName": "lbttuan",
+      "password": "123321",
+      "email": "lbttuan@gmail.com",
+      "id": "d~jLpUL"
     }
   ],
   "bag": [
     {
-      "id": "10",
-      "name": "Xiaomi Mi8",
-      "price": "10800000",
-      "color": "0"
-    },
-    {
-      "id": "1Trắng",
-      "name": "Xiaomi Mi8",
-      "price": "10800000",
-      "color": "Trắng"
-    },
-    {
-      "id": "3Đen",
+      "id": "3Đenlebathanhtuan",
       "name": "Xiaomi A2 Lite",
       "price": "5299000",
       "color": "Đen",
-      "imgCover": "../../img/mi_a2_lite_1.jpg"
+      "number": "1",
+      "imgCover": "https://i.imgur.com/qbGT6Xt.jpg",
+      "nameBag": "lebathanhtuan",
+      "idProduct": "3"
     }
   ],
   "comments": [
     {
       "idProduct": "3",
-      "name": "sadsad",
-      "time": "5/7/2018  2:50:23",
-      "cmt": "safsaf",
+      "name": "Tuấn",
+      "time": "15/8/2018  18:41:9",
+      "cmt": "Máy này rất tốt và đẹp",
+      "id": 5
+    }
+  ],
+  "companies": [
+    {
+      "id": "Apple",
+      "nameCompany": "Apple",
+      "number": "0"
+    },
+    {
+      "id": "Samsung",
+      "nameCompany": "Samsung",
+      "number": "1"
+    },
+    {
+      "id": "LG",
+      "nameCompany": "LG",
+      "number": "0"
+    },
+    {
+      "id": "Xiaomi",
+      "nameCompany": "Xiaomi",
+      "number": "2"
+    },
+    {
+      "id": "Oppo",
+      "nameCompany": "Oppo",
+      "number": "0"
+    },
+    {
+      "id": "Vivo",
+      "nameCompany": "Vivo",
+      "number": "0"
+    },
+    {
+      "id": "HTC",
+      "nameCompany": "HTC",
+      "number": "0"
+    },
+    {
+      "id": "Nokia",
+      "nameCompany": "Nokia",
+      "number": "0"
+    },
+    {
+      "id": "Huawei",
+      "nameCompany": "Huawei",
+      "number": "0"
+    }
+  ],
+  "checkoutInfo": [],
+  "historyPayment": [
+    {
+      "namePayment": "lebathanhtuan",
+      "name": "Xiaomi A2 Lite",
+      "price": "5299000",
+      "color": "Đen",
+      "number": "2",
+      "imgCover": "https://i.imgur.com/qbGT6Xt.jpg",
+      "time": "16/8/2018  16:36:5",
+      "totalPrice": "10598000",
+      "fullName": "Lê Bá Thanh Tuấn",
+      "sex": "Nam",
+      "email": "lebathanhtuan@gmail.com",
+      "phone": "01249954060",
+      "address": "34 Cao Xuân Dục, Hải Châu, Đà Nẵng",
+      "area": "236",
+      "zip": "550000",
+      "businessAddress": "0",
       "id": 1
     },
     {
-      "idProduct": "3",
-      "name": "Tuấn",
-      "time": "5/7/2018  2:53:52",
-      "cmt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis fringilla egestas. Morbi quis venenatis odio. Maecenas varius orci nunc, ut venenatis metus hendrerit ac. Fusce sit amet nunc rutrum, viverra eros sit amet, convallis massa. Quisque mattis lorem quis risus placerat, id gravida est faucibus. Morbi semper viverra odio, id laoreet diam rutrum et. Sed accumsan mollis erat, nec ultricies velit bibendum id. Morbi lacus lacus, luctus elementum ligula sit amet, elementum volutpat mauris. Morbi euismod elit est, sit amet mattis est ultricies nec. Donec auctor massa eu mattis semper. Nunc accumsan, velit in vestibulum dictum, diam tortor efficitur dui, et commodo urna leo sed dui. Cras eu bibendum odio, id faucibus eros. Nam quam eros, auctor vitae nulla a, egestas consequat dolor. Nulla luctus ligula at elit viverra auctor. ",
+      "namePayment": "lebathanhtuan",
+      "name": "Xiaomi Mi Mix",
+      "price": "13500000",
+      "color": "Đen",
+      "number": "1",
+      "imgCover": "https://i.imgur.com/qbGT6Xt.jpg",
+      "time": "16/8/2018  16:36:5",
+      "totalPrice": "13500000",
+      "fullName": "Lê Bá Thanh Tuấn",
+      "sex": "Nam",
+      "email": "lebathanhtuan@gmail.com",
+      "phone": "01249954060",
+      "address": "34 Cao Xuân Dục, Hải Châu, Đà Nẵng",
+      "area": "236",
+      "zip": "550000",
+      "businessAddress": "0",
       "id": 2
-    },
-    {
-      "idProduct": "3",
-      "name": "Ngân",
-      "time": "5/7/2018  2:54:12",
-      "cmt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis fringilla egestas. Morbi quis venenatis odio. Maecenas varius orci nunc, ut venenatis metus hendrerit ac. Fusce sit amet nunc rutrum, viverra eros sit amet, convallis massa. Quisque mattis lorem quis risus placerat, id gravida est faucibus. Morbi semper viverra odio, id laoreet diam rutrum et. Sed accumsan mollis erat, nec ultricies velit bibendum id. Morbi lacus lacus, luctus elementum ligula sit amet, elementum volutpat mauris. Morbi euismod elit est, sit amet mattis est ultricies nec. Donec auctor massa eu mattis semper. Nunc accumsan, velit in vestibulum dictum, diam tortor efficitur dui, et commodo urna leo sed dui. Cras eu bibendum odio, id faucibus eros. Nam quam eros, auctor vitae nulla a, egestas consequat dolor. Nulla luctus ligula at elit viverra auctor. ",
-      "id": 3
     }
   ]
 }

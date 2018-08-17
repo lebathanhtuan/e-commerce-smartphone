@@ -13,42 +13,53 @@
         <link rel="stylesheet" href="../../public/css/style.css">
     </head>
     <body style="background-color: #f1f1f1">
+        <div class="topnav">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo-web">
+                            <a href="home.html"><img src="../../img/logo/logo_Didongxanh_white.png" width="150px" height="auto"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="search-nav">
+                            <input id="search" class="form-control" type="text" style="position: relative;" placeholder="Tìm kiếm">
+                            <ul class="list-group" id="result" style="margin-top: 15px"></ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-5 col-5">
+                        <div class="bag-nav dropdown-bag">
+                            <a href="checkout_cart.html" class="link-bag">
+                                <i class="fa fa-shopping-bag" style="font-size: 28px;"></i>
+                                <span class="text-bag">Giỏ</span>
+                                <span class="badge badge-dark badge-pill" id="munber-bag"></span>
+                            </a>
+                            <div class="dropdown-bag-content">
+                                <div style="background-color: #ff6700; height: 5px; border-radius: 3px 3px 0 0"></div>
+                                <div class="list-group" id="dropdown-bag-content">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-7 col-7">
+                        <div class="login-nav dropdown-login" id="displayLogin">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a href="home.html" class="navbar-toggler" style="color: #ccc">Trang chủ</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">DiDongXanh</a>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../index.html"><i class="material-icons" style="font-size:13px; padding-right: 5px">home</i>Trang Chủ</a>
-                    </li>   
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            <i class="material-icons" style="font-size:13px; padding-right: 5px">smartphone</i>Sản phẩm
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Link 1</a>
-                            <a class="dropdown-item" href="#">Link 2</a>
-                            <a class="dropdown-item" href="#">Link 3</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <form class="form-inline" action="/action_page.php">
-                            <div class="input-group">
-                                <input class="form-control" type="text" placeholder="Tìm kiếm">
-                                <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary" type="button"><i class="material-icons" style="font-size:13px">search</i></button>
-                                </div>
-                            </div>
-                        </form>
-                    </li>
+                <ul class="navbar-nav" id="navCompany">
+                    
                 </ul>
-            </div>
-            <div class="container-nav-right">
-                <a class="navbar-brand" href="../../site/view/checkout_cart.html"><i class="fa fa-shopping-bag pr-4" style="font-size:24px; border-right: 1px solid white"></i></a>
-                <a class="navbar-brand" href="../../site/view/login.html"><img src="https://png.icons8.com/ios/40/ffffff/user-male-circle-filled.png" height="30x" width="30px"><small style="padding-left: 10px; color: #ccc;">Đăng nhập</small></a>
-            </div>            
+            </div>           
         </nav>
         <div class="container">
             <div class="container-checkout">
@@ -106,26 +117,9 @@
                         <div class="total-cart float-right">
                             <table class="table">
                                 <tr class="text-right">
-                                    <td class="pr-5">Tổng tiền giỏ hàng</td>
-                                    <td>
-                                        <span class="displayTotalBag"></span><span>&nbsp;VND</span>
-                                    </td>
-                                </tr>
-                                <tr class="text-right">
-                                    <td class="pr-5 form-group">
-                                        <select id="typeShipper" class="custom-select">
-                                            <option value="20000" selected>Phí giao hàng tiết kiệm</option>
-                                            <option value="50000">Phí giao hàng nhanh</option>
-                                        </select>
-                                    </td>
-                                    <td>
-                                        <span class="displayMoneyShip"></span><span>&nbsp;VND</span>
-                                    </td>
-                                </tr>
-                                <tr class="text-right">
-                                    <td class="pr-5 h5">Tổng hóa đơn thanh toán</td>
+                                    <td class="pr-5 h5">Tổng tiền giỏ hàng:</td>
                                     <td class="h5">
-                                        <span class="displayTotalPay"></span><span>&nbsp;VND</span>
+                                        <span class="displayTotalBag"></span><span>&nbsp;₫</span>
                                     </td>
                                 </tr>
                             </table>
@@ -134,7 +128,7 @@
                 </div>
                 <div class="container-checkout-footer">
                     <a href="product_detail.html"><input type="button" class="btn btn-secondary float-left" value="Trở lại"></a>
-                    <a href="checkout_info.html"><input type="submit" class="btn btn-primary float-right" value="Tiếp theo"></a>
+                    <a href="#"><input type="submit" class="btn btn-primary float-right" id="submit-checkout-cart" value="Tiếp theo"></a>
                 </div>
             </div>
         </div>
@@ -146,122 +140,266 @@
         <script src="../../public/js/simple.money.format.js"></script>
         <script>
             $(document).ready(function(){
-                $.getJSON('http://localhost:3000/bag', function(data){
-                    $.each($(data), function(i, bag){
-                        $("#bag-product").append(
-                            '<tr>'+
-                                '<td class="table-middle"><div class="img-product-bag" style="background: url('+bag.imgCover+') no-repeat; background-position: 50% 50%; background-size: cover;"></div></td>'+
-                                '<td class="table-middle">'+bag.name+'</td>'+
-                                '<td class="table-middle">'+bag.color+'</td>'+
-                                '<td class="table-middle">'+
-                                    '<input type="text" style="display: none" name="name['+bag.id+']" value="'+bag.price+'" disabled="disabled">'+
-                                    '<span class="displayPrice">'+bag.price+'</span><span>&nbsp;VND</span>'+
-                                '</td>'+
-                                '<td class="table-middle tb-munber">'+
-                                    '<div class="input-group">'+
-                                        '<div class="input-group-prepend">'+
-                                            '<button class="btn btn-outline-secondary btn-number" type="button" data-type="minus" data-field="['+bag.id+']"><b>-</b></button>'+  
-                                        '</div>'+
-                                        '<input type="text" style="width: 40px; text-align: center" name="['+bag.id+']" value="1" min="0" max="99">'+
-                                        '<div class="input-group-append">'+
-                                            '<button class="btn btn-outline-secondary btn-number" type="button" data-type="plus" data-field="['+bag.id+']"><b>+</b></button>'+  
-                                        '</div>'+
-                                    '</div>'+
-                                '</td>'+
-                                '<td class="table-middle tb-munber">'+
-                                    '<input id="total" type="text" style="display: none" name="total['+bag.id+']" value="'+bag.price+'" disabled="disabled">'+
-                                    '<span class="displayTotal">'+bag.price+'</span><span>&nbsp;VND</span>'+
-                                '</td>'+
-                            '</tr>'
+                $("#search").keyup(function(){
+                    $("#result").empty();
+                    var searchField = $("#search").val();
+                    var expression = new RegExp(searchField, "i");
+                    if(expression != "/(?:)/i" & expression != "/ /i" ){
+                        $.getJSON('http://localhost:3000/product', function(data){
+                            $.each($(data), function(i, value){
+                                if(value.name.search(expression) != -1){
+                                    $("#result").append(
+                                        '<li class="list-group-item list-group-item-action">'+
+                                            '<a href="product_detail.html?id='+value.id+'" style="text-decoration: none;">'+
+                                                '<img src="'+value.imgCover+'" class="img-thumbnail float-left" " height="48" width="48">'+
+                                                '<p class="text-result" style="color: black">'+value.name+'</p>'+
+                                                '<p class="text-result text-muted">'+value.price+'</p>'+
+                                            '</a>'+
+                                        '</li>'                            
+                                    )
+                                }
+                            });
+                            $(".text-muted").simpleMoneyFormat();
+                        });
+                    }
+                });
+
+                getUser = localStorage.getItem('username');
+                if(getUser == null){
+                    $("#displayLogin").empty();
+                    $("#displayLogin").append(
+                        '<a href="../../site/view/login.html" class="link-login">'+
+                            '<i class="fa fa-user" style="font-size: 28px;"></i>'+
+                            '<span class="text-login" id="text-login">Đăng nhập</span>'+
+                        '</a>'
+                    );
+                }else{
+                    $("#displayLogin").empty();
+                    $("#displayLogin").append(
+                        '<div class="link-login">'+
+                            '<i class="fa fa-user" style="font-size: 28px;"></i>'+
+                            '<span class="text-login" id="text-login">'+getUser+'</span>'+
+                        '</div>'+
+                        '<div class="dropdown-login-content">'+
+                            '<a href="my_account.html" class="list-group-item list-group-item-action">Kiểm tra thông tin</a>'+
+                            '<a href="#" id="logout" class="list-group-item list-group-item-action">Đăng xuất</a>'+
+                        '</div>'
+                    );
+                    $("#logout").click(function(){
+                        localStorage.removeItem("username");
+                        $("#displayLogin").empty();
+                        $("#displayLogin").append(
+                        '<a href="../../site/view/login.html" class="link-login">'+
+                            '<i class="fa fa-user" style="font-size: 28px;"></i>'+
+                            '<span class="text-login" id="text-login">Đăng nhập</span>'+
+                        '</a>'
                         );
                     });
-                    var arrayTotal = new Array(); 
-                    var totalBag = 0;
-                    var totalPay = 0;
+                }
 
-                    function add(a, sum){
-                        return sum + a;
-                    };
-                    
-                    function sumTotal(){
-                        var moneyShip = parseInt($("#typeShipper").val());
-
-                        for (i = 0; i < $("table").find('input[id="total"]').length; i++){
-                            arrayTotal[i] = parseInt($("table").find('input[id="total"]')[i].value);
-                        }
-                        totalBag = arrayTotal.reduce(add,0);
-                        $(".displayTotalBag").text(totalBag);
-                        $(".displayTotalBag").simpleMoneyFormat();
-                        if(totalBag == 0){
-                            moneyShip = 0;
-                        }
-                        totalPay = totalBag + moneyShip;
-                        $(".displayTotalPay").text(totalPay);
-                        $(".displayTotalPay").simpleMoneyFormat();
-                        $(".displayMoneyShip").text(moneyShip);
-                        $(".displayMoneyShip").simpleMoneyFormat();
-
-                        $("#typeShipper").change(function(){
-                            var moneyTypeShip = parseInt($("#typeShipper").val());
-                            if(totalBag == 0){
-                                moneyShip = 0;
-                            }else{
-                                moneyShip = moneyTypeShip;
-                            }
-                            totalPay = totalBag + moneyShip;
-                            $(".displayTotalPay").text(totalPay);
-                            $(".displayTotalPay").simpleMoneyFormat();
-                            $(".displayMoneyShip").text(moneyShip);
-                            $(".displayMoneyShip").simpleMoneyFormat();
-                        });
-                    };
-                    sumTotal();
-
-                    $(".displayPrice").simpleMoneyFormat();
-                    $(".displayTotal").simpleMoneyFormat();
-
-                    $(".btn-number").click(function(e){        
-                        e.preventDefault();                
-                        var fieldName = $(this).attr('data-field');        
-                        var type      = $(this).attr('data-type');        
-                        var inputNumber = $("input[name='"+fieldName+"']");   
-                        var currentVal = parseInt(inputNumber.val());
-                        var inputPrice = $("input[name='name"+fieldName+"']");
-                        var currentValPrice = parseInt(inputPrice.val());
-                        var inputTotal = $("input[name='total"+fieldName+"']");
-                        if (!isNaN(currentVal)) {            
-                            if(type == 'minus') {             
-                                var minValue = parseInt(inputNumber.attr('min'));            
-                                if(!minValue){
-                                    minValue = 0;
-                                }                
-                                if(currentVal > minValue) {                    
-                                    inputNumber.val(currentVal - 1).change();
-                                    var currentVal = parseInt(inputNumber.val());
-                                    inputTotal.val(currentValPrice*currentVal).change();
-                                    $("input[name='total"+fieldName+"']").next().empty();
-                                    $("input[name='total"+fieldName+"']").next().append(inputTotal.val()).simpleMoneyFormat();
-                                    sumTotal();
-                                }                      
-                            } 
-                            else if(type == 'plus') {                
-                                var maxValue = parseInt(inputNumber.attr('max'));                
-                                if(!maxValue){
-                                    maxValue = 99;
-                                }               
-                                if(currentVal < maxValue) {                    
-                                    inputNumber.val(currentVal + 1).change();
-                                    var currentVal = parseInt(inputNumber.val());
-                                    inputTotal.val(currentValPrice*currentVal).change();
-                                    $("input[name='total"+fieldName+"']").next().empty();
-                                    $("input[name='total"+fieldName+"']").next().append(inputTotal.val()).simpleMoneyFormat();
-                                    sumTotal();
-                                }
-                            }        
-                        } else {            
-                            inputNumber.val(0);    
-                        }
+                $.getJSON('http://localhost:3000/companies', function(data){
+                    $.each($(data), function(i, companies){
+                        $("#navCompany").append(
+                            '<li class="nav-item" style="width:'+100/data.length+'%">'+
+                                '<a class="nav-link" href="product.html?company='+companies.nameCompany+'">'+companies.nameCompany+'</a>'+
+                            '</li>'
+                        );
                     });
+                });
+                
+                $.getJSON('http://localhost:3000/bag', function(){
+                    var checkLogin = $("#text-login").text();
+                    if(checkLogin == 'Đăng nhập'){
+                        $("#dropdown-bag-content").append(
+                            '<li class="list-group-item list-group-item-action not-login-bag">'+
+                                '<img src="../../img/icon/not-login.png" width="48" height="48">'+
+                                '<h6>Bạn chưa đăng nhập!</h6>'+
+                                '<p style="font-size: 14px">Bạn có muốn đăng nhập để tiếp tục?</p>'+
+                                '<a href="login.html" class="btn btn-outline-secondary">Đồng ý</a>'+
+                            '</li>'  
+                        );
+                        $(".container-checkout-main").empty();
+                        $(".container-checkout-main").append(
+                            '<div class="not-login-bag">'+
+                                '<img src="../../img/icon/not-login.png">'+
+                                '<h4>Bạn chưa đăng nhập!</h4>'+
+                                '<h6>Bạn có muốn đăng nhập để tiếp tục?</h6>'+
+                                '<a href="login.html" class="btn btn-outline-secondary">Đồng ý</a>'+
+                            '</div>'
+                        );
+                        $("#submit-checkout-cart").attr('disabled', 'disabled');
+                    }else{
+                        $.getJSON('http://localhost:3000/bag?nameBag='+checkLogin, function(data){
+                            $("#munber-bag").text(data.length);
+                            if(data.length == 0){
+                                $("#dropdown-bag-content").append(
+                                    '<li class="list-group-item list-group-item-action not-login-bag">'+
+                                        '<img src="../../img/icon/shopping-cart-empty.png" width="48" height="48">'+
+                                        '<h6>Giỏ hàng trống!</h6>'+
+                                        '<p style="font-size: 14px">Bạn có muốn tìm hiểu thêm các sản phẩm?</p>'+
+                                        '<a href="product.html?company=all" class="btn btn-outline-secondary">Đồng ý</a>'+
+                                    '</li>'  
+                                );
+                                $(".container-checkout-main").empty();
+                                $(".container-checkout-main").append(
+                                    '<div class="empty-bag">'+
+                                        '<img src="../../img/icon/shopping-cart-empty.png">'+
+                                        '<h4>Giỏ hàng trống!</h4>'+
+                                        '<h6>Bạn có muốn tìm hiểu thêm những sản phẩm của chúng tôi?</h6>'+
+                                        '<a href="product.html?company=all" class="btn btn-outline-secondary">Đồng ý</a>'+
+                                    '</div>'
+                                );
+                                $("#submit-checkout-cart").attr('disabled', 'disabled');
+                            }else{
+                                $.each($(data), function(i, bag){                                
+                                    $("#dropdown-bag-content").append(
+                                        '<li class="list-group-item list-group-item-action">'+
+                                            '<img src="'+bag.imgCover+'" class="img-thumbnail float-left" " height="46" width="46">'+
+                                            '<p class="text-result" style="color: black">'+bag.name+' | '+bag.color+' <span class="badge badge-pill" style="background-color: #ff6700; color: white">'+bag.number+'</span></p>'+                
+                                            '<p class="text-result text-muted">'+bag.price+'</p>'+
+                                        '</li>'  
+                                    );
+                                    $("#bag-product").append(
+                                        '<tr>'+
+                                            '<td class="table-middle"><div class="img-product-bag" style="background: url('+bag.imgCover+') no-repeat; background-position: 50% 50%; background-size: cover;"></div></td>'+
+                                            '<td class="table-middle">'+bag.name+'</td>'+
+                                            '<td class="table-middle">'+bag.color+'</td>'+
+                                            '<td class="table-middle">'+
+                                                '<input type="text" style="display: none" name="name['+bag.id+']" value="'+bag.price+'" disabled="disabled">'+
+                                                '<span class="displayPrice">'+bag.price+'</span><span>&nbsp;₫</span>'+
+                                            '</td>'+
+                                            '<td class="table-middle tb-munber">'+
+                                                '<div class="input-group">'+
+                                                    '<div class="input-group-prepend">'+
+                                                        '<button class="btn btn-outline-secondary btn-number" type="button" data-type="minus" data-field="['+bag.id+']"><b>-</b></button>'+  
+                                                    '</div>'+
+                                                    '<input type="text" style="width: 40px; text-align: center" name="['+bag.id+']" value="'+bag.number+'" min="1" max="99">'+
+                                                    '<div class="input-group-append">'+
+                                                        '<button class="btn btn-outline-secondary btn-number" type="button" data-type="plus" data-field="['+bag.id+']"><b>+</b></button>'+  
+                                                    '</div>'+
+                                                '</div>'+
+                                            '</td>'+
+                                            '<td class="table-middle" style="position: relative">'+
+                                                '<input id="total" type="text" style="display: none" name="total['+bag.id+']" value="" disabled="disabled">'+
+                                                '<span class="displayTotal">'+bag.price+'</span><span>&nbsp;₫</span>'+
+                                                '<input type="button" class="btn btn-outline-danger btn-delete" name="delete-'+bag.id+'" value="&times;"></button>'+
+                                            '</td>'+
+                                        '</tr>'
+                                    );
+                                    var displayPrice = $("input[name='name["+bag.id+"]'").val();
+                                    var displayNumber = $("input[name='["+bag.id+"]'").val();
+                                    var displayTotal = parseInt(displayPrice)*parseInt(displayNumber);
+                                    $("input[name='total["+bag.id+"]'").val(displayTotal);
+                                    $("input[name='total["+bag.id+"]'").next().text(displayTotal);
+                                    $("input[name='delete-"+bag.id+"'").click(function(){
+                                        var messenger = confirm("Bạn có chắc muốn xóa sản phẩn khỏi giỏ hàng của bạn?");
+                                        if (messenger == true) {
+                                            $.ajax({
+                                                type: 'DELETE',
+                                                url: 'http://localhost:3000/bag/'+bag.id,
+                                                dataType: 'json'
+                                            });
+                                        }
+                                    });
+                                });
+                                $("#dropdown-bag-content").append(
+                                    '<li class="list-group-item list-group-item-action" style="text-align: center">'+
+                                        '<a href="checkout_cart.html" class="btn btn-outline-secondary">Xem chi tiết</a>'+
+                                    '</li>'  
+                                );
+
+                                var arrayTotal = new Array(); 
+                                var totalBag = 0;
+                                var totalPay = 0;
+
+                                function add(a, sum){
+                                    return sum + a;
+                                };
+                                
+                                function sumTotal(){
+                                    var moneyShip = parseInt($("#typeShipper").val());
+
+                                    for (i = 0; i < $("table").find('input[id="total"]').length; i++){
+                                        arrayTotal[i] = parseInt($("table").find('input[id="total"]')[i].value);
+                                    }
+                                    totalBag = arrayTotal.reduce(add,0);
+                                    $(".displayTotalBag").text(totalBag);
+                                    $(".displayTotalBag").simpleMoneyFormat();
+                                };
+                                sumTotal();
+
+                                $(".text-muted").simpleMoneyFormat();
+                                $(".displayPrice").simpleMoneyFormat();
+                                $(".displayTotal").simpleMoneyFormat();
+
+                                $(".btn-number").click(function(e){        
+                                    e.preventDefault();                
+                                    var fieldName = $(this).attr('data-field');        
+                                    var type      = $(this).attr('data-type');        
+                                    var inputNumber = $("input[name='"+fieldName+"']");   
+                                    var currentVal = parseInt(inputNumber.val());
+                                    var inputPrice = $("input[name='name"+fieldName+"']");
+                                    var currentValPrice = parseInt(inputPrice.val());
+                                    var inputTotal = $("input[name='total"+fieldName+"']");
+                                    if (!isNaN(currentVal)) {            
+                                        if(type == 'minus') {         
+                                            var minValue = parseInt(inputNumber.attr('min'));            
+                                            if(!minValue){
+                                                minValue = 1;
+                                            }                
+                                            if(currentVal > minValue) {                    
+                                                inputNumber.val(currentVal - 1).change();
+                                                var currentVal = parseInt(inputNumber.val());
+                                                inputTotal.val(currentValPrice*currentVal).change();
+                                                $("input[name='total"+fieldName+"']").next().empty();
+                                                $("input[name='total"+fieldName+"']").next().append(inputTotal.val()).simpleMoneyFormat();
+                                                sumTotal();
+                                            }                      
+                                        } 
+                                        else if(type == 'plus') {                
+                                            var maxValue = parseInt(inputNumber.attr('max'));                
+                                            if(!maxValue){
+                                                maxValue = 99;
+                                            }               
+                                            if(currentVal < maxValue) {                    
+                                                inputNumber.val(currentVal + 1).change();
+                                                var currentVal = parseInt(inputNumber.val());
+                                                inputTotal.val(currentValPrice*currentVal).change();
+                                                $("input[name='total"+fieldName+"']").next().empty();
+                                                $("input[name='total"+fieldName+"']").next().append(inputTotal.val()).simpleMoneyFormat();
+                                                sumTotal();
+                                            }
+                                        }        
+                                    } else {            
+                                        inputNumber.val(0);    
+                                    }
+                                });
+                                
+                                $("#submit-checkout-cart").click(function(){
+                                    $.each($(data), function(i, bag){ 
+                                        var displayNumber = $("input[name='["+bag.id+"]'").val();
+                                        $.ajax({
+                                            type: 'PUT',
+                                            url: 'http://localhost:3000/bag/'+bag.id+'?nameBag='+checkLogin,
+                                            data: {
+                                                name : bag.name,
+                                                price : bag.price,
+                                                color : bag.color,
+                                                number : displayNumber,
+                                                imgCover : bag.imgCover,
+                                                nameBag : bag.nameBag,
+                                                idProduct : bag.idProduct
+                                            },
+                                            success: function(data) { 
+                                                $(location).attr('href', 'checkout_info.html');    
+                                            },
+                                            dataType: 'json'
+                                        });                                          
+                                    });
+                                });
+                            }                              
+                        });  
+                    }
                 }); 
             });  
         </script>
