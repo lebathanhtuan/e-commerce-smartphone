@@ -2,21 +2,383 @@
   "product": [
     {
       "id": 1,
-      "name": "Xiaomi Mi8",
-      "company": "Xiaomi",
-      "price": 10800000,
-      "imgCover": "https://i.imgur.com/qbGT6Xt.jpg",
+      "name": "Samsung Galaxy J8",
+      "company": "Samsung",
+      "price": 7290000,
+      "imgCover": "../../img/samsung_j8_2.jpg",
       "highlights": 1,
-      "tendency": 1,
+      "hot": 1,
       "options": [
         {
-          "color": "Trắng"
+          "color": "Vàng"
         },
         {
           "color": "Đen"
         },
         {
+          "color": "Tím"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/samsung_j8_1.jpg"
+        },
+        {
+          "img": "../../img/samsung_j8_2.jpg"
+        },
+        {
+          "img": "../../img/samsung_j8_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/Trả thẳng"
+        },
+        {
+          "li": "Giảm ngay 800,000đ (Áp dụng đến 19/08)"
+        },
+        {
+          "li": "Tặng PMH Phụ Kiện & Samsung trị giá 100,000đ khi mua Online"
+        },
+        {
+          "li": "Quà tặng Galaxy xem phim & Coffee cuối tuần"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        }
+      ],
+      "specifications": {
+        "screen": "6.0 inch, HD+",
+        "os": "Android 8.0",
+        "frontCamera": "16MP và 5MP",
+        "endCamera": "16MP",
+        "cpu": "Snapdragon 450 4 nhân 1.8GHz",
+        "gpu": "Adreno 506",
+        "ram": "3Gb",
+        "rom": "32Gb",
+        "sim": "2 Sim",
+        "battery": "3500 mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 2,
+      "name": "Samsung J4 2018",
+      "company": "Samsung",
+      "price": 3990000,
+      "imgCover": "../../img/samsung_j4_2.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Tím"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/samsung_j4_1.jpg"
+        },
+        {
+          "img": "../../img/samsung_j4_2.jpg"
+        },
+        {
+          "img": "../../img/samsung_j4_3.jpg"
+        }
+      ],
+      "specifications": {
+        "screen": "5.5 inch, HD",
+        "os": "Android 8.0",
+        "frontCamera": "5MP",
+        "endCamera": "13MP",
+        "cpu": "Exynos 7570 4 nhân 1.4Ghz",
+        "gpu": "Mali-T720",
+        "ram": "2Gb",
+        "rom": "32Gb",
+        "sim": "2 Sim",
+        "battery": "3000mAh"
+      },
+      "posts": ""
+    },
+    {
+      "id": 3,
+      "name": "Samsung Galaxy S9+",
+      "company": "Samsung",
+      "price": 23490000,
+      "imgCover": "../../img/samsung_s9plus_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Đen"
+        },
+        {
           "color": "Xanh"
+        },
+        {
+          "color": "Tím"
+        },
+        {
+          "color": "Vàng"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/samsung_s9plus_1.jpg"
+        },
+        {
+          "img": "../../img/samsung_s9plus_2.jpg"
+        },
+        {
+          "img": "../../img/samsung_s9plus_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Giảm ngay 2,000,000đ"
+        },
+        {
+          "li": "Tặng PMH Phụ Kiện & Samsung trị giá 300,000đ khi mua Online"
+        },
+        {
+          "li": "Đặc quyền mua Gói bảo hiểm Samsung tai nạn bất ngờ và nâng cấp máy mới chỉ 99.000đ"
+        }
+      ],
+      "specifications": {
+        "screen": "6.2 inch, 2K",
+        "os": "Android 8.0",
+        "frontCamera": "8MP",
+        "endCamera": "2 Camera 12MP",
+        "cpu": "Exynos 9810 4 nhân 2.8Ghz và 4 nhân 1.7Ghz",
+        "gpu": "Mali-G72 MP18",
+        "ram": "6GB",
+        "rom": "64Gb",
+        "sim": "2 Sim chung khe thẻ nhớ",
+        "battery": "3500mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy Note 8",
+      "company": "Samsung",
+      "price": 19990000,
+      "imgCover": "../../img/samsung_note8_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Bạc"
+        },
+        {
+          "color": "Vàng"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/samsung_note8_1.jpg"
+        },
+        {
+          "img": "../../img/samsung_note8_2.jpg"
+        },
+        {
+          "img": "../../img/samsung_note8_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng PMH Phụ Kiện & Samsung trị giá 300,000đ khi mua Online"
+        }
+      ],
+      "specifications": {
+        "screen": "6.3 inch, 2K",
+        "os": "Android 8.0",
+        "frontCamera": "8MP",
+        "endCamera": "2 Camera 12MP",
+        "cpu": "Exynos 8895 4 nhân 2.3Ghz và 4 nhân 1.7Ghz",
+        "gpu": "Mali-G71",
+        "ram": "6GB",
+        "rom": "64Gb",
+        "sim": "2 Sim",
+        "battery": "3300mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 5,
+      "name": "Samsung Galaxy A8 2018",
+      "company": "Samsung",
+      "price": 9990000,
+      "imgCover": "../../img/samsung_a8_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Bạc"
+        },
+        {
+          "color": "Vàng"
+        },
+        {
+          "color": "Đen"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/samsung_a8_1.jpg"
+        },
+        {
+          "img": "../../img/samsung_a8_2.jpg"
+        },
+        {
+          "img": "../../img/samsung_a8_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng PMH Phụ Kiện & Samsung trị giá 200,000đ khi mua Online"
+        }
+      ],
+      "specifications": {
+        "screen": "5.6 inch, FHD+",
+        "os": "Android 7.0",
+        "frontCamera": "16MP và 8MP",
+        "endCamera": "16MP",
+        "cpu": "Exynos 7885 2 nhân 2.2Ghz và 6 nhân 1.6Ghz",
+        "gpu": "Mali-G71",
+        "ram": "4GB",
+        "rom": "32Gb",
+        "sim": "2 Sim",
+        "battery": "3000mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 6,
+      "name": "Samsung Galaxy A8+ 2018",
+      "company": "Samsung",
+      "price": 11990000,
+      "imgCover": "../../img/samsung_a8plus_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Bạc"
+        },
+        {
+          "color": "Vàng"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/samsung_a8plus_1.jpg"
+        },
+        {
+          "img": "../../img/samsung_a8plus_2.jpg"
+        },
+        {
+          "img": "../../img/samsung_a8plus_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng PMH Phụ Kiện & Samsung trị giá 200,000đ khi mua Online"
+        }
+      ],
+      "specifications": {
+        "screen": "6.0 inch, FHD+",
+        "os": "Android 7.0",
+        "frontCamera": "16MP và 8MP",
+        "endCamera": "16MP",
+        "cpu": "Exynos 7885 2 nhân 2.2Ghz và 6 nhân 1.6Ghz",
+        "gpu": "Mali-G71",
+        "ram": "6GB",
+        "rom": "64Gb",
+        "sim": "2 Sim",
+        "battery": "3500mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 7,
+      "name": "Huawei P20 Pro",
+      "company": "Huawei",
+      "price": 19990000,
+      "imgCover": "../../img/huawei_p20pro_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Tím xanh"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/huawei_p20pro_1.jpg"
+        },
+        {
+          "img": "../../img/huawei_p20pro_2.jpg"
+        },
+        {
+          "img": "../../img/huawei_p20pro_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tai nghe Bluetooth"
+        },
+        {
+          "li": "Giảm 4% khi thanh toán bằng thẻ Visa"
+        },
+        {
+          "li": "Gói Bảo hành VIP"
+        }
+      ],
+      "specifications": {
+        "screen": "6.1 inch, FHD+",
+        "os": "Android 8.1",
+        "frontCamera": "24MP",
+        "endCamera": "3 Camera (40MP+20MP+8MP)",
+        "cpu": "Kirin 970 4 nhân 2.36Ghz và 4 nhân 1.8Ghz",
+        "gpu": "Mali-G72 MP12",
+        "ram": "6GB",
+        "rom": "128Gb",
+        "sim": "2 Sim",
+        "battery": "4000mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 8,
+      "name": "Huawei Nova 3",
+      "company": "Huawei",
+      "price": 11990000,
+      "imgCover": "../../img/huawei_nova3_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Tím"
         },
         {
           "color": "Đỏ"
@@ -24,125 +386,535 @@
       ],
       "urlImg": [
         {
-          "img": "http://via.placeholder.com/70x50"
+          "img": "../../img/huawei_nova3_1.jpg"
         },
         {
-          "img": "http://via.placeholder.com/70x50"
+          "img": "../../img/huawei_nova3_2.jpg"
         },
         {
-          "img": "http://via.placeholder.com/70x50"
-        }
-      ],
-      "specifications": {
-        "screen": "5 inch",
-        "os": "Android 7.0",
-        "frontCamera": "8.0MP",
-        "endCamera": "13.1MP",
-        "cpu": "Snapdragon 845",
-        "ram": "4Gb",
-        "rom": "32Gb",
-        "memoryCard": "128Gb",
-        "sim": "1 Sim",
-        "battery": "3600 mAh"
-      },
-      "posts": "abcdef"
-    },
-    {
-      "id": 2,
-      "name": "Xiaomi Mi Mix",
-      "company": "Samsung",
-      "price": 13500000,
-      "imgCover": "https://i.imgur.com/qbGT6Xt.jpg",
-      "highlights": 1,
-      "tendency": 1,
-      "options": [
-        {
-          "color": "Trắng"
-        },
-        {
-          "color": "Đen"
-        }
-      ],
-      "urlImg": [
-        {
-          "img": "http://via.placeholder.com/70x50"
-        },
-        {
-          "img": "http://via.placeholder.com/70x50"
-        },
-        {
-          "img": "http://via.placeholder.com/70x50"
-        }
-      ],
-      "specifications": {
-        "screen": "b",
-        "os": "b",
-        "frontCamera": "b",
-        "endCamera": "b",
-        "cpu": "b",
-        "ram": "b",
-        "rom": "b",
-        "memoryCard": "b",
-        "sim": "b",
-        "battery": "b"
-      },
-      "posts": ""
-    },
-    {
-      "id": 3,
-      "name": "Xiaomi A2 Lite",
-      "company": "Xiaomi",
-      "price": 5299000,
-      "imgCover": "https://i.imgur.com/qbGT6Xt.jpg",
-      "highlights": 1,
-      "tendency": 1,
-      "options": [
-        {
-          "color": "Đen"
-        },
-        {
-          "color": "Xanh"
-        }
-      ],
-      "urlImg": [
-        {
-          "img": "https://i.imgur.com/qbGT6Xt.jpg"
-        },
-        {
-          "img": "https://i.imgur.com/EPNZcCI.jpg"
-        },
-        {
-          "img": "https://i.imgur.com/6OqeO6o.jpg"
+          "img": "../../img/huawei_nova3_3.jpg"
         }
       ],
       "promotions": [
         {
-          "li": "Tặng DCL cao cấp khi mua bảo hành 12 tháng 1 đổi 1"
+          "li": "Trả góp 0%/ Trả thẳng"
         },
         {
-          "li": "Ốp lưng Clearview chỉ 60K / ốp lưng cao cấp 99K"
+          "li": "Tặng Miếng dán cường lực "
         },
         {
-          "li": "Kính cường lực chỉ 60K / Cường lực Full chỉ 99K"
+          "li": "Tặng Miếng dán màn hình + Ốp lưng trong (kèm trong hộp máy)"
         },
         {
-          "li": "Sim Viettel 60gb/tháng chỉ 199k"
-        },
-        {
-          "li": "PDP Xiaomi chính hãng 10.000mAh Gen 2 chỉ 329K"
+          "li": "Tặng Tai nghe AKG khi mua Online"
         }
       ],
       "specifications": {
-        "screen": "b",
-        "os": "b",
-        "frontCamera": "b",
-        "endCamera": "b",
-        "cpu": "b",
-        "ram": "b",
-        "rom": "b",
-        "memoryCard": "b",
-        "sim": "b",
-        "battery": "b"
+        "screen": "6.3 inch, FHD+",
+        "os": "Android 8.1",
+        "frontCamera": "24MP và 2MP",
+        "endCamera": "24MP và 16MP",
+        "cpu": "Kirin 970 4 nhân 2.36Ghz và 4 nhân 1.8Ghz",
+        "gpu": "Mali-G72 MP12",
+        "ram": "6GB",
+        "rom": "128Gb",
+        "sim": "2 Sim",
+        "battery": "3750mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 9,
+      "name": "Huawei Nova 3i",
+      "company": "Huawei",
+      "price": 6990000,
+      "imgCover": "../../img/huawei_nova3i_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Tím xanh"
+        },
+        {
+          "color": "Đen"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/huawei_nova3i_1.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3i_2.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3i_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng Tai nghe Bluetooth Huawei AM61 khi mua Online"
+        },
+        {
+          "li": "Tặng Miếng dán cường lực"
+        },
+        {
+          "li": "Tặng Ốp lưng trong (kèm trong hộp máy)"
+        }
+      ],
+      "specifications": {
+        "screen": "6.3 inch, FHD+",
+        "os": "Android 8.1",
+        "frontCamera": "24MP và 2MP",
+        "endCamera": "16MP và 2MP",
+        "cpu": "Kirin 710 4 nhân 2.2Ghz và 4 nhân 1.7Ghz",
+        "gpu": "Mali-G51 MP4",
+        "ram": "4GB",
+        "rom": "128Gb",
+        "sim": "2 Sim",
+        "battery": "3340mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 10,
+      "name": "Huawei Nova 3e",
+      "company": "Huawei",
+      "price": 5990000,
+      "imgCover": "../../img/huawei_nova3e_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Xanh"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Hồng"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/huawei_nova3e_1.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_2.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        },
+        {
+          "li": "Tặng Miếng dán cường lực"
+        }
+      ],
+      "specifications": {
+        "screen": "5.84 inch, FHD+",
+        "os": "Android 8.0",
+        "frontCamera": "16MP",
+        "endCamera": "16MP và 2MP",
+        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
+        "gpu": "Mali-T830 MP2",
+        "ram": "4GB",
+        "rom": "128Gb",
+        "sim": "2 Sim",
+        "battery": "3000mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 11,
+      "name": "Huawei Nova 3e",
+      "company": "Huawei",
+      "price": 5990000,
+      "imgCover": "../../img/huawei_nova3e_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Xanh"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Hồng"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/huawei_nova3e_1.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_2.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        },
+        {
+          "li": "Tặng Miếng dán cường lực"
+        }
+      ],
+      "specifications": {
+        "screen": "5.84 inch, FHD+",
+        "os": "Android 8.0",
+        "frontCamera": "16MP",
+        "endCamera": "16MP và 2MP",
+        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
+        "gpu": "Mali-T830 MP2",
+        "ram": "4GB",
+        "rom": "128Gb",
+        "sim": "2 Sim",
+        "battery": "3000mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 12,
+      "name": "Huawei Nova 3e",
+      "company": "Huawei",
+      "price": 5990000,
+      "imgCover": "../../img/huawei_nova3e_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Xanh"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Hồng"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/huawei_nova3e_1.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_2.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        },
+        {
+          "li": "Tặng Miếng dán cường lực"
+        }
+      ],
+      "specifications": {
+        "screen": "5.84 inch, FHD+",
+        "os": "Android 8.0",
+        "frontCamera": "16MP",
+        "endCamera": "16MP và 2MP",
+        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
+        "gpu": "Mali-T830 MP2",
+        "ram": "4GB",
+        "rom": "128Gb",
+        "sim": "2 Sim",
+        "battery": "3000mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 13,
+      "name": "Huawei Nova 3e",
+      "company": "Huawei",
+      "price": 5990000,
+      "imgCover": "../../img/huawei_nova3e_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Xanh"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Hồng"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/huawei_nova3e_1.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_2.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        },
+        {
+          "li": "Tặng Miếng dán cường lực"
+        }
+      ],
+      "specifications": {
+        "screen": "5.84 inch, FHD+",
+        "os": "Android 8.0",
+        "frontCamera": "16MP",
+        "endCamera": "16MP và 2MP",
+        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
+        "gpu": "Mali-T830 MP2",
+        "ram": "4GB",
+        "rom": "128Gb",
+        "sim": "2 Sim",
+        "battery": "3000mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 14,
+      "name": "Huawei Nova 3e",
+      "company": "Huawei",
+      "price": 5990000,
+      "imgCover": "../../img/huawei_nova3e_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Xanh"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Hồng"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/huawei_nova3e_1.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_2.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        },
+        {
+          "li": "Tặng Miếng dán cường lực"
+        }
+      ],
+      "specifications": {
+        "screen": "5.84 inch, FHD+",
+        "os": "Android 8.0",
+        "frontCamera": "16MP",
+        "endCamera": "16MP và 2MP",
+        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
+        "gpu": "Mali-T830 MP2",
+        "ram": "4GB",
+        "rom": "128Gb",
+        "sim": "2 Sim",
+        "battery": "3000mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 15,
+      "name": "Huawei Nova 3e",
+      "company": "Huawei",
+      "price": 5990000,
+      "imgCover": "../../img/huawei_nova3e_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Xanh"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Hồng"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/huawei_nova3e_1.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_2.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        },
+        {
+          "li": "Tặng Miếng dán cường lực"
+        }
+      ],
+      "specifications": {
+        "screen": "5.84 inch, FHD+",
+        "os": "Android 8.0",
+        "frontCamera": "16MP",
+        "endCamera": "16MP và 2MP",
+        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
+        "gpu": "Mali-T830 MP2",
+        "ram": "4GB",
+        "rom": "128Gb",
+        "sim": "2 Sim",
+        "battery": "3000mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 16,
+      "name": "Huawei Nova 3e",
+      "company": "Huawei",
+      "price": 5990000,
+      "imgCover": "../../img/huawei_nova3e_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Xanh"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Hồng"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/huawei_nova3e_1.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_2.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        },
+        {
+          "li": "Tặng Miếng dán cường lực"
+        }
+      ],
+      "specifications": {
+        "screen": "5.84 inch, FHD+",
+        "os": "Android 8.0",
+        "frontCamera": "16MP",
+        "endCamera": "16MP và 2MP",
+        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
+        "gpu": "Mali-T830 MP2",
+        "ram": "4GB",
+        "rom": "128Gb",
+        "sim": "2 Sim",
+        "battery": "3000mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 17,
+      "name": "Huawei Nova 3e",
+      "company": "Huawei",
+      "price": 5990000,
+      "imgCover": "../../img/huawei_nova3e_1.jpg",
+      "highlights": 1,
+      "hot": 1,
+      "options": [
+        {
+          "color": "Xanh"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Hồng"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/huawei_nova3e_1.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_2.jpg"
+        },
+        {
+          "img": "../../img/huawei_nova3e_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        },
+        {
+          "li": "Tặng Miếng dán cường lực"
+        }
+      ],
+      "specifications": {
+        "screen": "5.84 inch, FHD+",
+        "os": "Android 8.0",
+        "frontCamera": "16MP",
+        "endCamera": "16MP và 2MP",
+        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
+        "gpu": "Mali-T830 MP2",
+        "ram": "4GB",
+        "rom": "128Gb",
+        "sim": "2 Sim",
+        "battery": "3000mAh"
       },
       "posts": "abcdef"
     }
@@ -165,14 +937,24 @@
   ],
   "bag": [
     {
-      "id": "3Đenlebathanhtuan",
-      "name": "Xiaomi A2 Lite",
-      "price": "5299000",
-      "color": "Đen",
+      "id": "4Bạclebathanhtuan",
+      "name": "Samsung Galaxy Note 8",
+      "price": "19990000",
+      "color": "Bạc",
       "number": "1",
-      "imgCover": "https://i.imgur.com/qbGT6Xt.jpg",
+      "imgCover": "../../img/samsung_note8_1.jpg",
       "nameBag": "lebathanhtuan",
-      "idProduct": "3"
+      "idProduct": "4"
+    },
+    {
+      "id": "7Tím xanhlebathanhtuan",
+      "name": "Huawei P20 Pro",
+      "price": "19990000",
+      "color": "Tím xanh",
+      "number": "1",
+      "imgCover": "../../img/huawei_p20pro_1.jpg",
+      "nameBag": "lebathanhtuan",
+      "idProduct": "7"
     }
   ],
   "comments": [

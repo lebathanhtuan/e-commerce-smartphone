@@ -99,11 +99,9 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
                                         <select class="custom-select" id="guarantee">
-                                            <option selected>Chọn chế độ bảo hành</option>
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
+                                            <option value="1" selected>Bảo hành mặt định</option>
+                                            <option value="2">Bảo hành nâng cao</option>
+                                            <option value="3">Bảo hành cao cấp</option>
                                         </select>
                                     </div>
                                 </div>
@@ -125,8 +123,15 @@
                                     <div class="container-product-guarantee">
                                         <div class="product-guarantee-head">Chế độ bảo hành</div>
                                             <div class="product-guarantee-main">
-                                                <div class="scrollbar content-guarantee p-1">
-                                                    <p>đâs</p>
+                                                <div class="scrollbar content-guarantee" id="content-guarantee">
+                                                    <h6 style="color: green">Mặc định</h6>
+                                                    <div class="border mb-2">
+                                                        <p>1 đổi 1, 15 ngày</p>
+                                                        <p>Bảo hành 12 tháng</p>
+                                                        <p>Xử lý lỗi trong 15 ngày</p>
+                                                    </div>
+                                                    <p>Bảo hành toàn diện phần cứng bao gồm nguồn, màn hình, vân tay. Ngoại trừ rơi móp, vào nước</p>
+                                                    <button class="btn btn-outline-success">Xem thêm</button>
                                                 </div>
                                             </div>
                                     </div>
@@ -182,52 +187,173 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="container-product-detail sticky-top">
-                        <p style="padding: 3px; font-size: 20px">Thông số kĩ thuật</p>
-                        <table class="table">
-                            <tbody>
-                                <tr>
-                                    <td>Màn hình:</td>
-                                    <td id="displayScreen"></td>
-                                </tr>
-                                <tr>
-                                    <td>Hệ điều hành:</td>
-                                    <td id="displayOS"></td>
-                                </tr>
-                                <tr>
-                                    <td>Camera sau:</td>
-                                    <td id="displayEndCamera"></td>
-                                </tr>
-                                <tr>
-                                    <td>Camera trước:</td>
-                                    <td id="displayFrontCamera"></td>
-                                </tr>
-                                <tr>
-                                    <td>CPU:</td>
-                                    <td id="displayCPU"></td>
-                                </tr>
-                                <tr>
-                                    <td>RAM:</td>
-                                    <td id="displayRAM"></td>
-                                </tr>
-                                <tr>
-                                    <td>Bộ nhớ trong:</td>
-                                    <td id="displayROM"></td>
-                                </tr>
-                                <tr>
-                                    <td>Thẻ nhớ:</td>
-                                    <td id="displayMemoryCard"></td>
-                                </tr>
-                                <tr>
-                                    <td>Thẻ SIM:</td>
-                                    <td id="displaySim"></td>
-                                </tr>
-                                <tr>
-                                    <td>Dung lượng pin:</td>
-                                    <td id="displayBattery"></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="container-product-detail sticky-top p-0">
+                        <p style="padding: 25px 25px 3px 25px; font-size: 20px">Thông số kĩ thuật</p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Màn hình:</td>
+                                        <td id="displayScreen"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hệ điều hành:</td>
+                                        <td id="displayOS"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Camera sau:</td>
+                                        <td id="displayEndCamera"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Camera trước:</td>
+                                        <td id="displayFrontCamera"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>CPU:</td>
+                                        <td id="displayCPU"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>GPU:</td>
+                                        <td id="displayGPU"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>RAM:</td>
+                                        <td id="displayRAM"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bộ nhớ trong:</td>
+                                        <td id="displayROM"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Thẻ SIM:</td>
+                                        <td id="displaySim"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dung lượng pin:</td>
+                                        <td id="displayBattery"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid container-footer-police">
+            <div class="container container-police">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="content-police">
+                            <div class="float-left police-logo">
+                                <img src="../../img/icon/certificate.png" height="42px" width="auto">
+                            </div>
+                            <div class="police-text">
+                                <h6>Hàng chính hãng</h6>
+                                <p>Chúng tôi cam kết mọi sản phẩm là hàng chính hãng.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="content-police">
+                            <div class="float-left police-logo">
+                                <img src="../../img/icon/refresh.png" height="42px" width="auto">
+                            </div>
+                            <div class="police-text">
+                                <h6>Đổi trả hàng</h6>
+                                <p>Dễ dàng lên đến 15 ngày đầu khi mua sản phẩm.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="content-police">
+                            <div class="float-left police-logo">
+                                <img src="../../img/icon/protect-filled.png" height="42px" width="auto">
+                            </div>
+                            <div class="police-text">
+                                <h6>Bảo hành 12 tháng</h6>
+                                <p>Chính hãng mọi sản phẩm của chúng tối.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="content-police">
+                            <div class="float-left police-logo">
+                                <img src="../../img/icon/itruck-filled.png" height="42px" width="auto">
+                            </div>
+                            <div class="police-text">
+                                <h6>Giao hàng toàn quốc</h6>
+                                <p>Vận chuyển nhanh trong 60 phút.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid container-footer-about">
+            <div class="container container-about">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="content-about">
+                            <div class="about-text">
+                                <h6>Về chúng tôi</h6>
+                                <p>didongxanh.com được thành lập từ năm 2004, là chuỗi bán lẻ thiết bị di động (điện thoại di động, máy tính bảng, laptop và phụ kiện) có thị phần số 1 Việt Nam với hơn 1000 cửa hàng hiện diện tại 63 tỉnh thành trên khắp Việt Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="content-about">
+                            <div class="about-text">
+                                <h6>Liên kết liên quan</h6>
+                                <ul style="padding-left: 20px;">
+                                    <li>Chính sách bảo hành</li>
+                                    <li>Chính sách đổi trả</li>
+                                    <li>Giao hàng và thanh toán</li>
+                                    <li>Tìm hiểu về mua trả góp</li>
+                                    <li>Tin khuyến mãi</li>
+                                    <li>Hệ thống cửa hàng</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="content-about">
+                            <div class="about-text">
+                                <h6>Liên hệ</h6>
+                                <p>Tư vấn miễn phí (24/7):</p>
+                                <span class="hotline">1800 6601</span>
+                                <p>Góp ý, phản ánh (8h00 - 22h00):</p>
+                                <span class="hotline">1800 6616</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="content-about">
+                            <div class="about-text" style="text-align: left">
+                                <h6>Liên kết khác</h6>
+                                <p><i class="material-icons" style="font-size: 12px">email</i>  Email: hotro@didongxanh.com</p>
+                                <p><i class="fa fa-facebook-official"></i>  Fanpage: fb.com/didongxanh</p>
+                                <p><i class="fa fa-youtube-play"></i>  Youtube: Di Động Xanh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid container-footer-copyright">
+            <div class="container container-copyright">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-6">
+                        <div class="content-copyright">
+                            <p>Copyright © 2018</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6">
+                        <div class="content-card">
+                            <i class="fa fa-cc-visa"></i>
+                            <i class="fa fa-cc-mastercard"></i>
+                            <i class="fa fa-credit-card-alt"></i>
+                            <i class="fa fa-cc-jcb"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -381,9 +507,9 @@
                     var dataEndCamera = data.specifications.endCamera;
                     var dataFrontCamera = data.specifications.frontCamera;
                     var dataCPU = data.specifications.cpu;
+                    var dataGPU = data.specifications.gpu;
                     var dataRAM = data.specifications.ram;
                     var dataROM = data.specifications.rom;
-                    var dataMemoryCard = data.specifications.memoryCard;
                     var dataSim = data.specifications.sim;
                     var dataBattery = data.specifications.battery;
 
@@ -430,7 +556,7 @@
                     
                     $.each($(dataPromotions), function(i, promotions){
                         $("#displayPromotions").append(
-                            '<li><small>'+promotions.li+'<small></li>'
+                            '<li>'+promotions.li+'</li>'
                         );
                     });
                     $("#displayBreadcrumb").append(
@@ -443,12 +569,56 @@
                     $("#displayEndCamera").text(dataEndCamera);
                     $("#displayFrontCamera").text(dataFrontCamera);
                     $("#displayCPU").text(dataCPU);
+                    $("#displayGPU").text(dataGPU);
                     $("#displayRAM").text(dataRAM);
                     $("#displayROM").text(dataROM);
-                    $("#displayMemoryCard").text(dataMemoryCard);
                     $("#displaySim").text(dataSim);
                     $("#displayBattery").text(dataBattery);
                     $("#displayPosts").text(dataPosts);
+
+                    $("#guarantee").change(function(){
+                        if($("#guarantee").val() == 1){
+                            $("#content-guarantee").empty();
+                            $("#content-guarantee").append(
+                                '<h6 style="color: green">Mặc định</h6>'+
+                                '<div class="border mb-2">'+
+                                    '<p>1 đổi 1, 15 ngày</p>'+
+                                    '<p>Bảo hành 12 tháng</p>'+
+                                    '<p>Xử lý lỗi trong 15 ngày</p>'+
+                                '</div>'+
+                                '<p>Bảo hành toàn diện phần cứng bao gồm nguồn, màn hình, vân tay. Ngoại trừ rơi móp, vào nước</p>'+
+                                '<button class="btn btn-outline-success">Xem thêm</button>'
+                            );
+                        }
+                        if($("#guarantee").val() == 2){
+                            $("#content-guarantee").empty();
+                            $("#content-guarantee").append(
+                                '<h6 style="color: green">Nâng cao</h6>'+
+                                '<div class="border mb-2">'+
+                                    '<p>1 đổi 1, 30 ngày</p>'+
+                                    '<p>Bảo hành 18 tháng</p>'+
+                                    '<p>Xử lý lỗi trong 7 ngày</p>'+
+                                    '<p>Bảo hành rơi móp</p>'+
+                                '</div>'+
+                                '<p>Bảo hành toàn diện phần cứng bao gồm nguồn, màn hình, vân tay cả rơi móp. Ngoại trừ vào nước</p>'+
+                                '<button class="btn btn-outline-success">Xem thêm</button>'
+                            );
+                        }
+                        if($("#guarantee").val() == 3){
+                            $("#content-guarantee").empty();
+                            $("#content-guarantee").append(
+                                '<h6 style="color: green">Cao cấp</h6>'+
+                                '<div class="border mb-2">'+
+                                    '<p>1 đổi 1, 45 ngày</p>'+
+                                    '<p>Bảo hành 24 tháng</p>'+
+                                    '<p>Xử lý lỗi trong 3 ngày</p>'+
+                                    '<p>Bảo hành rơi móp, vào nước</p>'+
+                                '</div>'+
+                                '<p>Bảo hành toàn diện phần cứng bao gồm nguồn, màn hình, vân tay cả rơi móp và vào nước</p>'+
+                                '<button class="btn btn-outline-success">Xem thêm</button>'
+                            );
+                        }
+                    });
 
                     $("#setBag").click(function(){
                         var colorProduct = $("#colorProduct").val();
