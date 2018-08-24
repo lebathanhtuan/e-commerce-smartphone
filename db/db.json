@@ -6,7 +6,6 @@
       "company": "Samsung",
       "price": 7290000,
       "imgCover": "../../img/samsung_j8_2.jpg",
-      "highlights": 1,
       "hot": 1,
       "options": [
         {
@@ -67,7 +66,6 @@
       "company": "Samsung",
       "price": 3990000,
       "imgCover": "../../img/samsung_j4_2.jpg",
-      "highlights": 1,
       "hot": 1,
       "options": [
         {
@@ -83,6 +81,14 @@
         },
         {
           "img": "../../img/samsung_j4_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/Trả thẳng"
+        },
+        {
+          "li": "Quà tặng Galaxy xem phim & Cafe cuối tuần"
         }
       ],
       "specifications": {
@@ -105,7 +111,6 @@
       "company": "Samsung",
       "price": 23490000,
       "imgCover": "../../img/samsung_s9plus_1.jpg",
-      "highlights": 1,
       "hot": 1,
       "options": [
         {
@@ -166,7 +171,6 @@
       "company": "Samsung",
       "price": 19990000,
       "imgCover": "../../img/samsung_note8_1.jpg",
-      "highlights": 1,
       "hot": 1,
       "options": [
         {
@@ -218,7 +222,6 @@
       "company": "Samsung",
       "price": 9990000,
       "imgCover": "../../img/samsung_a8_1.jpg",
-      "highlights": 1,
       "hot": 1,
       "options": [
         {
@@ -270,7 +273,6 @@
       "company": "Samsung",
       "price": 11990000,
       "imgCover": "../../img/samsung_a8plus_1.jpg",
-      "highlights": 1,
       "hot": 1,
       "options": [
         {
@@ -322,7 +324,6 @@
       "company": "Huawei",
       "price": 19990000,
       "imgCover": "../../img/huawei_p20pro_1.jpg",
-      "highlights": 1,
       "hot": 1,
       "options": [
         {
@@ -374,7 +375,6 @@
       "company": "Huawei",
       "price": 11990000,
       "imgCover": "../../img/huawei_nova3_1.jpg",
-      "highlights": 1,
       "hot": 1,
       "options": [
         {
@@ -429,7 +429,6 @@
       "company": "Huawei",
       "price": 6990000,
       "imgCover": "../../img/huawei_nova3i_1.jpg",
-      "highlights": 1,
       "hot": 1,
       "options": [
         {
@@ -484,7 +483,6 @@
       "company": "Huawei",
       "price": 5990000,
       "imgCover": "../../img/huawei_nova3e_1.jpg",
-      "highlights": 1,
       "hot": 1,
       "options": [
         {
@@ -535,32 +533,28 @@
     },
     {
       "id": 11,
-      "name": "Huawei Nova 3e",
-      "company": "Huawei",
-      "price": 5990000,
-      "imgCover": "../../img/huawei_nova3e_1.jpg",
-      "highlights": 1,
+      "name": "Apple Iphone X",
+      "company": "Apple",
+      "price": 29990000,
+      "imgCover": "../../img/apple_ipx_1.jpg",
       "hot": 1,
       "options": [
         {
-          "color": "Xanh"
+          "color": "Trắng"
         },
         {
           "color": "Đen"
-        },
-        {
-          "color": "Hồng"
         }
       ],
       "urlImg": [
         {
-          "img": "../../img/huawei_nova3e_1.jpg"
+          "img": "../../img/apple_ipx_1.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_2.jpg"
+          "img": "../../img/apple_ipx_2.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_3.jpg"
+          "img": "../../img/apple_ipx_3.jpg"
         }
       ],
       "promotions": [
@@ -568,54 +562,59 @@
           "li": "Trả góp 0%/ Trả thẳng"
         },
         {
-          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Apple Watch)"
         },
         {
-          "li": "Tặng Miếng dán cường lực"
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Airpods)"
+        },
+        {
+          "li": "Giảm 1,000,000đ khi thanh toán Online bằng thẻ Mastercard"
         }
       ],
       "specifications": {
-        "screen": "5.84 inch, FHD+",
-        "os": "Android 8.0",
-        "frontCamera": "16MP",
-        "endCamera": "16MP và 2MP",
-        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
-        "gpu": "Mali-T830 MP2",
-        "ram": "4GB",
-        "rom": "128Gb",
-        "sim": "2 Sim",
-        "battery": "3000mAh"
+        "screen": "2436x1125 pixel",
+        "os": "iOS 11",
+        "frontCamera": "7MP",
+        "endCamera": "2 Camera 12 MP",
+        "cpu": "Apple A11 Bionic, 6",
+        "gpu": "Apple GPU",
+        "ram": "3GB",
+        "rom": "64Gb",
+        "sim": "1 Sim",
+        "battery": "2716mAh"
       },
-      "posts": "abcdef"
+      "posts": "<img src='../../img/apple_ipx_post_1.jpg' class='img-post'></img><p>iPhone X 64GB đã lột xác hoàn toàn với việc loại bỏ nút Home truyền thống, màn hình tràn viền và camera kép ở phía sau đã được đặt lại vị trí theo chiều dọc. Khung viền từ thép sáng bóng bền bỉ và mặt lưng kính với các góc bo tròn dễ dàng cầm nắm. Có thể nói đây là một thiết kế khá đột phá mà lâu lắm rồi Apple mới thể hiện lại. Người dùng cần phải trên tay thì mới cảm nhận được hết nét tinh tế và sang trọng của sản phẩm.</p><img src='../../img/apple_ipx_post_2.jpg' class='img-post'></img><p>iPhone X 64GB là chiếc smartphone đầu tiên được Apple ưu ái cho tấm nền màn hình OLED, kích thước 5.8 inch và độ phân giải đạt chuẩn Super Retina HD, Điều này giúp cho màn hình có màu sắc sống động, góc nhìn rộng hơn, cải thiện độ sáng và tốn ít điện năng hơn. Bên cạnh đó, công nghệ True Tone còn giúp màu sắc trở nên cực kì trung thực.</p><img src='../../img/apple_ipx_post_3.jpg' class='img-post'><p>iPhone X 64GB có 3 tính năng độc quyền cho camera trước là Portrait Mode Selfie (xóa phông), Portrait Lighting (ánh sáng chân dung), Animoji (biểu tượng cảm xúc) có thể bắt chước điệu bộ khuôn mặt và giọng nói người dùng. Khác biệt lớn nhất của iPhone X là chức năng chống rung (OIS) cho cả ống kính góc rộng và tele ở camera sau, đồng nghĩa iPhone X có thể chụp ảnh sắc nét hơn trong mọi trường hợp.</p><img src='../../img/apple_ipx_post_4.jpg' class='img-post'><p>iPhone X 64GB được cung cấp sức mạnh bởi chip xử lý A11 Bionic sáu lõi (Hexa core) 64 bit, gồm 2 lõi hiệu suất cao và 4 lõi hiệu suất thấp hơn. Ước tính, tốc độ của 2 lõi hiệu suất cao có tốc độ nhanh hơn 25% so với chip A10 cũ, giúp tiết kiệm năng lượng lên tới 70%. Ngoài ra, chip xử lý đồ họa GPU M11 cũng giúp cải thiện tốc độ lên khoảng 30% so với GPU năm ngoái. Nhờ sự kết hợp này, người dùng sẽ có cơ hội lướt game nhanh và “mượt” hơn.</p><img src='../../img/apple_ipx_post_5.jpg' class='img-post'><p>Theo công bố, thời lượng pin của iPhone X sẽ lâu hơn iPhone 7 khoảng 2 giờ đồng hồ. Hai tính năng thú vị khác cũng được đưa lên sản phẩm: sạc nhanh (sạc pin 50% chỉ trong 30 phút) và sạc không dây Qi. Với tấm sạc Air Power của hãng, bạn có thể sạc cùng lúc iPhone X, đồng hồ Apple Watch và tai nghe không dây Air Pods.</p>"
     },
     {
       "id": 12,
-      "name": "Huawei Nova 3e",
-      "company": "Huawei",
-      "price": 5990000,
-      "imgCover": "../../img/huawei_nova3e_1.jpg",
-      "highlights": 1,
+      "name": "Apple Iphone 8 Plus",
+      "company": "Apple",
+      "price": 23990000,
+      "imgCover": "../../img/apple_ip8plus_1.jpg",
       "hot": 1,
       "options": [
         {
-          "color": "Xanh"
+          "color": "Trắng"
         },
         {
           "color": "Đen"
         },
         {
-          "color": "Hồng"
+          "color": "Vàng hồng"
+        },
+        {
+          "color": "Đỏ"
         }
       ],
       "urlImg": [
         {
-          "img": "../../img/huawei_nova3e_1.jpg"
+          "img": "../../img/apple_ip8plus_1.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_2.jpg"
+          "img": "../../img/apple_ip8plus_2.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_3.jpg"
+          "img": "../../img/apple_ip8plus_3.jpg"
         }
       ],
       "promotions": [
@@ -623,54 +622,59 @@
           "li": "Trả góp 0%/ Trả thẳng"
         },
         {
-          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+          "li": "Giảm 500,000đ khi thanh toán Online bằng thẻ Mastercard"
         },
         {
-          "li": "Tặng Miếng dán cường lực"
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Apple Watch)"
+        },
+        {
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Airpods)"
         }
       ],
       "specifications": {
-        "screen": "5.84 inch, FHD+",
-        "os": "Android 8.0",
-        "frontCamera": "16MP",
-        "endCamera": "16MP và 2MP",
-        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
-        "gpu": "Mali-T830 MP2",
-        "ram": "4GB",
-        "rom": "128Gb",
-        "sim": "2 Sim",
-        "battery": "3000mAh"
+        "screen": "5.5 inch, 1920x1080",
+        "os": "iOS 11",
+        "frontCamera": "7MP",
+        "endCamera": "2 Camera 12MP",
+        "cpu": "Apple A11 Bionic, 6",
+        "gpu": "Apple GPU",
+        "ram": "3GB",
+        "rom": "64Gb",
+        "sim": "1 Sim",
+        "battery": "2675mAh"
       },
       "posts": "abcdef"
     },
     {
       "id": 13,
-      "name": "Huawei Nova 3e",
-      "company": "Huawei",
-      "price": 5990000,
-      "imgCover": "../../img/huawei_nova3e_1.jpg",
-      "highlights": 1,
+      "name": "Apple Iphone 8",
+      "company": "Apple",
+      "price": 20990000,
+      "imgCover": "../../img/apple_ip8_1.jpg",
       "hot": 1,
       "options": [
         {
-          "color": "Xanh"
+          "color": "Trắng"
         },
         {
           "color": "Đen"
         },
         {
-          "color": "Hồng"
+          "color": "Vàng hồng"
+        },
+        {
+          "color": "Đỏ"
         }
       ],
       "urlImg": [
         {
-          "img": "../../img/huawei_nova3e_1.jpg"
+          "img": "../../img/apple_ip8_1.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_2.jpg"
+          "img": "../../img/apple_ip8_2.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_3.jpg"
+          "img": "../../img/apple_ip8_3.jpg"
         }
       ],
       "promotions": [
@@ -678,54 +682,59 @@
           "li": "Trả góp 0%/ Trả thẳng"
         },
         {
-          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+          "li": "Giảm 500,000đ khi thanh toán Online bằng thẻ Mastercard"
         },
         {
-          "li": "Tặng Miếng dán cường lực"
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Apple Watch)"
+        },
+        {
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Airpods)"
         }
       ],
       "specifications": {
-        "screen": "5.84 inch, FHD+",
-        "os": "Android 8.0",
-        "frontCamera": "16MP",
-        "endCamera": "16MP và 2MP",
-        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
-        "gpu": "Mali-T830 MP2",
-        "ram": "4GB",
-        "rom": "128Gb",
-        "sim": "2 Sim",
-        "battery": "3000mAh"
+        "screen": "4.7 inch, 1334x750",
+        "os": "iOS 11",
+        "frontCamera": "7MP",
+        "endCamera": "12MP",
+        "cpu": "Apple A11 Bionic, 6",
+        "gpu": "Apple GPU",
+        "ram": "2GB",
+        "rom": "64Gb",
+        "sim": "1 Sim",
+        "battery": "1821mAh"
       },
-      "posts": "abcdef"
+      "posts": ""
     },
     {
       "id": 14,
-      "name": "Huawei Nova 3e",
-      "company": "Huawei",
-      "price": 5990000,
-      "imgCover": "../../img/huawei_nova3e_1.jpg",
-      "highlights": 1,
+      "name": "Apple Iphone 7 Plus",
+      "company": "Apple",
+      "price": 19990000,
+      "imgCover": "../../img/apple_ip7plus_1.jpg",
       "hot": 1,
       "options": [
         {
-          "color": "Xanh"
+          "color": "Trắng"
         },
         {
           "color": "Đen"
         },
         {
-          "color": "Hồng"
+          "color": "Vàng"
+        },
+        {
+          "color": "Đỏ"
         }
       ],
       "urlImg": [
         {
-          "img": "../../img/huawei_nova3e_1.jpg"
+          "img": "../../img/apple_ip7plus_1.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_2.jpg"
+          "img": "../../img/apple_ip7plus_2.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_3.jpg"
+          "img": "../../img/apple_ip7plus_3.jpg"
         }
       ],
       "promotions": [
@@ -733,54 +742,59 @@
           "li": "Trả góp 0%/ Trả thẳng"
         },
         {
-          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+          "li": "Giảm 500,000đ khi thanh toán Online bằng thẻ Mastercard"
         },
         {
-          "li": "Tặng Miếng dán cường lực"
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Apple Watch)"
+        },
+        {
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Airpods)"
         }
       ],
       "specifications": {
-        "screen": "5.84 inch, FHD+",
-        "os": "Android 8.0",
-        "frontCamera": "16MP",
-        "endCamera": "16MP và 2MP",
-        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
-        "gpu": "Mali-T830 MP2",
-        "ram": "4GB",
-        "rom": "128Gb",
-        "sim": "2 Sim",
-        "battery": "3000mAh"
+        "screen": "5.5 inch, 1920x1080",
+        "os": "iOS 11",
+        "frontCamera": "7MP",
+        "endCamera": "2 Camera 12MP",
+        "cpu": "Apple A10 4 nhân 2.3Ghz",
+        "gpu": "Apple GPU M10",
+        "ram": "3GB",
+        "rom": "32Gb",
+        "sim": "1 Sim",
+        "battery": "2900mAh"
       },
-      "posts": "abcdef"
+      "posts": ""
     },
     {
       "id": 15,
-      "name": "Huawei Nova 3e",
-      "company": "Huawei",
-      "price": 5990000,
-      "imgCover": "../../img/huawei_nova3e_1.jpg",
-      "highlights": 1,
+      "name": "Apple Iphone 7",
+      "company": "Apple",
+      "price": 15990000,
+      "imgCover": "../../img/apple_ip7_1.jpg",
       "hot": 1,
       "options": [
         {
-          "color": "Xanh"
+          "color": "Trắng"
         },
         {
           "color": "Đen"
         },
         {
-          "color": "Hồng"
+          "color": "Vàng hồng"
+        },
+        {
+          "color": "Đỏ"
         }
       ],
       "urlImg": [
         {
-          "img": "../../img/huawei_nova3e_1.jpg"
+          "img": "../../img/apple_ip7_1.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_2.jpg"
+          "img": "../../img/apple_ip7_2.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_3.jpg"
+          "img": "../../img/apple_ip7_3.jpg"
         }
       ],
       "promotions": [
@@ -788,54 +802,59 @@
           "li": "Trả góp 0%/ Trả thẳng"
         },
         {
-          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+          "li": "Giảm 500,000đ khi thanh toán Online bằng thẻ Mastercard"
         },
         {
-          "li": "Tặng Miếng dán cường lực"
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Apple Watch)"
+        },
+        {
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Airpods)"
         }
       ],
       "specifications": {
-        "screen": "5.84 inch, FHD+",
-        "os": "Android 8.0",
-        "frontCamera": "16MP",
-        "endCamera": "16MP và 2MP",
-        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
-        "gpu": "Mali-T830 MP2",
-        "ram": "4GB",
-        "rom": "128Gb",
-        "sim": "2 Sim",
-        "battery": "3000mAh"
+        "screen": "4.7 inch, 1334x750",
+        "os": "iOS 11",
+        "frontCamera": "7MP",
+        "endCamera": "12MP",
+        "cpu": "Apple A10 4 nhân 2.3Ghz",
+        "gpu": "Apple GPU M10",
+        "ram": "2GB",
+        "rom": "32Gb",
+        "sim": "1 Sim",
+        "battery": "1960mAh"
       },
       "posts": "abcdef"
     },
     {
       "id": 16,
-      "name": "Huawei Nova 3e",
-      "company": "Huawei",
-      "price": 5990000,
-      "imgCover": "../../img/huawei_nova3e_1.jpg",
-      "highlights": 1,
+      "name": "Apple Iphone 6s Plus",
+      "company": "Apple",
+      "price": 12990000,
+      "imgCover": "../../img/apple_ip6plus_1.jpg",
       "hot": 1,
       "options": [
         {
-          "color": "Xanh"
+          "color": "Trắng"
         },
         {
           "color": "Đen"
         },
         {
-          "color": "Hồng"
+          "color": "Vàng"
+        },
+        {
+          "color": "Đỏ"
         }
       ],
       "urlImg": [
         {
-          "img": "../../img/huawei_nova3e_1.jpg"
+          "img": "../../img/apple_ip6plus_1.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_2.jpg"
+          "img": "../../img/apple_ip6plus_2.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_3.jpg"
+          "img": "../../img/apple_ip6plus_3.jpg"
         }
       ],
       "promotions": [
@@ -843,54 +862,59 @@
           "li": "Trả góp 0%/ Trả thẳng"
         },
         {
-          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+          "li": "Giảm 500,000đ khi thanh toán Online bằng thẻ Mastercard"
         },
         {
-          "li": "Tặng Miếng dán cường lực"
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Apple Watch)"
+        },
+        {
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Airpods)"
         }
       ],
       "specifications": {
-        "screen": "5.84 inch, FHD+",
-        "os": "Android 8.0",
-        "frontCamera": "16MP",
-        "endCamera": "16MP và 2MP",
-        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
-        "gpu": "Mali-T830 MP2",
-        "ram": "4GB",
-        "rom": "128Gb",
-        "sim": "2 Sim",
-        "battery": "3000mAh"
+        "screen": "5.5 inch, 1920x1080",
+        "os": "iOS 11",
+        "frontCamera": "5MP",
+        "endCamera": "12MP",
+        "cpu": "Apple A9 2 nhân 1.8Ghz",
+        "gpu": "PowerVR GT7600",
+        "ram": "2GB",
+        "rom": "32Gb",
+        "sim": "1 Sim",
+        "battery": "2750mAh"
       },
       "posts": "abcdef"
     },
     {
       "id": 17,
-      "name": "Huawei Nova 3e",
-      "company": "Huawei",
-      "price": 5990000,
-      "imgCover": "../../img/huawei_nova3e_1.jpg",
-      "highlights": 1,
+      "name": "Apple Iphone 6",
+      "company": "Apple",
+      "price": 7490000,
+      "imgCover": "../../img/apple_ip6_1.jpg",
       "hot": 1,
       "options": [
         {
-          "color": "Xanh"
+          "color": "Trắng"
         },
         {
           "color": "Đen"
         },
         {
-          "color": "Hồng"
+          "color": "Vàng"
+        },
+        {
+          "color": "Đỏ"
         }
       ],
       "urlImg": [
         {
-          "img": "../../img/huawei_nova3e_1.jpg"
+          "img": "../../img/apple_ip6_1.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_2.jpg"
+          "img": "../../img/apple_ip6_2.jpg"
         },
         {
-          "img": "../../img/huawei_nova3e_3.jpg"
+          "img": "../../img/apple_ip6_3.jpg"
         }
       ],
       "promotions": [
@@ -898,25 +922,619 @@
           "li": "Trả góp 0%/ Trả thẳng"
         },
         {
-          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+          "li": "Giảm 500,000đ khi thanh toán Online bằng thẻ Mastercard"
         },
         {
-          "li": "Tặng Miếng dán cường lực"
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Apple Watch)"
+        },
+        {
+          "li": "Giảm 500,000đ khi mua combo (iPhone + Airpods)"
         }
       ],
       "specifications": {
-        "screen": "5.84 inch, FHD+",
-        "os": "Android 8.0",
-        "frontCamera": "16MP",
-        "endCamera": "16MP và 2MP",
-        "cpu": "Kirin 659 4 nhân 2.36Ghz và 4 nhân 1.7Ghz",
-        "gpu": "Mali-T830 MP2",
+        "screen": "4.7 inch, 1334x750",
+        "os": "iOS 9",
+        "frontCamera": "1.2MP",
+        "endCamera": "8MP",
+        "cpu": "Apple A8 2 nhân 1.4 GHz",
+        "gpu": "PowerVR GX6450",
+        "ram": "1GB",
+        "rom": "32Gb",
+        "sim": "1 Sim",
+        "battery": "1810mAh"
+      },
+      "posts": "abcdef"
+    },
+    {
+      "id": 18,
+      "name": "Xiaomi Mi8",
+      "company": "Xiaomi",
+      "price": 12990000,
+      "imgCover": "../../img/xiaomi_mi8_1.jpg",
+      "hot": 1,
+      "options": [
+        {
+          "color": "Trắng"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Xanh dương"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/xiaomi_mi8_1.jpg"
+        },
+        {
+          "img": "../../img/xiaomi_mi8_2.jpg"
+        },
+        {
+          "img": "../../img/xiaomi_mi8_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng SDP Xiaomi 20.000mAh"
+        },
+        {
+          "li": "Tặng Loa Xiaomi Basic 2"
+        }
+      ],
+      "specifications": {
+        "screen": "6.21 icnh, FHD+",
+        "os": "Android 8.1",
+        "frontCamera": "20MP",
+        "endCamera": "2 Camera 12MP",
+        "cpu": "Qualcomm Snapdragon 845 4 nhân 2.8GHz 4 nhân 1.8GHz",
+        "gpu": "Adreno 630",
+        "ram": "6GB",
+        "rom": "64Gb",
+        "sim": "2 Sim",
+        "battery": "3400mAh"
+      },
+      "posts": ""
+    },
+    {
+      "id": 19,
+      "name": "Xiaomi Mi A2 Lite",
+      "company": "Xiaomi",
+      "price": 5299000,
+      "imgCover": "../../img/xiaomi_mia2_lite_1.jpg",
+      "hot": 1,
+      "options": [
+        {
+          "color": "Vàng"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Xanh dương"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/xiaomi_mia2_lite_1.jpg"
+        },
+        {
+          "img": "../../img/xiaomi_mia2_lite_2.jpg"
+        },
+        {
+          "img": "../../img/xiaomi_mia2_lite_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng SDP Xiaomi 10.000mAh"
+        },
+        {
+          "li": "Tặng Loa Xiaomi Basic 2"
+        }
+      ],
+      "specifications": {
+        "screen": "5.84 icnh, FHD+",
+        "os": "Android 8.1",
+        "frontCamera": "20MP",
+        "endCamera": "2 Camera 12MP",
+        "cpu": "Qualcomm Snapdragon 625 8 nhân 2GHz",
+        "gpu": "Adreno 506",
         "ram": "4GB",
-        "rom": "128Gb",
+        "rom": "32Gb",
+        "sim": "2 Sim",
+        "battery": "4000mAh"
+      },
+      "posts": ""
+    },
+    {
+      "id": 20,
+      "name": "Xiaomi Redmi Note 5",
+      "company": "Xiaomi",
+      "price": 4799000,
+      "imgCover": "../../img/xiaomi_redmi_note5_1.jpg",
+      "hot": 1,
+      "options": [
+        {
+          "color": "Vàng"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Xanh dương"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/xiaomi_redmi_note5_1.jpg"
+        },
+        {
+          "img": "../../img/xiaomi_redmi_note5_2.jpg"
+        },
+        {
+          "img": "../../img/xiaomi_redmi_note5_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng SDP Xiaomi 10.000mAh"
+        },
+        {
+          "li": "Tặng Loa Xiaomi Basic 2"
+        }
+      ],
+      "specifications": {
+        "screen": "5.99 icnh, FHD+",
+        "os": "Android 8.1",
+        "frontCamera": "13MP",
+        "endCamera": "12MP và 5MP",
+        "cpu": "Qualcomm Snapdragon 636 8 nhân 1.8GHz",
+        "gpu": "Adreno 509",
+        "ram": "4GB",
+        "rom": "32Gb",
+        "sim": "2 Sim",
+        "battery": "4000mAh"
+      },
+      "posts": ""
+    },
+    {
+      "id": 21,
+      "name": "Xiaomi Mi A2",
+      "company": "Xiaomi",
+      "price": 6799000,
+      "imgCover": "../../img/xiaomi_mia2_1.png",
+      "hot": 1,
+      "options": [
+        {
+          "color": "Vàng"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Đỏ"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/xiaomi_mia2_1.png"
+        },
+        {
+          "img": "../../img/xiaomi_mia2_2.png"
+        },
+        {
+          "img": "../../img/xiaomi_mia2_3.png"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng SDP Xiaomi 10.000mAh"
+        },
+        {
+          "li": "Tặng Loa Xiaomi Basic 2"
+        }
+      ],
+      "specifications": {
+        "screen": "5.99 icnh, FHD+",
+        "os": "Android 8.1",
+        "frontCamera": "20MP",
+        "endCamera": "20MP và 12MP",
+        "cpu": "Qualcomm Snapdragon 660 8 nhân",
+        "gpu": "Adreno 512",
+        "ram": "4GB",
+        "rom": "32Gb",
+        "sim": "2 Sim",
+        "battery": "3010mAh"
+      },
+      "posts": ""
+    },
+    {
+      "id": 22,
+      "name": "Xiaomi Mi8 SE",
+      "company": "Xiaomi",
+      "price": 6590000,
+      "imgCover": "../../img/xiaomi_mi8se_1.png",
+      "hot": 1,
+      "options": [
+        {
+          "color": "Trắng"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Đỏ"
+        },
+        {
+          "color": "Xanh"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/xiaomi_mi8se_1.png"
+        },
+        {
+          "img": "../../img/xiaomi_mi8se_2.png"
+        },
+        {
+          "img": "../../img/xiaomi_mi8se_3.png"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng SDP Xiaomi 10.000mAh"
+        },
+        {
+          "li": "Tặng Loa Xiaomi Basic 2"
+        }
+      ],
+      "specifications": {
+        "screen": "5.88 icnh, FHD+",
+        "os": "Android 8.1",
+        "frontCamera": "20MP",
+        "endCamera": "12MP và 5MP",
+        "cpu": "Qualcomm Snapdragon 710 8 nhân",
+        "gpu": "Adreno 616",
+        "ram": "4GB",
+        "rom": "64Gb",
+        "sim": "2 Sim",
+        "battery": "3120mAh"
+      },
+      "posts": ""
+    },
+    {
+      "id": 23,
+      "name": "Xiaomi Mi Mix 2s",
+      "company": "Xiaomi",
+      "price": 10590000,
+      "imgCover": "../../img/xiaomi_mimix2s_2.png",
+      "hot": 1,
+      "options": [
+        {
+          "color": "Trắng"
+        },
+        {
+          "color": "Đen"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/xiaomi_mimix2s_2.png"
+        },
+        {
+          "img": "../../img/xiaomi_mimix2s_1.png"
+        },
+        {
+          "img": "../../img/xiaomi_mimix2s_1.png"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng SDP Xiaomi 10.000mAh"
+        },
+        {
+          "li": "Tặng Loa Xiaomi Basic 2"
+        }
+      ],
+      "specifications": {
+        "screen": "5.99 icnh, FHD+",
+        "os": "Android 8.1",
+        "frontCamera": "5MP",
+        "endCamera": "2 Camera 12MP",
+        "cpu": "Qualcomm Snapdragon 845 8 nhân",
+        "gpu": "Adreno 630",
+        "ram": "6GB",
+        "rom": "64Gb",
+        "sim": "2 Sim",
+        "battery": "3400mAh"
+      },
+      "posts": ""
+    },
+    {
+      "id": 24,
+      "name": "Oppo F7",
+      "company": "Oppo",
+      "price": 7990000,
+      "imgCover": "../../img/oppo_f7_1.jpg",
+      "hot": 1,
+      "options": [
+        {
+          "color": "Trắng"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Đỏ"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/oppo_f7_1.jpg"
+        },
+        {
+          "img": "../../img/oppo_f7_2.jpg"
+        },
+        {
+          "img": "../../img/oppo_f7_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng PMH 500,000đ"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        }
+      ],
+      "specifications": {
+        "screen": "6.23 icnh, FHD+",
+        "os": "Android 8.1",
+        "frontCamera": "25MP",
+        "endCamera": "16MP",
+        "cpu": "Mediatek Helio P60 8 nhân 2.0 Ghz",
+        "gpu": "Mali-G72 MP3",
+        "ram": "4GB",
+        "rom": "64Gb",
+        "sim": "2 Sim",
+        "battery": "3400mAh"
+      },
+      "posts": ""
+    },
+    {
+      "id": 25,
+      "name": "Oppo F5",
+      "company": "Oppo",
+      "price": 5990000,
+      "imgCover": "../../img/oppo_f5_1.jpg",
+      "hot": 1,
+      "options": [
+        {
+          "color": "Trắng"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Đỏ"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/oppo_f5_1.jpg"
+        },
+        {
+          "img": "../../img/oppo_f5_2.jpg"
+        },
+        {
+          "img": "../../img/oppo_f5_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng PMH 500,000đ"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        }
+      ],
+      "specifications": {
+        "screen": "6.0 icnh, FHD+",
+        "os": "Android 8.1",
+        "frontCamera": "20MP",
+        "endCamera": "16MP",
+        "cpu": "Mediatek Helio P23 8 nhân 2.5 Ghz",
+        "gpu": "Mali-G72 MP2",
+        "ram": "4GB",
+        "rom": "32Gb",
+        "sim": "2 Sim",
+        "battery": "3200mAh"
+      },
+      "posts": ""
+    },
+    {
+      "id": 26,
+      "name": "Nokia 6 2018",
+      "company": "Nokia",
+      "price": 5990000,
+      "imgCover": "../../img/nokia_6_2018_2.jpg",
+      "hot": 1,
+      "options": [
+        {
+          "color": "Trắng"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Xanh"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/nokia_6_2018_1.jpg"
+        },
+        {
+          "img": "../../img/nokia_6_2018_2.jpg"
+        },
+        {
+          "img": "../../img/nokia_6_2018_3.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng PMH 500,000đ"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        }
+      ],
+      "specifications": {
+        "screen": "5.5 icnh, FHD",
+        "os": "Android 8.1",
+        "frontCamera": "8MP",
+        "endCamera": "16MP",
+        "cpu": "Qualcomm Snapdragon 630 8 nhân",
+        "gpu": "Adreno 508",
+        "ram": "4GB",
+        "rom": "32Gb",
         "sim": "2 Sim",
         "battery": "3000mAh"
       },
-      "posts": "abcdef"
+      "posts": ""
+    },
+    {
+      "id": 27,
+      "name": "Nokia 5",
+      "company": "Nokia",
+      "price": 3860000,
+      "imgCover": "../../img/nokia_5_1.png",
+      "hot": 1,
+      "options": [
+        {
+          "color": "Trắng"
+        },
+        {
+          "color": "Đen"
+        },
+        {
+          "color": "Vàng"
+        },
+        {
+          "color": "Xanh"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/nokia_5_1.png"
+        },
+        {
+          "img": "../../img/nokia_5_2.png"
+        },
+        {
+          "img": "../../img/nokia_5_3.png"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng PMH 200,000đ"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        }
+      ],
+      "specifications": {
+        "screen": "5.2 icnh, HD",
+        "os": "Android 8.1",
+        "frontCamera": "8MP",
+        "endCamera": "13MP",
+        "cpu": "Qualcomm Snapdragon 430 8 Nhân",
+        "gpu": "Adreno 505",
+        "ram": "2GB",
+        "rom": "32Gb",
+        "sim": "2 Sim",
+        "battery": "3000mAh"
+      },
+      "posts": ""
+    },
+    {
+      "id": 28,
+      "name": "Nokia 7 Plus",
+      "company": "Nokia",
+      "price": 8990000,
+      "imgCover": "../../img/nokia_7plus_1.jpg",
+      "hot": 1,
+      "options": [
+        {
+          "color": "Đen"
+        }
+      ],
+      "urlImg": [
+        {
+          "img": "../../img/nokia_7plus_1.jpg"
+        },
+        {
+          "img": "../../img/nokia_7plus_1.jpg"
+        },
+        {
+          "img": "../../img/nokia_7plus_1.jpg"
+        }
+      ],
+      "promotions": [
+        {
+          "li": "Trả góp 0%/ Trả thẳng"
+        },
+        {
+          "li": "Tặng PMH 500,000đ"
+        },
+        {
+          "li": "Mua Thánh Sim Sinh Viên- 90GB/tháng kèm ĐTDĐ giá chỉ còn 40,000đ"
+        }
+      ],
+      "specifications": {
+        "screen": "6.0 icnh, FHD+",
+        "os": "Android 8.1",
+        "frontCamera": "16MP",
+        "endCamera": "13MP và 12MP",
+        "cpu": "Qualcomm Snapdragon 660 8 Nhân",
+        "gpu": "Adreno 512",
+        "ram": "4GB",
+        "rom": "64Gb",
+        "sim": "2 Sim",
+        "battery": "3800mAh"
+      },
+      "posts": ""
     }
   ],
   "user": [
@@ -932,29 +1550,29 @@
       "userName": "lbttuan",
       "password": "123321",
       "email": "lbttuan@gmail.com",
-      "id": "d~jLpUL"
+      "id": "2"
     }
   ],
   "bag": [
     {
-      "id": "4Bạclebathanhtuan",
-      "name": "Samsung Galaxy Note 8",
-      "price": "19990000",
-      "color": "Bạc",
+      "name": "Samsung J4 2018",
+      "price": "3990000",
+      "color": "Tím",
       "number": "1",
-      "imgCover": "../../img/samsung_note8_1.jpg",
+      "imgCover": "../../img/samsung_j4_2.jpg",
       "nameBag": "lebathanhtuan",
-      "idProduct": "4"
+      "idProduct": "2",
+      "id": "2Tímlebathanhtuan"
     },
     {
-      "id": "7Tím xanhlebathanhtuan",
-      "name": "Huawei P20 Pro",
-      "price": "19990000",
-      "color": "Tím xanh",
+      "name": "Xiaomi Mi8",
+      "price": "12990000",
+      "color": "Đen",
       "number": "1",
-      "imgCover": "../../img/huawei_p20pro_1.jpg",
+      "imgCover": "../../img/xiaomi_mi8_1.jpg",
       "nameBag": "lebathanhtuan",
-      "idProduct": "7"
+      "idProduct": "18",
+      "id": "18Đenlebathanhtuan"
     }
   ],
   "comments": [
@@ -964,66 +1582,85 @@
       "time": "15/8/2018  18:41:9",
       "cmt": "Máy này rất tốt và đẹp",
       "id": 5
+    },
+    {
+      "idProduct": "4",
+      "name": "Tuấn",
+      "time": "21/8/2018  10:30:39",
+      "cmt": "adjia",
+      "id": 7
+    },
+    {
+      "idProduct": "11",
+      "name": "Quang Hải",
+      "time": "23/8/2018  11:20:31",
+      "cmt": "Sản phẩm quá mắc!",
+      "id": 8
+    },
+    {
+      "idProduct": "11",
+      "name": "Tuấn",
+      "time": "23/8/2018  11:45:45",
+      "cmt": "Máy rất đẹp !!!",
+      "id": 9
+    },
+    {
+      "idProduct": "23",
+      "name": "Tùng",
+      "time": "23/8/2018  14:30:55",
+      "cmt": "Máy cực kì đẹp.",
+      "id": 10
     }
   ],
   "companies": [
     {
       "id": "Apple",
-      "nameCompany": "Apple",
-      "number": "0"
+      "nameCompany": "Apple"
     },
     {
       "id": "Samsung",
-      "nameCompany": "Samsung",
-      "number": "1"
+      "nameCompany": "Samsung"
     },
     {
       "id": "LG",
-      "nameCompany": "LG",
-      "number": "0"
+      "nameCompany": "LG"
     },
     {
       "id": "Xiaomi",
-      "nameCompany": "Xiaomi",
-      "number": "2"
+      "nameCompany": "Xiaomi"
     },
     {
       "id": "Oppo",
-      "nameCompany": "Oppo",
-      "number": "0"
+      "nameCompany": "Oppo"
     },
     {
       "id": "Vivo",
-      "nameCompany": "Vivo",
-      "number": "0"
+      "nameCompany": "Vivo"
     },
     {
       "id": "HTC",
-      "nameCompany": "HTC",
-      "number": "0"
+      "nameCompany": "HTC"
     },
     {
       "id": "Nokia",
-      "nameCompany": "Nokia",
-      "number": "0"
+      "nameCompany": "Nokia"
     },
     {
       "id": "Huawei",
-      "nameCompany": "Huawei",
-      "number": "0"
+      "nameCompany": "Huawei"
     }
   ],
   "checkoutInfo": [],
   "historyPayment": [
     {
       "namePayment": "lebathanhtuan",
-      "name": "Xiaomi A2 Lite",
-      "price": "5299000",
-      "color": "Đen",
-      "number": "2",
-      "imgCover": "https://i.imgur.com/qbGT6Xt.jpg",
-      "time": "16/8/2018  16:36:5",
-      "totalPrice": "10598000",
+      "name": "Samsung J4 2018",
+      "price": "3990000",
+      "color": "Tím",
+      "number": "1",
+      "imgCover": "../../img/samsung_j4_2.jpg",
+      "time": "23/8/2018  10:4:39",
+      "totalPrice": "3990000",
       "fullName": "Lê Bá Thanh Tuấn",
       "sex": "Nam",
       "email": "lebathanhtuan@gmail.com",
@@ -1036,13 +1673,13 @@
     },
     {
       "namePayment": "lebathanhtuan",
-      "name": "Xiaomi Mi Mix",
-      "price": "13500000",
+      "name": "Xiaomi Mi8",
+      "price": "12990000",
       "color": "Đen",
       "number": "1",
-      "imgCover": "https://i.imgur.com/qbGT6Xt.jpg",
-      "time": "16/8/2018  16:36:5",
-      "totalPrice": "13500000",
+      "imgCover": "../../img/xiaomi_mi8_1.jpg",
+      "time": "23/8/2018  23:35:0",
+      "totalPrice": "12990000",
       "fullName": "Lê Bá Thanh Tuấn",
       "sex": "Nam",
       "email": "lebathanhtuan@gmail.com",

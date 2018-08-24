@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Đăng nhập</title>
+        <title>Didongxanh | Đăng nhập</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
+        <link rel ="shortcut icon" href="../../img/logo/favicon_Didongxanh.png">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -133,13 +134,13 @@
                                             '<a href="product_detail.html?id='+value.id+'" style="text-decoration: none;">'+
                                                 '<img src="'+value.imgCover+'" class="img-thumbnail float-left" " height="48" width="48">'+
                                                 '<p class="text-result" style="color: black">'+value.name+'</p>'+
-                                                '<p class="text-result text-muted">'+value.price+'</p>'+
+                                                '<p class="text-result text-muted text-muted-search">'+value.price+'</p>'+
                                             '</a>'+
                                         '</li>'                            
                                     );
                                 }
                             });
-                            $(".text-muted").simpleMoneyFormat();
+                            $(".text-muted-search").simpleMoneyFormat();
                         });
                     }
                 });
@@ -336,50 +337,49 @@
                         });
                     });
                 });
-                $("#submitSignIn").click(function(){
-                    $.getJSON('http://localhost:3000/user', function(data){                       
-                        var isValid = true;
-                        var userName = $("#usernameSignIn").val().trim();
-                        var password = $("#passwordSignIn").val();
-
-                        if($("#text-login").text() != 'Đăng nhập'){
-                            alert('Bạn phải đăng xuất tài khoản hiện tại!'); 
+                $("#submitSignIn").click(function(){                   
+                    var isValid = true;
+                    var userName = $("#usernameSignIn").val().trim();
+                    var password = $("#passwordSignIn").val();
+                    if($("#text-login").text() != 'Đăng nhập'){
+                        alert('Bạn phải đăng xuất tài khoản hiện tại!'); 
+                    }else{
+                        if(userName == ''){
+                            isValid = false;
+                            $("#usernameSignIn").css('border', '1px solid red');
+                            $("#usernameSignIn").next().text('Bạn chưa nhập tên đăng nhập!');
                         }else{
-                            if(userName == ''){
-                                isValid = false;
-                                $("#usernameSignIn").css('border', '1px solid red');
-                                $("#usernameSignIn").next().text('Bạn chưa nhập tên đăng nhập!');
-                            }else{
-                                $("#usernameSignIn").css('border', '1px solid #ced4da');
-                                $("#usernameSignIn").next().text('');
-                            }
+                            $("#usernameSignIn").css('border', '1px solid #ced4da');
+                            $("#usernameSignIn").next().text('');
+                        }
+                        
+                        if(password == ''){
+                            isValid = false;
+                            $("#passwordSignIn").css('border', '1px solid red');
+                            $("#passwordSignIn").next().text('Bạn chưa nhập mật khẩu!');
+                        }else{
+                            $("#passwordSignIn").css('border', '1px solid #ced4da');
+                            $("#passwordSignIn").next().text('');
+                        }
+                        if($("#text-login").text() != 'Đăng nhập'){
+                            isValid = false;
+                            alert('Bạn phải đăng xuất tài khoản hiện tại!'); 
+                        }
                             
-                            if(password == ''){
-                                isValid = false;
-                                $("#passwordSignIn").css('border', '1px solid red');
-                                $("#passwordSignIn").next().text('Bạn chưa nhập mật khẩu!');
-                            }else{
-                                $("#passwordSignIn").css('border', '1px solid #ced4da');
-                                $("#passwordSignIn").next().text('');
-                            }
-                            if($("#text-login").text() != 'Đăng nhập'){
-                                isValid = false;
-                                alert('Bạn phải đăng xuất tài khoản hiện tại!'); 
-                            }
-                                
-                            if(isValid == true){
+                        if(isValid == true){
+                            $.getJSON('http://localhost:3000/user', function(data){    
                                 $.each($(data), function(i, user){    
-                                    if(user.userName != userName & user.password != password){
-                                        $("#passwordSignIn").next().text('Tên đăng nhập hoặc mật khẩu của bạn không đúng!');
-                                    }else{
+                                    if(user.userName == userName & user.password == password){
                                         $("#passwordSignIn").next().text('');
                                         localStorage.setItem('username', userName);
                                         $(location).attr('href', 'home.html'); 
+                                    }else{
+                                        $("#passwordSignIn").next().text('Tên đăng nhập hoặc mật khẩu của bạn không đúng!');
                                     }
                                 });
-                            }
+                            });
                         }
-                    });
+                    }
                 });
             });
         </script>

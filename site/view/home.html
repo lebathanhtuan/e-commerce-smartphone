@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Trang chủ</title>
+        <title>Didongxanh | Trang chủ</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
+        <link rel ="shortcut icon" href="../../img/logo/favicon_Didongxanh.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -69,24 +70,25 @@
             </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../../img/mi8.png" alt="Xiaomi Mi 8" width="100%" height=auto>
+                    <img src="../../img/iphonex.jpg" alt="Xiaomi Mi Mix 2s" width="100%" height=auto>
                     <div class="carousel-caption black">
-                        <p class="display-4">Mi 8</p>
-                        <button type="button" class="btn btn-outline-dark">Tìm hiểu thêm</button>
-                    </div>   
+                        <p class="display-4">Iphone X</p>
+                        <a href="product_detail.html?id=11" class="btn btn-outline-dark">Tìm hiểu thêm</a>
+                    </div> 
+                     
                 </div>
                 <div class="carousel-item">
-                    <img src="../../img/mi_mix_2s.jpg" alt="Xiaomi Mi Mix 2s" width="100%" height=auto>
+                    <img src="../../img/mi_mix_2s.jpg" alt="Xiaomi Mi 8" width="100%" height=auto>
                     <div class="carousel-caption black">
                         <p class="display-4">Mi Mix 2s</p>
-                        <button type="button" class="btn btn-outline-dark">Tìm hiểu thêm</button>
-                    </div>   
+                        <a href="product_detail.html?id=23" class="btn btn-outline-dark">Tìm hiểu thêm</a>
+                    </div>    
                 </div>
                 <div class="carousel-item">
-                    <img src="../../img/mi_gaming_laptop.png" alt="Xiaomi Mi Gaming Laptop" width="100%" height=auto>
+                    <img src="../../img/galaxy_s9.jpg" alt="Xiaomi Mi Gaming Laptop" width="100%" height=auto>
                     <div class="carousel-caption">
-                        <p class="display-4">Mi Gaming Laptop</p>
-                        <button type="button" class="btn btn-outline-light text-dark" style="color:white !important;">Tìm hiểu thêm</button>
+                        <p class="display-4">Galaxy S9+</p>
+                        <a href="product_detail.html?id=3" class="btn btn-outline-light text-dark" style="color:white !important;">Tìm hiểu thêm</a>
                     </div>
                 </div>
             </div>
@@ -99,29 +101,48 @@
         </div>
         <div class="container" style="padding-top: 15px; padding-bottom: 15px;">
             <div class="title-product">
-                <a href="site/view/product.html" class="btn btn-outline-dark" style="float: right">Xem thêm</a>
                 <h4 class="child-title-product">Nổi bật</h4>
                 <p class="child-title-product">Từ 1/7/2018 - 30/7/2018</p>
             </div>
-            <div class="row">
+            <div class="row" id="content-highlights">
                 <div class="col-md-6 col-sm-12">
-                    <div class="container-product-hot" style="height: 430px;"></div>
+                    <div class="container-product-highlights" style="height: 430px; background: url(../../img/note9_highlight.jpg) no-repeat; background-position: 50% 50%; background-size: cover;">
+                        <div class="highlights-text">
+                            <h4 style="color: white">Samsung Galaxy Note 9</h4>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                            <div class="container-product-hot"></div>
+                            <div class="container-product-highlights" style="background: url(../../img/f9_highlight.jpg) no-repeat; background-position: 50% 50%; background-size: cover;">
+                                <div class="highlights-text">
+                                    <h4 style="color: white">Oppo F9</h4>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
-                            <div class="container-product-hot"></div>
+                            <div class="container-product-highlights" style="background: url(../../img/a2_highlight.jpg) no-repeat; background-position: 50% 50%; background-size: cover;">
+                                <div class="highlights-text">
+                                    <h4 style="color: white">Xiaomi Mi A2</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                            <div class="container-product-hot"></div>
+                            <div class="container-product-highlights" style="background: url(../../img/ipx_highlight.jpg) no-repeat; background-position: 50% 50%; background-size: cover;">
+                                <div class="highlights-text">
+                                    <h4 style="color: white">Iphone X</h4>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
-                            <div class="container-product-hot"></div>
+                            <div class="container-product-highlights" style="background: url(../../img/findx_highlight.jpg) no-repeat; background-position: 50% 50%; background-size: cover;">
+                                <div class="highlights-text">
+                                    <h4 style="color: white">Oppo Find X</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -130,11 +151,44 @@
         <div class="container-trend">
             <div class="container">
                 <div class="title-product">
-                    <button type="button" class="btn btn-outline-dark" style="float: right">Xem thêm</button>
+                    <a href="product.html?hot=banchay" class="btn btn-outline-dark" style="float: right">Xem thêm</a>
                     <h4 class="child-title-product">Bán chạy</h4>
                     <p class="child-title-product">Từ 1/7/2018 - 30/7/2018</p>
                 </div>
-                <div class="row" id="hot-products">
+                <div id="carousel-highlights" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row" id="carousel-1">
+
+                            </div>                                
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row" id="carousel-2">
+                                
+                            </div>                                
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row" id="carousel-3">
+
+                            </div>                                
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev prev-custom" href="#carousel-highlights" data-slide="prev">
+                        <span class="carousel-control-prev-icon prev-icon-custom"></span>
+                    </a>
+                    <a class="carousel-control-next next-custom" href="#carousel-highlights" data-slide="next">
+                        <span class="carousel-control-next-icon next-icon-custom"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-trend">
+            <div class="container">
+                <div class="title-product">
+                    <a href="product.html?company=all" class="btn btn-outline-dark" style="float: right">Xem tất cả</a>
+                    <h4 class="child-title-product">Danh sách sản phẩm</h4>
+                </div>
+                <div class="row" id="list-products">
                     
                 </div>
             </div>
@@ -278,15 +332,15 @@
                                     $("#result").append(
                                         '<li class="list-group-item list-group-item-action">'+
                                             '<a href="product_detail.html?id='+value.id+'" style="text-decoration: none;">'+
-                                                '<img src="'+value.imgCover+'" class="img-thumbnail float-left" " height="48" width="48">'+
+                                                '<img src="'+value.imgCover+'" class="img-thumbnail float-left" " height="48px" width="48px">'+
                                                 '<p class="text-result" style="color: black">'+value.name+'</p>'+
-                                                '<p class="text-result text-muted">'+value.price+'</p>'+
+                                                '<p class="text-result text-muted text-muted-search">'+value.price+'</p>'+
                                             '</a>'+
                                         '</li>'                            
                                     );
                                 }
                             });
-                            $(".text-muted").simpleMoneyFormat();
+                            $(".text-muted-search").simpleMoneyFormat();
                         });
                     }
                 });
@@ -389,10 +443,10 @@
                     }
                 });
 
-                $.getJSON('http://localhost:3000/product', function(data){
+                $.getJSON('http://localhost:3000/product?hot=1&_start=0&_end=4', function(data){
                     $.each($(data), function(i, products){
                         if(products.hot == 1){
-                            $("#hot-products").append(
+                            $("#carousel-1").append(
                                 '<div class="col-md-3 col-sm-6 col-6">'+
                                     '<div class="container-product card">'+
                                         '<a href="product_detail.html?id='+products.id+'" style="text-decoration: none">'+
@@ -420,6 +474,104 @@
                                 '</div>'
                             );
                         }
+                    });
+                });
+                $.getJSON('http://localhost:3000/product?hot=1&_start=4&_end=8', function(data){
+                    $.each($(data), function(i, products){
+                        if(products.hot == 1){
+                            $("#carousel-2").append(
+                                '<div class="col-md-3 col-sm-6 col-6">'+
+                                    '<div class="container-product card">'+
+                                        '<a href="product_detail.html?id='+products.id+'" style="text-decoration: none">'+
+                                            '<div class="card-img-top img-product" style="background: url('+products.imgCover+') no-repeat; background-position: 50% 50%; background-size: cover;"></div>'+
+                                            '<div class="card-body">'+
+                                                '<h4 class="name-products">'+products.name+'</h4>'+
+                                                '<h5 class="card-text price-product">'+products.price+'</h5>'+
+                                            '</div>'+
+                                            '<div class="overlay-product">'+
+                                                '<div class="info-overlay-product">'+
+                                                    '<h4 class="name-products" style="color: white">'+products.name+'</h4>'+
+                                                    '<h5 class="card-text price-product">'+products.price+'</h5>'+
+                                                    '<p class="specifications-product">Màn hình: '+products.specifications.screen+'</p>'+
+                                                    '<p class="specifications-product">Hệ điều hành: '+products.specifications.os+'</p>'+
+                                                    '<p class="specifications-product">Camera sau: '+products.specifications.endCamera+'</p>'+
+                                                    '<p class="specifications-product">Camera trước: '+products.specifications.frontCamera+'</p>'+
+                                                    '<p class="specifications-product">CPU: '+products.specifications.cpu+'</p>'+
+                                                    '<p class="specifications-product">RAM: '+products.specifications.ram+'</p>'+
+                                                    '<p class="specifications-product">Bộ nhớ trong: '+products.specifications.rom+'</p>'+
+                                                    '<p class="specifications-product">Pin: '+products.specifications.battery+'</p>'+
+                                                '</div>'+
+                                            '</div>'+
+                                        '</a>'+
+                                    '</div>'+
+                                '</div>'
+                            );
+                        }
+                    });
+                });
+                $.getJSON('http://localhost:3000/product?hot=1&_start=8&_end=12', function(data){
+                    $.each($(data), function(i, products){
+                        if(products.hot == 1){
+                            $("#carousel-3").append(
+                                '<div class="col-md-3 col-sm-6 col-6">'+
+                                    '<div class="container-product card">'+
+                                        '<a href="product_detail.html?id='+products.id+'" style="text-decoration: none">'+
+                                            '<div class="card-img-top img-product" style="background: url('+products.imgCover+') no-repeat; background-position: 50% 50%; background-size: cover;"></div>'+
+                                            '<div class="card-body">'+
+                                                '<h4 class="name-products">'+products.name+'</h4>'+
+                                                '<h5 class="card-text price-product">'+products.price+'</h5>'+
+                                            '</div>'+
+                                            '<div class="overlay-product">'+
+                                                '<div class="info-overlay-product">'+
+                                                    '<h4 class="name-products" style="color: white">'+products.name+'</h4>'+
+                                                    '<h5 class="card-text price-product">'+products.price+'</h5>'+
+                                                    '<p class="specifications-product">Màn hình: '+products.specifications.screen+'</p>'+
+                                                    '<p class="specifications-product">Hệ điều hành: '+products.specifications.os+'</p>'+
+                                                    '<p class="specifications-product">Camera sau: '+products.specifications.endCamera+'</p>'+
+                                                    '<p class="specifications-product">Camera trước: '+products.specifications.frontCamera+'</p>'+
+                                                    '<p class="specifications-product">CPU: '+products.specifications.cpu+'</p>'+
+                                                    '<p class="specifications-product">RAM: '+products.specifications.ram+'</p>'+
+                                                    '<p class="specifications-product">Bộ nhớ trong: '+products.specifications.rom+'</p>'+
+                                                    '<p class="specifications-product">Pin: '+products.specifications.battery+'</p>'+
+                                                '</div>'+
+                                            '</div>'+
+                                        '</a>'+
+                                    '</div>'+
+                                '</div>'
+                            );
+                        }
+                    });
+                });
+
+                $.getJSON('http://localhost:3000/product?_page=1&_limit=16', function(data){
+                    $.each($(data), function(i, products){
+                        $("#list-products").append(
+                            '<div class="col-md-3 col-sm-6 col-6">'+
+                                '<div class="container-product card">'+
+                                    '<a href="product_detail.html?id='+products.id+'" style="text-decoration: none">'+
+                                        '<div class="card-img-top img-product" style="background: url('+products.imgCover+') no-repeat; background-position: 50% 50%; background-size: cover;"></div>'+
+                                        '<div class="card-body">'+
+                                            '<h4 class="name-products">'+products.name+'</h4>'+
+                                            '<h5 class="card-text price-product">'+products.price+'</h5>'+
+                                        '</div>'+
+                                        '<div class="overlay-product">'+
+                                            '<div class="info-overlay-product">'+
+                                                '<h4 class="name-products" style="color: white">'+products.name+'</h4>'+
+                                                '<h5 class="card-text price-product">'+products.price+'</h5>'+
+                                                '<p class="specifications-product">Màn hình: '+products.specifications.screen+'</p>'+
+                                                '<p class="specifications-product">Hệ điều hành: '+products.specifications.os+'</p>'+
+                                                '<p class="specifications-product">Camera sau: '+products.specifications.endCamera+'</p>'+
+                                                '<p class="specifications-product">Camera trước: '+products.specifications.frontCamera+'</p>'+
+                                                '<p class="specifications-product">CPU: '+products.specifications.cpu+'</p>'+
+                                                '<p class="specifications-product">RAM: '+products.specifications.ram+'</p>'+
+                                                '<p class="specifications-product">Bộ nhớ trong: '+products.specifications.rom+'</p>'+
+                                                '<p class="specifications-product">Pin: '+products.specifications.battery+'</p>'+
+                                            '</div>'+
+                                        '</div>'+
+                                    '</a>'+
+                                '</div>'+
+                            '</div>'
+                        );
                     });
                     $(".price-product").simpleMoneyFormat();
                 });

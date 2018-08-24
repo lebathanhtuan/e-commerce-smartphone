@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Thông tin cá nhân và địa chỉ giao hàng</title>
+        <title>Didongxanh | Tài khoản</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
+        <link rel ="shortcut icon" href="../../img/logo/favicon_Didongxanh.png">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -240,13 +241,13 @@
                                             '<a href="product_detail.html?id='+value.id+'" style="text-decoration: none;">'+
                                                 '<img src="'+value.imgCover+'" class="img-thumbnail float-left" " height="48" width="48">'+
                                                 '<p class="text-result" style="color: black">'+value.name+'</p>'+
-                                                '<p class="text-result text-muted">'+value.price+'</p>'+
+                                                '<p class="text-result text-muted text-muted-search">'+value.price+'</p>'+
                                             '</a>'+
                                         '</li>'                            
-                                    )
+                                    );
                                 }
                             });
-                            $(".text-muted").simpleMoneyFormat();
+                            $(".text-muted-search").simpleMoneyFormat();
                         });
                     }
                 });

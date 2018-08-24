@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Thông tin cá nhân và địa chỉ giao hàng</title>
+        <title>Didongxanh | Thông tin cá nhân và địa chỉ giao hàng</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
+        <link rel ="shortcut icon" href="../../img/logo/favicon_Didongxanh.png">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -110,7 +111,7 @@
                                 <div class="col-md-6">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <lable>Họ và tên:</lable>
+                                            <label>Họ và tên:</label>
                                         </div>
                                         <div class="col-md-8">
                                             <div class="form-group">
@@ -119,7 +120,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                            <lable>Giới tính:</lable>
+                                            <label>Giới tính:</label>
                                         </div>
                                         <div class="col-md-8">
                                             <div class="form-group">
@@ -132,7 +133,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                            <lable>Email:</lable>
+                                            <label>Email:</label>
                                         </div>
                                         <div class="col-md-8">
                                             <div class="form-group">
@@ -141,7 +142,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                            <lable>Số điện thoại:</lable>
+                                            <label>Số điện thoại:</label>
                                         </div>
                                         <div class="col-md-8">
                                             <div class="form-group">
@@ -154,7 +155,7 @@
                                 <div class="col-md-6">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <lable>Địa chỉ giao hàng:</lable>
+                                            <label>Địa chỉ giao hàng:</label>
                                         </div>
                                         <div class="col-md-8">
                                             <div class="form-group">
@@ -163,7 +164,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                            <lable>Mã vùng:</lable>
+                                            <label>Mã vùng:</label>
                                         </div>
                                         <div class="col-md-8">
                                             <div class="form-group">
@@ -172,7 +173,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                            <lable>Mã bưu chính:</lable>
+                                            <label>Mã bưu chính:</label>
                                         </div>
                                         <div class="col-md-8">
                                             <div class="form-group">
@@ -356,13 +357,13 @@
                                             '<a href="product_detail.html?id='+value.id+'" style="text-decoration: none;">'+
                                                 '<img src="'+value.imgCover+'" class="img-thumbnail float-left" " height="48" width="48">'+
                                                 '<p class="text-result" style="color: black">'+value.name+'</p>'+
-                                                '<p class="text-result text-muted">'+value.price+'</p>'+
+                                                '<p class="text-result text-muted text-muted-search">'+value.price+'</p>'+
                                             '</a>'+
                                         '</li>'                            
-                                    )
+                                    );
                                 }
                             });
-                            $(".text-muted").simpleMoneyFormat();
+                            $(".text-muted-search").simpleMoneyFormat();
                         });
                     }
                 });
@@ -476,11 +477,11 @@
                     if(fullname == ''){
                         isValid = false;
                         $("#fullname-checkout").css('border', '1px solid red');
-                        $("#fullname-checkout").next().text();
+                        $("#fullname-checkout").next().text('Bạn chưa nhập tên!');
                     }else if(!namePattern.test(fullname)){
                         isValid = false;
                         $("#fullname-checkout").css('border', '1px solid red');
-                        $("#fullname-checkout").next().text();
+                        $("#fullname-checkout").next().text('Tên của bạn quá ngắn!');
                     }else{
                         $("#fullname-checkout").css('border', '1px solid #ced4da');
                         $("#fullname-checkout").next().text('');
@@ -489,7 +490,7 @@
                     if(sex == 0){
                         isValid = false;
                         $("#sex-checkout").css('border', '1px solid red');
-                        $("#sex-checkout").next().text();
+                        $("#sex-checkout").next().text('Bạn chưa chọn giới tính!');
                     }else{
                         $("#sex-checkout").css('border', '1px solid #ced4da');
                         $("#sex-checkout").next().text('');
@@ -498,11 +499,11 @@
                     if(email == ''){
                         isValid = false;
                         $("#email-checkout").css('border', '1px solid red');
-                        $("#email-checkout").next().text();
+                        $("#email-checkout").next().text('Bạn chưa nhập email!');
                     }else if(!emailPattern.test(email)){
                         isValid = false;
                         $("#email-checkout").css('border', '1px solid red');
-                        $("#email-checkout").next().text();
+                        $("#email-checkout").next().text('Email của bạn chưa đúng định dạng!');
                     }else{
                         $("#email-checkout").css('border', '1px solid #ced4da');
                         $("#email-checkout").next().text('');
@@ -511,11 +512,11 @@
                     if(phone == ''){
                         isValid = false;
                         $("#phone-checkout").css('border', '1px solid red');
-                        $("#phone-checkout").next().text();
+                        $("#phone-checkout").next().text('Bạn chưa nhập số điện thoại!');
                     }else if(!phonePattern.test(phone)){
                         isValid = false;
                         $("#phone-checkout").css('border', '1px solid red');
-                        $("#phone-checkout").next().text();
+                        $("#phone-checkout").next().text('Số điện thoại của bạn không đúng!');
                     }else{
                         $("#phone-checkout").css('border', '1px solid #ced4da');
                         $("#phone-checkout").next().text('');
@@ -524,7 +525,7 @@
                     if(address == ''){
                         isValid = false;
                         $("#address-checkout").css('border', '1px solid red');
-                        $("#address-checkout").next().text();
+                        $("#address-checkout").next().text('Bạn chưa nhập địa chỉ!');
                     }else{
                         $("#address-checkout").css('border', '1px solid #ced4da');
                         $("#address-checkout").next().text('');
@@ -533,11 +534,11 @@
                     if(area == ''){
                         isValid = false;
                         $("#area-checkout").css('border', '1px solid red');
-                        $("#area-checkout").next().text();
+                        $("#area-checkout").next().text('Bạn chưa nhập mã vùng!');
                     }else if(!areaPattern.test(area)){
                         isValid = false;
                         $("#area-checkout").css('border', '1px solid red');
-                        $("#area-checkout").next().text();
+                        $("#area-checkout").next().text('Mã vùng của bạn không đúng!');
                     }else{
                         $("#area-checkout").css('border', '1px solid #ced4da');
                         $("#area-checkout").next().text('');
@@ -546,11 +547,11 @@
                     if(zip == ''){
                         isValid = false;
                         $("#zip-checkout").css('border', '1px solid red');
-                        $("#zip-checkout").next().text();
+                        $("#zip-checkout").next().text('Bạn chưa nhập mã bưu chính!');
                     }else if(!zipPattern.test(zip)){
                         isValid = false;
                         $("#zip-checkout").css('border', '1px solid red');
-                        $("#zip-checkout").next().text();
+                        $("#zip-checkout").next().text('Mã bưu chính của bạn không đúng!');
                     }else{
                         $("#zip-checkout").css('border', '1px solid #ced4da');
                         $("#zip-checkout").next().text('');
