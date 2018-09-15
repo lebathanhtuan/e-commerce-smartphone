@@ -344,13 +344,8 @@
                         });
                     }
                 });
-
-                $.getJSON('http://localhost:3000/bag', function(data){
-                    var numberBag = data.length;
-                    $("#munber-bag").text(numberBag);
-                });
                 
-                getUser = localStorage.getItem('username');
+                var getUser = localStorage.getItem('username');
                 if(getUser == null){
                     $("#displayLogin").empty();
                     $("#displayLogin").append(

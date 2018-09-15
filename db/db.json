@@ -58,7 +58,7 @@
         "sim": "2 Sim",
         "battery": "3500 mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 2,
@@ -66,7 +66,7 @@
       "company": "Samsung",
       "price": 3990000,
       "imgCover": "../../img/samsung_j4_2.jpg",
-      "hot": 1,
+      "hot": 0,
       "options": [
         {
           "color": "Tím"
@@ -163,7 +163,7 @@
         "sim": "2 Sim chung khe thẻ nhớ",
         "battery": "3500mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 4,
@@ -214,7 +214,7 @@
         "sim": "2 Sim",
         "battery": "3300mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 5,
@@ -265,7 +265,7 @@
         "sim": "2 Sim",
         "battery": "3000mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 6,
@@ -273,7 +273,7 @@
       "company": "Samsung",
       "price": 11990000,
       "imgCover": "../../img/samsung_a8plus_1.jpg",
-      "hot": 1,
+      "hot": 0,
       "options": [
         {
           "color": "Đen"
@@ -316,7 +316,7 @@
         "sim": "2 Sim",
         "battery": "3500mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 7,
@@ -367,7 +367,7 @@
         "sim": "2 Sim",
         "battery": "4000mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 8,
@@ -375,7 +375,7 @@
       "company": "Huawei",
       "price": 11990000,
       "imgCover": "../../img/huawei_nova3_1.jpg",
-      "hot": 1,
+      "hot": 0,
       "options": [
         {
           "color": "Tím"
@@ -421,7 +421,7 @@
         "sim": "2 Sim",
         "battery": "3750mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 9,
@@ -475,7 +475,7 @@
         "sim": "2 Sim",
         "battery": "3340mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 10,
@@ -529,7 +529,7 @@
         "sim": "2 Sim",
         "battery": "3000mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 11,
@@ -643,7 +643,7 @@
         "sim": "1 Sim",
         "battery": "2675mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 13,
@@ -651,7 +651,7 @@
       "company": "Apple",
       "price": 20990000,
       "imgCover": "../../img/apple_ip8_1.jpg",
-      "hot": 1,
+      "hot": 0,
       "options": [
         {
           "color": "Trắng"
@@ -771,7 +771,7 @@
       "company": "Apple",
       "price": 15990000,
       "imgCover": "../../img/apple_ip7_1.jpg",
-      "hot": 1,
+      "hot": 0,
       "options": [
         {
           "color": "Trắng"
@@ -823,7 +823,7 @@
         "sim": "1 Sim",
         "battery": "1960mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 16,
@@ -831,7 +831,7 @@
       "company": "Apple",
       "price": 12990000,
       "imgCover": "../../img/apple_ip6plus_1.jpg",
-      "hot": 1,
+      "hot": 0,
       "options": [
         {
           "color": "Trắng"
@@ -883,7 +883,7 @@
         "sim": "1 Sim",
         "battery": "2750mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 17,
@@ -891,7 +891,7 @@
       "company": "Apple",
       "price": 7490000,
       "imgCover": "../../img/apple_ip6_1.jpg",
-      "hot": 1,
+      "hot": 0,
       "options": [
         {
           "color": "Trắng"
@@ -943,7 +943,7 @@
         "sim": "1 Sim",
         "battery": "1810mAh"
       },
-      "posts": "abcdef"
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 18,
@@ -997,7 +997,7 @@
         "sim": "2 Sim",
         "battery": "3400mAh"
       },
-      "posts": ""
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 19,
@@ -1005,7 +1005,7 @@
       "company": "Xiaomi",
       "price": 5299000,
       "imgCover": "../../img/xiaomi_mia2_lite_1.jpg",
-      "hot": 1,
+      "hot": 0,
       "options": [
         {
           "color": "Vàng"
@@ -1051,7 +1051,7 @@
         "sim": "2 Sim",
         "battery": "4000mAh"
       },
-      "posts": ""
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 20,
@@ -1105,7 +1105,7 @@
         "sim": "2 Sim",
         "battery": "4000mAh"
       },
-      "posts": ""
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 21,
@@ -1159,7 +1159,7 @@
         "sim": "2 Sim",
         "battery": "3010mAh"
       },
-      "posts": ""
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 22,
@@ -1216,7 +1216,7 @@
         "sim": "2 Sim",
         "battery": "3120mAh"
       },
-      "posts": ""
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 23,
@@ -1267,7 +1267,7 @@
         "sim": "2 Sim",
         "battery": "3400mAh"
       },
-      "posts": ""
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 24,
@@ -1321,7 +1321,7 @@
         "sim": "2 Sim",
         "battery": "3400mAh"
       },
-      "posts": ""
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 25,
@@ -1329,7 +1329,7 @@
       "company": "Oppo",
       "price": 5990000,
       "imgCover": "../../img/oppo_f5_1.jpg",
-      "hot": 1,
+      "hot": 0,
       "options": [
         {
           "color": "Trắng"
@@ -1375,7 +1375,7 @@
         "sim": "2 Sim",
         "battery": "3200mAh"
       },
-      "posts": ""
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 26,
@@ -1429,7 +1429,7 @@
         "sim": "2 Sim",
         "battery": "3000mAh"
       },
-      "posts": ""
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 27,
@@ -1437,7 +1437,7 @@
       "company": "Nokia",
       "price": 3860000,
       "imgCover": "../../img/nokia_5_1.png",
-      "hot": 1,
+      "hot": 0,
       "options": [
         {
           "color": "Trắng"
@@ -1486,7 +1486,7 @@
         "sim": "2 Sim",
         "battery": "3000mAh"
       },
-      "posts": ""
+      "posts": "Đang cập nhật..."
     },
     {
       "id": 28,
@@ -1534,7 +1534,7 @@
         "sim": "2 Sim",
         "battery": "3800mAh"
       },
-      "posts": ""
+      "posts": "Đang cập nhật..."
     }
   ],
   "user": [
@@ -1551,28 +1551,52 @@
       "password": "123321",
       "email": "lbttuan@gmail.com",
       "id": "2"
+    },
+    {
+      "fullName": "Lê Bá Thanh Tuấn",
+      "userName": "lbttuan95",
+      "password": "123123",
+      "email": "lbttuan@gmail.com",
+      "id": "A2DgImU"
+    },
+    {
+      "fullName": "Lê Bá Thanh Tuấn",
+      "userName": "lbttuan95",
+      "password": "123123",
+      "email": "lbttuan@gmail.com",
+      "id": "e_UJqIf"
     }
   ],
   "bag": [
     {
-      "name": "Samsung J4 2018",
-      "price": "3990000",
-      "color": "Tím",
-      "number": "1",
-      "imgCover": "../../img/samsung_j4_2.jpg",
-      "nameBag": "lebathanhtuan",
-      "idProduct": "2",
-      "id": "2Tímlebathanhtuan"
-    },
-    {
-      "name": "Xiaomi Mi8",
-      "price": "12990000",
+      "name": "Apple Iphone X",
+      "price": "29990000",
       "color": "Đen",
       "number": "1",
-      "imgCover": "../../img/xiaomi_mi8_1.jpg",
+      "imgCover": "../../img/apple_ipx_1.jpg",
       "nameBag": "lebathanhtuan",
-      "idProduct": "18",
-      "id": "18Đenlebathanhtuan"
+      "idProduct": "11",
+      "id": "11Đenlebathanhtuan"
+    },
+    {
+      "name": "Apple Iphone X",
+      "price": "29990000",
+      "color": "Đen",
+      "number": "1",
+      "imgCover": "../../img/apple_ipx_1.jpg",
+      "nameBag": "lbttuan95",
+      "idProduct": "11",
+      "id": "11Đenlbttuan95"
+    },
+    {
+      "id": "4Bạclebathanhtuan",
+      "name": "Samsung Galaxy Note 8",
+      "price": "19990000",
+      "color": "Bạc",
+      "number": "1",
+      "imgCover": "../../img/samsung_note8_1.jpg",
+      "nameBag": "lebathanhtuan",
+      "idProduct": "4"
     }
   ],
   "comments": [
@@ -1587,7 +1611,7 @@
       "idProduct": "4",
       "name": "Tuấn",
       "time": "21/8/2018  10:30:39",
-      "cmt": "adjia",
+      "cmt": "Máy rất đẹp !!!",
       "id": 7
     },
     {
@@ -1610,6 +1634,20 @@
       "time": "23/8/2018  14:30:55",
       "cmt": "Máy cực kì đẹp.",
       "id": 10
+    },
+    {
+      "idProduct": "11",
+      "name": "Tuấn",
+      "time": "25/8/2018  8:45:32",
+      "cmt": "Máy đẹp quá",
+      "id": 11
+    },
+    {
+      "idProduct": "11",
+      "name": "Tuấn",
+      "time": "25/8/2018  15:42:15",
+      "cmt": "adahidhad",
+      "id": 12
     }
   ],
   "companies": [
@@ -1650,7 +1688,30 @@
       "nameCompany": "Huawei"
     }
   ],
-  "checkoutInfo": [],
+  "checkoutInfo": [
+    {
+      "id": "lebathanhtuan",
+      "fullname": "Lê Bá Thanh Tuấn",
+      "sex": "Nam",
+      "email": "lebathanhtuan@gmail.com",
+      "phone": "01249954060",
+      "address": "34 Cao Xuân Dục, Hải Châu, Đà Nẵng",
+      "area": "236",
+      "zip": "550000",
+      "businessAddress": "0"
+    },
+    {
+      "id": "lbttuan95",
+      "fullname": "Lê Bá Thanh Tuấn",
+      "sex": "Nam",
+      "email": "lebathanhtuan@gmail.com",
+      "phone": "01249954060",
+      "address": "34 Cao Xuân Dục, Hải Châu, Đà Nẵng",
+      "area": "236",
+      "zip": "550000",
+      "businessAddress": "0"
+    }
+  ],
   "historyPayment": [
     {
       "namePayment": "lebathanhtuan",
@@ -1689,6 +1750,44 @@
       "zip": "550000",
       "businessAddress": "0",
       "id": 2
+    },
+    {
+      "namePayment": "lebathanhtuan",
+      "name": "Apple Iphone X",
+      "price": "29990000",
+      "color": "Đen",
+      "number": "1",
+      "imgCover": "../../img/apple_ipx_1.jpg",
+      "time": "25/8/2018  8:47:12",
+      "totalPrice": "29990000",
+      "fullName": "Lê Bá Thanh Tuấn",
+      "sex": "Nam",
+      "email": "lebathanhtuan@gmail.com",
+      "phone": "01249954060",
+      "address": "34 Cao Xuân Dục, Hải Châu, Đà Nẵng",
+      "area": "236",
+      "zip": "550000",
+      "businessAddress": "0",
+      "id": 3
+    },
+    {
+      "namePayment": "lbttuan95",
+      "name": "Apple Iphone X",
+      "price": "29990000",
+      "color": "Đen",
+      "number": "1",
+      "imgCover": "../../img/apple_ipx_1.jpg",
+      "time": "25/8/2018  15:45:2",
+      "totalPrice": "29990000",
+      "fullName": "Lê Bá Thanh Tuấn",
+      "sex": "Nam",
+      "email": "lebathanhtuan@gmail.com",
+      "phone": "01249954060",
+      "address": "34 Cao Xuân Dục, Hải Châu, Đà Nẵng",
+      "area": "236",
+      "zip": "550000",
+      "businessAddress": "0",
+      "id": 4
     }
   ]
 }

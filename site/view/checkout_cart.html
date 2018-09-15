@@ -284,7 +284,7 @@
                     }
                 });
 
-                getUser = localStorage.getItem('username');
+                var getUser = localStorage.getItem('username');
                 if(getUser == null){
                     $("#displayLogin").empty();
                     $("#displayLogin").append(
@@ -409,9 +409,9 @@
                                     var displayPrice = $("input[name='name["+bag.id+"]'").val();
                                     var displayNumber = $("input[name='["+bag.id+"]'").val();
                                     var displayTotal = parseInt(displayPrice)*parseInt(displayNumber);
-                                    $("input[name='total["+bag.id+"]'").val(displayTotal);
-                                    $("input[name='total["+bag.id+"]'").next().text(displayTotal);
-                                    $("input[name='delete-"+bag.id+"'").click(function(){
+                                    $("input[name='total["+bag.id+"]']").val(displayTotal);
+                                    $("input[name='total["+bag.id+"]']").next().text(displayTotal);
+                                    $("input[name='delete-"+bag.id+"']").click(function(){
                                         var messenger = confirm("Bạn có chắc muốn xóa sản phẩn khỏi giỏ hàng của bạn?");
                                         if (messenger == true) {
                                             $.ajax({
