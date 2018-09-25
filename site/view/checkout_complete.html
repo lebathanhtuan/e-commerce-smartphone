@@ -270,7 +270,7 @@
 
                 var getUser = localStorage.getItem('username');
                 if(getUser == null){
-                    $("#displayLogin").empty();
+                    
                     $("#displayLogin").append(
                         '<a href="../../site/view/login.html" class="link-login">'+
                             '<i class="fa fa-user" style="font-size: 28px;"></i>'+
@@ -278,7 +278,7 @@
                         '</a>'
                     );
                 }else{
-                    $("#displayLogin").empty();
+                    
                     $("#displayLogin").append(
                         '<div class="link-login">'+
                             '<i class="fa fa-user" style="font-size: 28px;"></i>'+
@@ -291,13 +291,7 @@
                     );
                     $("#logout").click(function(){
                         localStorage.removeItem("username");
-                        $("#displayLogin").empty();
-                        $("#displayLogin").append(
-                        '<a href="../../site/view/login.html" class="link-login">'+
-                            '<i class="fa fa-user" style="font-size: 28px;"></i>'+
-                            '<span class="text-login" id="text-login">Đăng nhập</span>'+
-                        '</a>'
-                        );
+                        location.reload();
                     });
                 }
 
